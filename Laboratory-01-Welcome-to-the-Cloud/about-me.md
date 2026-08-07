@@ -10,8 +10,6 @@
 
 ---
 
-### 🧭 Navigation
-
 | 🏠 [Home](#-cloud-engineer-profile) | 👤 [About Me](#-about-me) |
 |:-----------------------------------:|:-------------------------:|
 
