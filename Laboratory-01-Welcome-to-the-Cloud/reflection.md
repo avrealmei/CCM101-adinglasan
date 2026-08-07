@@ -1,6 +1,6 @@
 # 🌟 Laboratory Reflection
 
-### Laboratory Activity 1 – Welcome to the Cloud
+### Laboratory Activity 1
 
 ---
 
