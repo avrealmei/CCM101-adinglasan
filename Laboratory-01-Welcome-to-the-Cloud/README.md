@@ -1,124 +1,94 @@
 <div align="center">
 
-# ☁️ Laboratory Activity 1
+# ☁️ LABORATORY ACTIVITY 1
 
 ## Welcome to the Cloud
 
-<img src="https://img.shields.io/badge/CCM101-Cloud%20Computing-1565C0?style=for-the-badge&logo=icloud&logoColor=white"/>
-<img src="https://img.shields.io/badge/Laboratory-Activity%201-C62828?style=for-the-badge&logo=bookstack&logoColor=white"/>
-<img src="https://img.shields.io/badge/Mission-Welcome%20to%20the%20Cloud-1565C0?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Status-Completed-C62828?style=for-the-badge&logo=checkmarx&logoColor=white"/>
+<img src="https://img.shields.io/badge/LABORATORY-0A66C2?style=for-the-badge&logo=icloud&logoColor=white">
+<img src="https://img.shields.io/badge/ACTIVITY_1-C62828?style=for-the-badge&logo=bookstack&logoColor=white">
 
 ---
 
-### 🔵 Mission • Learn • Build • Document • Deploy 🔴
-
-### 🧭 Navigation
-
-| 📖 [Mission Overview](#-mission-overview) | 🎯 [Objectives](#-mission-objectives) | 📝 [Activities Performed](#-activities-performed) | 💻 [Linux Commands Used](#-linux-commands-used) | 🚀 [Skills Learned](#-skills-learned) |
-|:-----------------------------------------:|:-------------------------------------:|:------------------------------------------------:|:-----------------------------------------------:|:------------------------------------:|
+### 🔵 First Mission in Cloud Computing 🔴
 
 </div>
 
 ---
 
-# 📖 Mission Overview
+# 📖 Description
 
-Congratulations! As part of this laboratory activity, I assumed the role of a **Junior Cloud Infrastructure Engineer Trainee** at **CloudNova Technologies**, a fictional company specializing in cloud infrastructure, virtualization, and enterprise cloud solutions.
+Laboratory Activity 1 serves as the foundation of the CCM101 – Cloud Computing course. This mission introduces students to a cloud-based Linux environment using KillerCoda and provides hands-on experience with essential Linux commands, system administration, Markdown documentation, Git, and GitHub.
 
-The mission focused on introducing the Linux operating system, cloud-based environments, and GitHub version control. Using the **KillerCoda Ubuntu Playground**, I completed a series of onboarding tasks that simulated real-world responsibilities of a cloud engineer.
+Students assume the role of a **Junior Cloud Infrastructure Engineer Trainee** at **CloudNova Technologies**, where they complete onboarding tasks similar to those performed by cloud professionals. Throughout the activity, students create and organize their own Cloud Computing Portfolio, which will be continuously updated with future laboratory exercises, technical documentation, and cloud-related projects.
 
-This laboratory also marked the beginning of my **Cloud Computing Portfolio**, which will serve as my professional workspace throughout the semester. Every laboratory activity, project, documentation, and reflection will be maintained in this repository using Git and GitHub.
-
-<p align="right"><a href="#-laboratory-activity-1">⬆️ Back to Top</a></p>
+This laboratory establishes the fundamental knowledge and practical skills required for succeeding in future topics such as cloud infrastructure, virtualization, Docker, Kubernetes, networking, monitoring, and enterprise system administration.
 
 ---
 
 # 🎯 Mission Objectives
 
-Upon successful completion of this mission, I was able to:
-
-- ☁️ Access a cloud-based Linux environment using KillerCoda.
-- 🐧 Explore and navigate the Linux operating system.
-- 📋 Gather basic system information.
-- 📁 Organize files and directories using Linux commands.
-- 📝 Create and maintain technical documentation using Markdown.
-- 🐙 Build and maintain a professional GitHub repository.
-- 🚀 Apply version control practices using Git and GitHub.
-
-<p align="right"><a href="#-laboratory-activity-1">⬆️ Back to Top</a></p>
+- Access a cloud-based Ubuntu environment using KillerCoda.
+- Navigate the Linux operating system using the command line.
+- Gather system information.
+- Create and organize files and directories.
+- Build a professional GitHub portfolio.
+- Document technical work using Markdown.
+- Practice Git version control.
 
 ---
 
 # 📝 Activities Performed
 
-During this laboratory activity, I completed the following tasks:
-
-- Launched an Ubuntu Linux Playground using KillerCoda.
-- Explored the Linux terminal environment.
-- Created a new Linux user with Bash, a home directory, and sudo privileges.
-- Collected important system information such as Linux distribution, kernel version, CPU details, memory, and available storage.
-- Created folders and organized files using Linux commands.
-- Developed Markdown documentation including **about-me.md** and **system-information.md**.
-- Created a public GitHub repository named **CCM101-adinglasan**.
-- Uploaded laboratory documentation and screenshots to GitHub.
-- Used Git commands to commit and push project files to the remote repository.
-
-<p align="right"><a href="#-laboratory-activity-1">⬆️ Back to Top</a></p>
+- Launched Ubuntu 24.04 in KillerCoda.
+- Created a Linux user with sudo privileges.
+- Explored the Linux environment.
+- Gathered system specifications.
+- Created folders and Markdown files.
+- Built a GitHub repository.
+- Uploaded documentation and screenshots.
+- Used Git commands to commit and push changes.
 
 ---
 
 # 💻 Linux Commands Used
 
-| Command | Purpose |
-|---------|---------|
-| `pwd` | Display the current working directory |
-| `whoami` | Display the current username |
-| `hostname` | Display the system hostname |
-| `ls` | List files and directories |
+| Command | Description |
+|---------|-------------|
+| `pwd` | Display current directory |
+| `whoami` | Display current user |
+| `hostname` | Display computer hostname |
+| `ls` | List files and folders |
 | `mkdir` | Create directories |
-| `cd` | Navigate between directories |
-| `nano` | Create and edit Markdown files |
-| `cat` | Display file contents |
-| `uname -a` | Display kernel information |
-| `lscpu` | View CPU information |
-| `free -h` | Display memory usage |
-| `df -h` | Display available disk space |
-| `git clone` | Clone the GitHub repository |
-| `git status` | View repository status |
-| `git add .` | Stage all changes |
-| `git commit -m` | Save changes to the local repository |
-| `git push origin main` | Upload commits to GitHub |
-
-<p align="right"><a href="#-laboratory-activity-1">⬆️ Back to Top</a></p>
+| `cd` | Change directory |
+| `nano` | Create/Edit Markdown files |
+| `cat` | View file contents |
+| `uname -a` | Show kernel version |
+| `lscpu` | CPU information |
+| `free -h` | Memory information |
+| `df -h` | Disk usage |
+| `git add .` | Stage files |
+| `git commit -m` | Save changes |
+| `git push origin main` | Upload to GitHub |
 
 ---
 
 # 🚀 Skills Learned
 
-Through this laboratory activity, I developed foundational skills in:
-
-- ☁️ Cloud Computing Fundamentals
-- 🐧 Linux Navigation and Administration
-- 💻 Command-Line Interface (CLI)
-- 📂 File and Directory Management
-- 📝 Markdown Documentation
-- 🐙 Git & GitHub Version Control
-- 📸 Technical Documentation and Evidence Collection
-- 🧩 Problem Solving in a Linux Environment
-
-These skills establish a solid foundation for future laboratory activities involving cloud infrastructure, virtualization, Docker, Kubernetes, monitoring, and enterprise system administration.
-
-<p align="right"><a href="#-laboratory-activity-1">⬆️ Back to Top</a></p>
+- Linux Fundamentals
+- Linux Command Line
+- File Management
+- Markdown Documentation
+- Git Version Control
+- GitHub Repository Management
+- Cloud Computing Fundamentals
+- Technical Documentation
 
 ---
 
 <div align="center">
 
-## 🔵 Cloud Computing • Linux • GitHub 🔴
+### 🔵 Learn • Build • Document • Deploy 🔴
 
-*"Every cloud engineer starts with a single command. This laboratory marks the beginning of my journey in cloud computing and Linux administration."*
-
-⭐ **CCM101 – Cloud Computing Portfolio**
+⭐ *Building my Cloud Computing Portfolio one laboratory at a time.*
 
 </div>
