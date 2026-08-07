@@ -2,16 +2,22 @@
 
 # ☁️ Cloud Engineer Profile
 
-### 🔵🔴 Cloud Computing Portfolio 🔴🔵
+### Junior Cloud Infrastructure Engineer Trainee | CloudNova Technologies
+
+<img src="https://img.shields.io/badge/Cloud%20Computing-0A66C2?style=for-the-badge&logo=icloud&logoColor=white" />
+<img src="https://img.shields.io/badge/Linux-E95420?style=for-the-badge&logo=ubuntu&logoColor=white" />
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
 
 ---
 
-[🏠 Home](#-cloud-engineer-profile) •
-[👤 About Me](#-about-me)
+### 🧭 Navigation
+
+| 🏠 [Home](#-cloud-engineer-profile) | 👤 [About Me](#-about-me) |
+|:-----------------------------------:|:-------------------------:|
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 </div>
-
----
 
 # ☁️ Cloud Engineer Profile
 
@@ -35,6 +41,6 @@ My goal is to build innovative solutions that make a meaningful impact through t
 
 <div align="center">
 
-### 🔵 Cloud • Learn • Build • Innovate 🔴
+🔵 **Cloud** • 🔴 **Learn** • 🔵 **Build** • 🔴 **Innovate**
 
 </div>
