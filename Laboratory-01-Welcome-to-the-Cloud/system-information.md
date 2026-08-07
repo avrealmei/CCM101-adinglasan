@@ -2,50 +2,32 @@
 
 # 💻 System Information Report
 
-## Linux Environment Overview
-
-### 🔵 Analyze • Monitor • Document • Verify 🔴
+### Linux Environment Report
 
 ---
 
-## 📊 Dashboard
+| <img src="https://img.shields.io/badge/📋_REPORT-1565C0?style=for-the-badge"> | <img src="https://img.shields.io/badge/💻_SYSTEM_INFO-C62828?style=for-the-badge"> | <img src="https://img.shields.io/badge/🐧_UBUNTU-1565C0?style=for-the-badge"> | <img src="https://img.shields.io/badge/☁️_KILLERCODA-C62828?style=for-the-badge"> |
+|:---:|:---:|:---:|:---:|
 
-| **Engineer** | **Course** | **Activity** | **Status** |
-|:------------:|:----------:|:------------:|:----------:|
-| 👨‍💻 **A. Dinglasan** | ☁️ **CCM101** | 🐧 **System Information** | ✅ **Completed** |
-
-| **Operating System** | **Kernel** | **Architecture** | **Environment** |
-|:--------------------:|:----------:|:----------------:|:---------------:|
-| 🐧 Ubuntu 24.04.4 LTS | ⚙️ Linux 6.8.0-136 | 💻 x86_64 | ☁️ KillerCoda |
-
-| **Documentation** | **Platform** | **Report Date** | **Repository** |
-|:-----------------:|:------------:|:---------------:|:--------------:|
-| 📝 Markdown | 🐙 GitHub | 📅 August 7, 2026 | 📂 CCM101-adinglasan |
+| [📖 REPORT](#-report-information) | [⚙️ SYSTEM](#-system-specifications) | [📊 SUMMARY](#-summary) | [📝 NOTES](#-notes) |
+|:---:|:---:|:---:|:---:|
 
 </div>
 
 ---
 
-# 🧭 Table of Contents
-
-- [📖 Report Information](#-report-information)
-- [💻 System Specifications](#-system-specifications)
-- [📊 Summary](#-summary)
-
----
-
 # 📖 Report Information
 
-This report documents the Linux system information collected during **Laboratory Activity 1 – Welcome to the Cloud**. The information was gathered from the Ubuntu environment provided by **KillerCoda** using standard Linux command-line utilities.
+This report contains the Linux system information gathered during **Laboratory Activity 1 – Welcome to the Cloud** using the Ubuntu 24.04 environment provided by KillerCoda.
 
-The purpose of this report is to document the system environment used throughout the laboratory activity and provide a reference for future cloud computing exercises.
+The collected information documents the operating environment used throughout the laboratory activity and serves as a reference for future cloud computing exercises.
 
 ---
 
-# 💻 System Specifications
+# ⚙️ System Specifications
 
-| Component | Details |
-|-----------|---------|
+| Component | Information |
+|-----------|-------------|
 | 👨‍💻 **Engineer** | A. Dinglasan |
 | 📅 **Date** | August 7, 2026 |
 | 🐧 **Linux Distribution** | Ubuntu 24.04.4 LTS |
@@ -58,15 +40,29 @@ The purpose of this report is to document the system environment used throughout
 
 # 📊 Summary
 
-The Linux environment provided by KillerCoda successfully met the requirements for this laboratory activity. The Ubuntu operating system, Linux kernel, CPU resources, available memory, and storage capacity provided a stable platform for learning Linux fundamentals, executing command-line operations, and completing the required cloud computing exercises.
+The Linux environment successfully met the requirements of this laboratory activity. Ubuntu 24.04 provided a stable cloud-based operating system for learning Linux fundamentals, executing command-line operations, documenting technical information, and using Git version control.
 
-This environment served as the foundation for developing practical skills in Linux administration, system documentation, and cloud computing throughout the course.
+This activity established a strong foundation for future cloud computing, Linux administration, virtualization, and DevOps laboratory exercises.
+
+---
+
+# 📝 Notes
+
+The following Linux commands were used to collect the system information:
+
+- `uname -a`
+- `hostnamectl`
+- `lscpu`
+- `free -h`
+- `df -h`
+
+These commands provide important details about the operating system, hardware specifications, memory utilization, and available storage.
 
 ---
 
 <div align="center">
 
-## 🔵 Ubuntu • Linux • Cloud Computing 🔴
+### 🔵 Ubuntu • Linux • Cloud Computing 🔴
 
 > *"Understanding your system is the first step toward mastering cloud computing."*
 
