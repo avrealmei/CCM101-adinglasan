@@ -4,16 +4,8 @@
 
 ## Welcome to the Cloud
 
-<img src="https://img.shields.io/badge/☁️_CCM101-4A4A4A?style=for-the-badge">
-<img src="https://img.shields.io/badge/CLOUD_COMPUTING-1565C0?style=for-the-badge">
-<img src="https://img.shields.io/badge/🗂️_LABORATORY-4A4A4A?style=for-the-badge">
-<img src="https://img.shields.io/badge/ACTIVITY_1-C62828?style=for-the-badge">
-<img src="https://img.shields.io/badge/MISSION-4A4A4A?style=for-the-badge">
-<img src="https://img.shields.io/badge/WELCOME_TO_THE_CLOUD-1565C0?style=for-the-badge">
-<img src="https://img.shields.io/badge/☑️_STATUS-4A4A4A?style=for-the-badge">
-<img src="https://img.shields.io/badge/COMPLETED-C62828?style=for-the-badge">
-
----
+| ⬛ CCM101 | 🟦 CLOUD COMPUTING | ⬛ LABORATORY | 🟥 ACTIVITY 1 | ⬛ MISSION | 🟦 WELCOME TO THE CLOUD | ⬛ STATUS | 🟥 COMPLETED |
+|:---------:|:------------------:|:-------------:|:-------------:|:----------:|:-----------------------:|:---------:|:------------:|
 
 ### 🔵 Mission • Learn • Build • Document • Deploy 🔴
 
@@ -39,10 +31,6 @@ This mission introduced the fundamentals of cloud computing by providing hands-o
 
 This laboratory also marked the beginning of my **Cloud Computing Portfolio**, which will serve as my professional workspace throughout the semester. All laboratory activities, technical documentation, projects, screenshots, and reflections will be organized within this repository using Git and GitHub.
 
-<p align="right">
-<a href="#-laboratory-activity-1">⬆️ Back to Top</a>
-</p>
-
 ---
 
 # 🎯 Mission Objectives
@@ -57,29 +45,21 @@ Upon successfully completing this mission, I was able to:
 - 🐙 Build and maintain a professional GitHub repository.
 - 🚀 Practice version control using Git and GitHub.
 
-<p align="right">
-<a href="#-laboratory-activity-1">⬆️ Back to Top</a>
-</p>
-
 ---
 
 # 📝 Activities Performed
 
-Throughout this laboratory activity, I completed the following tasks:
+During this laboratory activity, I completed the following tasks:
 
 - ✅ Launched an Ubuntu 24.04 Linux Playground using KillerCoda.
 - ✅ Verified the Linux terminal environment.
 - ✅ Created a Linux user with Bash, a home directory, and sudo privileges.
-- ✅ Collected system information including Linux distribution, kernel version, CPU specifications, memory, and disk storage.
-- ✅ Organized files and directories using Linux commands.
-- ✅ Created Markdown documentation files including **about-me.md** and **system-information.md**.
+- ✅ Gathered system information, including Linux distribution, kernel version, CPU specifications, memory, and available disk space.
+- ✅ Created and organized directories using Linux commands.
+- ✅ Developed Markdown documentation, including **about-me.md** and **system-information.md**.
 - ✅ Built a public GitHub repository named **CCM101-adinglasan**.
-- ✅ Uploaded documentation, screenshots, and project files to GitHub.
+- ✅ Uploaded laboratory documentation and screenshots to GitHub.
 - ✅ Used Git commands to commit and push project updates.
-
-<p align="right">
-<a href="#-laboratory-activity-1">⬆️ Back to Top</a>
-</p>
 
 ---
 
@@ -105,30 +85,22 @@ Throughout this laboratory activity, I completed the following tasks:
 | `git commit -m` | Commit changes |
 | `git push origin main` | Upload commits to GitHub |
 
-<p align="right">
-<a href="#-laboratory-activity-1">⬆️ Back to Top</a>
-</p>
-
 ---
 
 # 🚀 Skills Learned
 
-This laboratory strengthened my foundational knowledge and practical experience in:
+Through this laboratory activity, I developed practical skills in:
 
 - ☁️ Cloud Computing Fundamentals
-- 🐧 Linux System Navigation
+- 🐧 Linux Navigation and Administration
 - 💻 Command-Line Interface (CLI)
 - 📂 Linux File and Directory Management
 - 📝 Markdown Documentation
 - 🐙 Git & GitHub Version Control
-- 📸 Technical Documentation and Evidence Collection
+- 📸 Technical Documentation
 - 🧩 Problem Solving in a Linux Environment
 
-These skills provide a strong foundation for future laboratory activities involving virtualization, Docker, Kubernetes, cloud infrastructure, monitoring, networking, automation, and enterprise system administration.
-
-<p align="right">
-<a href="#-laboratory-activity-1">⬆️ Back to Top</a>
-</p>
+These skills provide a solid foundation for future laboratory activities involving cloud infrastructure, virtualization, Docker, Kubernetes, networking, automation, monitoring, and enterprise system administration.
 
 ---
 
@@ -136,7 +108,7 @@ These skills provide a strong foundation for future laboratory activities involv
 
 ## 🔵 Cloud Computing • Linux • GitHub 🔴
 
-> *"Every cloud engineer starts with a single command. This laboratory marks the beginning of my journey in cloud computing and Linux administration."*
+*"Every cloud engineer starts with a single command. This laboratory marks the beginning of my journey in cloud computing and Linux administration."*
 
 ⭐ **CCM101 – Cloud Computing Portfolio**
 
