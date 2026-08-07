@@ -2,10 +2,14 @@
 
 ### Linux Environment Report
 
----
+<div align="center">
 
-| 📋 **REPORT** | 💻 **SYSTEM** | 📊 **SUMMARY** | 📝 **NOTES** |
-|:-------------:|:-------------:|:--------------:|:------------:|
+<img src="https://img.shields.io/badge/📋_REPORT-1565C0?style=for-the-badge&labelColor=1565C0&color=1565C0" />
+<img src="https://img.shields.io/badge/💻_SYSTEM_INFO-C62828?style=for-the-badge&labelColor=C62828&color=C62828" />
+<img src="https://img.shields.io/badge/🐧_UBUNTU-1565C0?style=for-the-badge&labelColor=1565C0&color=1565C0" />
+<img src="https://img.shields.io/badge/☁️_KILLERCODA-C62828?style=for-the-badge&labelColor=C62828&color=C62828" />
+
+</div>
 
 ---
 
