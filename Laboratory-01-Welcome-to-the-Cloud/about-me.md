@@ -15,7 +15,7 @@
 
 *Junior Cloud Infrastructure Engineer Trainee*
 
-<img src="https://komarev.com/ghpvc/?username=YOUR_GITHUB_USERNAME&style=for-the-badge&color=2563EB">
+<img src="https://komarev.com/ghpvc/?username=avrealmei&style=for-the-badge&color=2563EB">
 
 </div>
 
@@ -36,7 +36,7 @@
 # 👨‍💻 About Me
 
 ```yaml
-Name:        A. Dinglasan
+Name:        Avril Mei Agaoid Dinglasan
 Role:        Junior Cloud Infrastructure Engineer Trainee
 University:  University of Eastern Pangasinan
 Program:     Bachelor of Science in Information Technology
