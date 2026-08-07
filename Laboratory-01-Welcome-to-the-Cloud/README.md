@@ -4,7 +4,6 @@
 
 ## Welcome to the Cloud
 
-## 📖 Navigation
 
 <a href="./about-me.md">
 <img src="https://img.shields.io/badge/👤_About_Me-0A66C2?style=for-the-badge"/>
