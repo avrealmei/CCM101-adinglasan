@@ -2,18 +2,14 @@
 
 ### Linux Environment Report
 
-<div align="center">
+---
 
-<img src="https://img.shields.io/badge/📋_REPORT-1565C0?style=for-the-badge&labelColor=1565C0&color=1565C0" />
-<img src="https://img.shields.io/badge/💻_SYSTEM_INFO-C62828?style=for-the-badge&labelColor=C62828&color=C62828" />
-<img src="https://img.shields.io/badge/🐧_UBUNTU-1565C0?style=for-the-badge&labelColor=1565C0&color=1565C0" />
-<img src="https://img.shields.io/badge/☁️_KILLERCODA-C62828?style=for-the-badge&labelColor=C62828&color=C62828" />
-
-</div>
+| <div align="center"><a href="#-report"><b>📄 REPORT</b></a></div> | <div align="center"><a href="#-system-information"><b>🖥️ SYSTEM INFORMATION</b></a></div> | <div align="center"><a href="#-summary"><b>📊 SUMMARY</b></a></div> | <div align="center"><a href="#-notes"><b>📝 NOTES</b></a></div> |
+|:---------------------------------------------------------------:|:----------------------------------------------------------------------------------------:|:----------------------------------------------------------------:|:--------------------------------------------------------------:|
 
 ---
 
-# 📋 Report
+# 📄 Report
 
 This report documents the Linux system information collected during **Laboratory Activity 1 – Welcome to the Cloud** using the **Ubuntu 24.04** environment provided by **KillerCoda**.
 
@@ -21,7 +17,7 @@ The collected information serves as the baseline system configuration for this l
 
 ---
 
-# 💻 System
+# 🖥️ System Information
 
 | Component | Information |
 |-----------|-------------|
