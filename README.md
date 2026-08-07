@@ -2,138 +2,134 @@
 
 # ☁️ Cloud Computing Portfolio
 
-### CCM101 • Cloud Computing Portfolio
+### CCM101 • Cloud Computing Laboratory Activities
 
-<p>
-<a href="#-overview">
-<img src="https://img.shields.io/badge/📖_Overview-0A66C2?style=for-the-badge">
+**University of Eastern Pangasinan (UEP)**  
+**College of Information Technology**
+
+<br>
+
+<a href="#-student-profile">
+<img src="https://img.shields.io/badge/👤_PROFILE-1565C0?style=for-the-badge"/>
 </a>
 
-<a href="#-objectives">
-<img src="https://img.shields.io/badge/🎯_Objectives-DC143C?style=for-the-badge">
+<a href="#-overview">
+<img src="https://img.shields.io/badge/📖_OVERVIEW-C62828?style=for-the-badge"/>
+</a>
+
+<a href="#-repository-objectives">
+<img src="https://img.shields.io/badge/🎯_OBJECTIVES-1565C0?style=for-the-badge"/>
 </a>
 
 <a href="#-repository-contents">
-<img src="https://img.shields.io/badge/📂_Contents-0A66C2?style=for-the-badge">
+<img src="https://img.shields.io/badge/📂_CONTENTS-C62828?style=for-the-badge"/>
 </a>
 
-<a href="#️-technologies--tools">
-<img src="https://img.shields.io/badge/🛠️_Tools-DC143C?style=for-the-badge">
+<a href="#-technologies--tools">
+<img src="https://img.shields.io/badge/🛠️_TOOLS-1565C0?style=for-the-badge"/>
 </a>
 
 <a href="#-learning-goals">
-<img src="https://img.shields.io/badge/📈_Goals-0A66C2?style=for-the-badge">
+<img src="https://img.shields.io/badge/🚀_GOALS-C62828?style=for-the-badge"/>
 </a>
-
-<a href="#-portfolio-statement">
-<img src="https://img.shields.io/badge/🌟_Statement-DC143C?style=for-the-badge">
-</a>
-
-<a href="#-thank-you">
-<img src="https://img.shields.io/badge/🤝_Thank_You-0A66C2?style=for-the-badge">
-</a>
-
-</p>
-
----
 
 </div>
 
-## 👨‍💻 Student Profile
+---
 
-Avril Mei A. Dinglasan
+# 👤 Student Profile
 
-**Course:** CCM101 – Cloud Computing
-
-**Program:** Bachelor of Science in Information Technology (BSIT)
-
-**Institution:** University of Eastern Pangasinan (UEP) – College of Information Technology
+| Information | Details |
+|-------------|---------|
+| **Name** | Avril Mei A. Dinglasan |
+| **Course** | CCM101 – Cloud Computing |
+| **Program** | Bachelor of Science in Information Technology (BSIT) |
+| **Institution** | University of Eastern Pangasinan (UEP) |
+| **Role** | Junior Cloud Infrastructure Engineer Trainee |
 
 ---
 
-## 📖 Overview
+# 📖 Overview
 
-Welcome to my Cloud Computing Portfolio—a professional repository that showcases my learning journey, laboratory activities, technical documentation, and cloud infrastructure projects completed throughout the CCM101 – Cloud Computing course.
+Welcome to my **Cloud Computing Portfolio**.
 
-This repository serves as both an academic portfolio and a demonstration of my growing expertise in cloud computing, Linux system administration, virtualization, networking, cloud deployment, and industry best practices. Every project reflects my commitment to continuous learning, critical thinking, and developing practical skills that prepare me for real-world cloud engineering environments.
+This repository serves as my official academic portfolio for **CCM101 – Cloud Computing**, where I document every laboratory activity, project, technical report, reflection, and hands-on exercise completed throughout the semester.
 
----
-
-## 🎯 Objectives
-
-This portfolio aims to:
-
-- Showcase my progress and accomplishments throughout the Cloud Computing course.
-- Document laboratory activities, configurations, and implementation procedures.
-- Demonstrate practical knowledge of Linux, cloud platforms, virtualization, and networking concepts.
-- Build a professional portfolio that highlights my technical competencies for internships and future career opportunities.
-- Maintain organized, reproducible, and well-documented cloud projects following industry standards.
+Each laboratory activity demonstrates my progress in Linux system administration, cloud computing concepts, Git and GitHub version control, virtualization, networking, and other cloud technologies as I continue developing my skills as an aspiring Cloud Engineer.
 
 ---
 
-## 📂 Repository Contents
+# 🎯 Repository Objectives
 
-This repository includes:
+This repository aims to:
 
-- 📘 Laboratory Activities
-- 🖥️ Linux Commands & System Administration Exercises
-- ☁️ Cloud Computing Projects
-- 📄 Technical Documentation
-- 📸 Screenshots and Deployment Evidence
-- ⚙️ Configuration Files
-- 📝 Project Reports and Reflections
-- 🚀 Cloud Deployment and Automation Tasks
-- 📚 Learning Notes and References
+- ☁️ Document all Cloud Computing laboratory activities.
+- 🐧 Practice Linux command-line administration.
+- 📝 Develop professional technical documentation using Markdown.
+- 🐙 Apply Git and GitHub version control practices.
+- 💻 Build a well-organized Cloud Computing Portfolio.
+- 🚀 Demonstrate continuous learning through hands-on activities.
 
 ---
 
-## 🛠️ Technologies & Tools
+# 📂 Repository Contents
 
-Throughout this course, I will work with technologies such as:
+```
+CCM101-adinglasan
+│
+├── README.md
+│
+└── Laboratory-01-Welcome-to-the-Cloud
+    ├── README.md
+    ├── about-me.md
+    ├── system-information.md
+    ├── reflection.md
+    └── screenshots
+```
 
-- Linux (Ubuntu)
-- Bash Shell
-- Git & GitHub
-- Virtualization Technologies
-- Cloud Computing Fundamentals
-- Networking Fundamentals
-- Command-Line Interface (CLI)
-- Infrastructure and Deployment Tools
-
-Additional technologies, platforms, and cloud services will be added as I continue progressing through the course.
-
----
-
-## 📈 Learning Goals
-
-By maintaining this portfolio, I aim to:
-
-- Strengthen my cloud computing and Linux administration skills.
-- Apply theoretical concepts through hands-on projects and real-world scenarios.
-- Develop professional documentation and version control practices.
-- Build a portfolio that demonstrates my growth as an aspiring IT professional.
-- Continuously expand my knowledge of modern cloud technologies, infrastructure, and automation.
+Additional laboratory activities will be added as the semester progresses.
 
 ---
 
-## 🌟 Portfolio Statement
+# 🛠️ Technologies & Tools
 
-> "Technology evolves every day, and so do I. This repository represents not only the projects I build but also my dedication to continuous learning, innovation, and excellence in cloud computing."
+Throughout this course, I will be using:
+
+- ☁️ Cloud Computing Fundamentals
+- 🐧 Ubuntu Linux
+- 💻 Linux Command-Line Interface (CLI)
+- 🐙 Git & GitHub
+- 📝 Markdown Documentation
+- 🌐 KillerCoda Playground
+- 📂 Version Control
+- ⚙️ Virtualization Technologies
 
 ---
 
-## 🤝 Thank You
+# 🚀 Learning Goals
 
-Thank you for visiting my Cloud Computing Portfolio.
+Throughout this course, I aim to:
 
-Feel free to explore my laboratory activities, documentation, and cloud projects as I continue expanding my knowledge and experience in cloud computing throughout the semester.
+- Build strong Linux administration skills.
+- Understand cloud computing concepts and infrastructure.
+- Improve technical documentation and version control practices.
+- Apply classroom knowledge through practical laboratory activities.
+- Develop a professional portfolio showcasing my cloud computing journey.
+
+---
+
+# 🌟 Portfolio Statement
+
+> *"Every laboratory activity is another step toward becoming a skilled Cloud Engineer. This repository reflects my commitment to continuous learning, practical experience, and professional growth in cloud computing."*
 
 ---
 
 <div align="center">
 
-### 🔵 Learn • Build • Deploy • Innovate 🔴
+### ☁️ Cloud Computing • Linux • GitHub
 
-⭐ **Cloud Computing Portfolio | CCM101 | BSIT Student**
+**CCM101 – Cloud Computing Portfolio**
+
+⭐ *Learning • Building • Documenting • Growing*
 
 </div>
