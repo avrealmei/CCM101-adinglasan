@@ -68,6 +68,7 @@ CCM101-adinglasan
     ├── system-information.md
     ├── reflection.md
     └── screenshots
+This repository will contain all laboratory activities completed throughout the semester.
 ```
 
 ---
