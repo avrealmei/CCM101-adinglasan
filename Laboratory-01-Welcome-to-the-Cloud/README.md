@@ -1,15 +1,23 @@
 <div align="center">
 
 # ☁️ Lab Activity 1
+
 ## Welcome to the Cloud
 
-<img src="https://img.shields.io/badge/CCM101-Cloud_Computing-0A66C2?style=for-the-badge&logo=icloud&logoColor=white"/>
-<img src="https://img.shields.io/badge/Laboratory-Activity_1-DC143C?style=for-the-badge&logo=bookstack&logoColor=white"/>
+<p>
+<img src="https://img.shields.io/badge/CCM101-Cloud%20Computing-0A66C2?style=for-the-badge&logo=icloud&logoColor=white"/>
+<img src="https://img.shields.io/badge/Laboratory-Activity%201-DC143C?style=for-the-badge&logo=bookstack&logoColor=white"/>
 <img src="https://img.shields.io/badge/Status-Completed-0A66C2?style=for-the-badge&logo=checkmarx&logoColor=white"/>
+</p>
+
+### 🔵 Mission • Learn • Build • Document 🔴
 
 ---
 
-### 🔵 Mission • Learn • Build • Document 🔴
+## 🧭 Navigation
+
+| 📖 [Description](#-description) | 🎯 [Mission Objectives](#-mission-objectives) | 🛠️ [Technologies Used](#️-technologies-used) | 📌 [Learning Outcome](#-learning-outcome) |
+|:-------------------------------:|:---------------------------------------------:|:--------------------------------------------:|:-----------------------------------------:|
 
 </div>
 
@@ -23,6 +31,10 @@ Throughout this mission, students are introduced to the role of a **Junior Cloud
 
 By completing this activity, students establish a professional Cloud Computing Portfolio that will be continuously updated throughout the semester as new laboratory exercises and cloud projects are completed.
 
+<p align="right">
+<a href="#-lab-activity-1">⬆️ Back to Top</a>
+</p>
+
 ---
 
 ## 🎯 Mission Objectives
@@ -35,6 +47,10 @@ By completing this activity, students establish a professional Cloud Computing P
 - 🐙 Build and maintain a GitHub Cloud Computing Portfolio.
 - 🚀 Practice version control using Git and GitHub.
 
+<p align="right">
+<a href="#-lab-activity-1">⬆️ Back to Top</a>
+</p>
+
 ---
 
 ## 🛠️ Technologies Used
@@ -43,15 +59,26 @@ By completing this activity, students establish a professional Cloud Computing P
 |------------|---------|
 | ☁️ KillerCoda | Cloud-based Linux Environment |
 | 🐧 Ubuntu 24.04 | Operating System |
-| 💻 Linux Terminal | Command Line Interface |
-| 📝 Markdown | Documentation |
-| 🐙 Git & GitHub | Version Control |
+| 💻 Linux Terminal | Command-Line Interface |
+| 📝 Markdown | Technical Documentation |
+| 🐙 Git | Version Control |
+| 🌐 GitHub | Repository Hosting |
+
+<p align="right">
+<a href="#-lab-activity-1">⬆️ Back to Top</a>
+</p>
 
 ---
 
 ## 📌 Learning Outcome
 
-Upon completing this laboratory activity, I successfully gained hands-on experience using a cloud-hosted Linux environment, organizing files through the command line, documenting technical work with Markdown, and publishing my work to GitHub. These foundational skills provide a strong starting point for future cloud computing, Linux administration, and DevOps activities throughout the course.
+Upon completing this laboratory activity, I successfully gained hands-on experience using a cloud-hosted Linux environment, navigating the Linux terminal, managing files and directories, gathering system information, creating technical documentation using Markdown, and publishing my work to GitHub using Git.
+
+These foundational skills provide a strong starting point for future laboratory activities involving cloud computing, Linux administration, virtualization, containerization, DevOps practices, and enterprise cloud infrastructure.
+
+<p align="right">
+<a href="#-lab-activity-1">⬆️ Back to Top</a>
+</p>
 
 ---
 
@@ -59,6 +86,6 @@ Upon completing this laboratory activity, I successfully gained hands-on experie
 
 ### 🔵 Cloud Computing • Linux • GitHub 🔴
 
-⭐ Building my Cloud Computing Portfolio one lab at a time.
+⭐ **Building my Cloud Computing Portfolio one lab at a time.**
 
 </div>
