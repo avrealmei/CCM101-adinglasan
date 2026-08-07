@@ -1,44 +1,136 @@
 <div align="center">
 
-# ☁️ Cloud Engineer Profile
+# ☁️ CLOUD ENGINEER PROFILE
 
-### Junior Cloud Infrastructure Engineer Trainee | CloudNova Technologies
+<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=700&size=28&duration=3000&pause=1000&color=3B82F6&center=true&vCenter=true&width=700&lines=Junior+Cloud+Infrastructure+Engineer+Trainee;Cloud+Computing+Enthusiast;Future+Cloud+Solutions+Architect;Always+Learning+%7C+Always+Building" />
 
-<img src="https://img.shields.io/badge/Cloud%20Computing-0A66C2?style=for-the-badge&logo=icloud&logoColor=white" />
-<img src="https://img.shields.io/badge/Linux-E95420?style=for-the-badge&logo=ubuntu&logoColor=white" />
-<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+<img src="https://img.shields.io/badge/☁️_Cloud_Computing-2563EB?style=for-the-badge">
+<img src="https://img.shields.io/badge/💻_Web_Development-E11D48?style=for-the-badge">
+<img src="https://img.shields.io/badge/🎨_UI/UX_Design-2563EB?style=for-the-badge">
+<img src="https://img.shields.io/badge/🚀_Software_Development-E11D48?style=for-the-badge">
 
 ---
 
-| 🏠 [Home](#-cloud-engineer-profile) | 👤 [About Me](#-about-me) |
-|:-----------------------------------:|:-------------------------:|
+### **☁️ CloudNova Technologies**
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+*Junior Cloud Infrastructure Engineer Trainee*
+
+<img src="https://komarev.com/ghpvc/?username=YOUR_GITHUB_USERNAME&style=for-the-badge&color=2563EB">
 
 </div>
-
-# ☁️ Cloud Engineer Profile
-
-| Information | Details |
-|-------------|---------|
-| 👤 **Name** | A. Dinglasan |
-| 💼 **Role** | Junior Cloud Infrastructure Engineer Trainee |
-| 🏢 **Company** | CloudNova Technologies |
-
----
-
-# 👤 About Me
-
-I am a fourth-year Bachelor of Science in Information Technology (BSIT) student at the University of Eastern Pangasinan (UEP). I am passionate about technology and enjoy exploring new ideas that help me grow both personally and professionally. I believe that continuous learning is the key to becoming a skilled and innovative IT professional.
-
-My interests include Cloud Computing, Web Development, UI/UX Design, and software development. I enjoy challenging myself by learning new technologies, building projects, and improving my technical skills through hands-on experience. I am always eager to discover better ways to create efficient, user-friendly, and visually appealing digital solutions. I value creativity, adaptability, teamwork, and problem-solving because these qualities help me succeed in both academic and real-world environments. Every project I complete strengthens my confidence and motivates me to keep improving as an aspiring IT professional.
-
-My goal is to build innovative solutions that make a meaningful impact through technology. I aspire to continuously expand my knowledge, contribute to the IT industry, and grow into a reliable and skilled professional. With dedication, curiosity, and a strong passion for learning, I am committed to turning ideas into solutions that create positive change.
 
 ---
 
 <div align="center">
 
-🔵 **Cloud** • 🔴 **Learn** • 🔵 **Build** • 🔴 **Innovate**
+## 🌐 Navigation
+
+| 🏠 **Home** | 👤 **About** | 🎯 **Mission** | 💡 **Core Values** |
+|:-----------:|:------------:|:--------------:|:------------------:|
+| [Go](#-cloud-engineer-profile) | [Go](#-about-me) | [Go](#-career-mission) | [Go](#-core-values) |
+
+</div>
+
+---
+
+# 👨‍💻 About Me
+
+```yaml
+Name:        A. Dinglasan
+Role:        Junior Cloud Infrastructure Engineer Trainee
+University:  University of Eastern Pangasinan
+Program:     Bachelor of Science in Information Technology
+Year Level:  Fourth Year
+Mission:     Learn • Build • Deploy • Innovate
+```
+
+Hello! 👋
+
+I am a **Fourth-Year Bachelor of Science in Information Technology (BSIT)** student who is passionate about transforming ideas into innovative digital solutions. I enjoy discovering emerging technologies, solving challenging problems, and continuously expanding my knowledge through hands-on learning and real-world projects.
+
+My interests revolve around **Cloud Computing**, **Web Development**, **UI/UX Design**, **Software Engineering**, and modern computing technologies. Every project I create is an opportunity to improve my technical expertise, strengthen my creativity, and develop solutions that are efficient, scalable, and user-focused.
+
+I believe that success in technology comes from curiosity, consistency, and the willingness to learn every day. Whether designing user interfaces, writing clean code, or exploring cloud infrastructure, I always strive to deliver work that reflects professionalism, innovation, and continuous improvement.
+
+---
+
+# ☁️ Cloud Journey
+
+```text
+🟦 Learn
+      │
+      ▼
+🟥 Practice
+      │
+      ▼
+🟦 Build
+      │
+      ▼
+🟥 Deploy
+      │
+      ▼
+☁️ Become a Professional Cloud Engineer
+```
+
+---
+
+# 🎯 Career Mission
+
+> ### "Building secure, scalable, and reliable cloud solutions that empower people and businesses through technology."
+
+My long-term goal is to become a highly skilled **Cloud Engineer** capable of designing, deploying, and managing enterprise-grade cloud infrastructures. I aspire to master modern cloud platforms, automation tools, virtualization, DevOps practices, and cloud security while continuously improving my technical and leadership skills.
+
+I believe that every challenge presents an opportunity to grow, every project is a learning experience, and every accomplishment brings me one step closer to becoming the professional I aspire to be.
+
+---
+
+# ⚡ Current Focus
+
+| ☁️ Cloud Computing | 💻 Web Development |
+|:------------------:|:------------------:|
+| █████████░ | ████████░░ |
+
+| 🎨 UI/UX Design | 🚀 Software Development |
+|:---------------:|:-----------------------:|
+| ████████░░ | █████████░ |
+
+---
+
+# 💎 Core Values
+
+<div align="center">
+
+| 🔵 | 🔴 |
+|:--:|:--:|
+| ☁️ Continuous Learning | 🚀 Innovation |
+| 💡 Creativity | 🛠 Problem Solving |
+| 🤝 Teamwork | 📚 Lifelong Learning |
+| 🎯 Dedication | ⚡ Adaptability |
+
+</div>
+
+---
+
+# 🌌 Motto
+
+<div align="center">
+
+## 🔵 Learn
+### ↓
+## 🔴 Build
+### ↓
+## 🔵 Deploy
+### ↓
+## 🔴 Innovate
+
+---
+
+# ☁️ *"Turning Curiosity into Innovation, One Cloud at a Time."*
+
+<img src="https://img.shields.io/badge/Always-Learning-2563EB?style=for-the-badge">
+<img src="https://img.shields.io/badge/Always-Building-E11D48?style=for-the-badge">
+<img src="https://img.shields.io/badge/Always-Improving-2563EB?style=for-the-badge">
+
+### ⭐ Dream Big • Build Smart • Keep Learning ⭐
 
 </div>
