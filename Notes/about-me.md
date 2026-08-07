@@ -2,62 +2,39 @@
 
 # ☁️ Cloud Engineer Profile
 
-<img src="https://img.shields.io/badge/Cloud-Computing-0A66C2?style=for-the-badge&logo=icloud&logoColor=white">
-<img src="https://img.shields.io/badge/Linux-Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white">
-<img src="https://img.shields.io/badge/GitHub-Portfolio-CB2027?style=for-the-badge&logo=github&logoColor=white">
+### 🔵🔴 Cloud Computing Portfolio 🔴🔵
 
 ---
 
-## 👨‍💻 A. Dinglasan
-
-### BSIT Student | Junior Cloud Infrastructure Engineer Trainee
-
-University of Eastern Pangasinan (UEP)
+[🏠 Home](#-cloud-engineer-profile) •
+[👤 About Me](#-about-me)
 
 </div>
 
 ---
 
-# 🚀 About Me
+# ☁️ Cloud Engineer Profile
 
-Hello! I'm **A. Dinglasan**, a fourth-year **Bachelor of Science in Information Technology (BSIT)** student at the **University of Eastern Pangasinan (UEP)**. I am passionate about technology and enjoy discovering new tools, concepts, and innovations that help me grow both personally and professionally. I believe that continuous learning, curiosity, and dedication are the foundation of becoming a successful IT professional.
-
-My interests include **Cloud Computing**, **Web Development**, **UI/UX Design**, **Linux System Administration**, and **Software Development**. I enjoy building projects, solving technical challenges, and learning modern technologies through hands-on experience. Every project strengthens my technical knowledge while improving my creativity, critical thinking, and problem-solving skills.
-
-As an aspiring cloud professional, I strive to develop secure, efficient, and scalable solutions that make a positive impact. My goal is to continuously improve my technical expertise, contribute to innovative projects, and grow into a reliable IT professional capable of adapting to the ever-evolving world of technology.
-
----
-
-# 🛠️ Technical Interests
-
-🔵 Cloud Computing
-
-🔴 Linux Administration
-
-🔵 Git & GitHub
-
-🔴 Web Development
-
-🔵 UI/UX Design
-
-🔴 Networking
-
-🔵 Virtualization
-
-🔴 Software Development
+| Information | Details |
+|-------------|---------|
+| 👤 **Name** | A. Dinglasan |
+| 💼 **Role** | Junior Cloud Infrastructure Engineer Trainee |
+| 🏢 **Company** | CloudNova Technologies |
 
 ---
 
-# 🎯 Career Goal
+# 👤 About Me
 
-My objective is to become a skilled Cloud Computing and IT professional capable of designing, deploying, and managing reliable cloud solutions. Through continuous learning, practical experience, and professional development, I aim to contribute innovative ideas that create meaningful impact in the technology industry.
+I am a fourth-year Bachelor of Science in Information Technology (BSIT) student at the University of Eastern Pangasinan (UEP). I am passionate about technology and enjoy exploring new ideas that help me grow both personally and professionally. I believe that continuous learning is the key to becoming a skilled and innovative IT professional.
+
+My interests include Cloud Computing, Web Development, UI/UX Design, and software development. I enjoy challenging myself by learning new technologies, building projects, and improving my technical skills through hands-on experience. I am always eager to discover better ways to create efficient, user-friendly, and visually appealing digital solutions. I value creativity, adaptability, teamwork, and problem-solving because these qualities help me succeed in both academic and real-world environments. Every project I complete strengthens my confidence and motivates me to keep improving as an aspiring IT professional.
+
+My goal is to build innovative solutions that make a meaningful impact through technology. I aspire to continuously expand my knowledge, contribute to the IT industry, and grow into a reliable and skilled professional. With dedication, curiosity, and a strong passion for learning, I am committed to turning ideas into solutions that create positive change.
 
 ---
 
 <div align="center">
 
-## 💙 Thank You for Visiting!
-
-⭐ Feel free to explore my Cloud Computing Portfolio and follow my learning journey throughout the semester.
+### 🔵 Cloud • Learn • Build • Innovate 🔴
 
 </div>
