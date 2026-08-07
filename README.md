@@ -1,6 +1,45 @@
+<div align="center">
+
 # ☁️ Cloud Computing Portfolio
 
-## Engineer
+### CCM101 • Cloud Computing Portfolio
+
+<p>
+<a href="#-overview">
+<img src="https://img.shields.io/badge/📖_Overview-0A66C2?style=for-the-badge">
+</a>
+
+<a href="#-objectives">
+<img src="https://img.shields.io/badge/🎯_Objectives-DC143C?style=for-the-badge">
+</a>
+
+<a href="#-repository-contents">
+<img src="https://img.shields.io/badge/📂_Contents-0A66C2?style=for-the-badge">
+</a>
+
+<a href="#️-technologies--tools">
+<img src="https://img.shields.io/badge/🛠️_Tools-DC143C?style=for-the-badge">
+</a>
+
+<a href="#-learning-goals">
+<img src="https://img.shields.io/badge/📈_Goals-0A66C2?style=for-the-badge">
+</a>
+
+<a href="#-portfolio-statement">
+<img src="https://img.shields.io/badge/🌟_Statement-DC143C?style=for-the-badge">
+</a>
+
+<a href="#-thank-you">
+<img src="https://img.shields.io/badge/🤝_Thank_You-0A66C2?style=for-the-badge">
+</a>
+
+</p>
+
+---
+
+</div>
+
+## 👨‍💻 Student Profile
 
 Avril Mei A. Dinglasan
 
@@ -24,11 +63,11 @@ This repository serves as both an academic portfolio and a demonstration of my g
 
 This portfolio aims to:
 
-* Showcase my progress and accomplishments throughout the Cloud Computing course.
-* Document laboratory activities, configurations, and implementation procedures.
-* Demonstrate practical knowledge of Linux, cloud platforms, virtualization, and networking concepts.
-* Build a professional portfolio that highlights my technical competencies for internships and future career opportunities.
-* Maintain organized, reproducible, and well-documented cloud projects that follow industry standards.
+- Showcase my progress and accomplishments throughout the Cloud Computing course.
+- Document laboratory activities, configurations, and implementation procedures.
+- Demonstrate practical knowledge of Linux, cloud platforms, virtualization, and networking concepts.
+- Build a professional portfolio that highlights my technical competencies for internships and future career opportunities.
+- Maintain organized, reproducible, and well-documented cloud projects following industry standards.
 
 ---
 
@@ -36,15 +75,15 @@ This portfolio aims to:
 
 This repository includes:
 
-* 📘 Laboratory Activities
-* 🖥️ Linux Commands & System Administration Exercises
-* ☁️ Cloud Computing Projects
-* 📄 Technical Documentation
-* 📸 Screenshots and Deployment Evidence
-* ⚙️ Configuration Files
-* 📝 Project Reports and Reflections
-* 🚀 Cloud Deployment and Automation Tasks
-* 📚 Learning Notes and References
+- 📘 Laboratory Activities
+- 🖥️ Linux Commands & System Administration Exercises
+- ☁️ Cloud Computing Projects
+- 📄 Technical Documentation
+- 📸 Screenshots and Deployment Evidence
+- ⚙️ Configuration Files
+- 📝 Project Reports and Reflections
+- 🚀 Cloud Deployment and Automation Tasks
+- 📚 Learning Notes and References
 
 ---
 
@@ -52,14 +91,14 @@ This repository includes:
 
 Throughout this course, I will work with technologies such as:
 
-* Linux (Ubuntu)
-* Bash Shell
-* Git & GitHub
-* Virtualization Technologies
-* Cloud Computing Fundamentals
-* Networking Fundamentals
-* Command-Line Interface (CLI)
-* Infrastructure and Deployment Tools
+- Linux (Ubuntu)
+- Bash Shell
+- Git & GitHub
+- Virtualization Technologies
+- Cloud Computing Fundamentals
+- Networking Fundamentals
+- Command-Line Interface (CLI)
+- Infrastructure and Deployment Tools
 
 Additional technologies, platforms, and cloud services will be added as I continue progressing through the course.
 
@@ -69,11 +108,11 @@ Additional technologies, platforms, and cloud services will be added as I contin
 
 By maintaining this portfolio, I aim to:
 
-* Strengthen my cloud computing and Linux administration skills.
-* Apply theoretical concepts through hands-on projects and real-world scenarios.
-* Develop professional documentation and version control practices.
-* Build a portfolio that demonstrates my growth as an aspiring Cloud Engineer and IT professional.
-* Continuously expand my knowledge of modern cloud technologies, infrastructure, and automation.
+- Strengthen my cloud computing and Linux administration skills.
+- Apply theoretical concepts through hands-on projects and real-world scenarios.
+- Develop professional documentation and version control practices.
+- Build a portfolio that demonstrates my growth as an aspiring IT professional.
+- Continuously expand my knowledge of modern cloud technologies, infrastructure, and automation.
 
 ---
 
@@ -88,3 +127,13 @@ By maintaining this portfolio, I aim to:
 Thank you for visiting my Cloud Computing Portfolio.
 
 Feel free to explore my laboratory activities, documentation, and cloud projects as I continue expanding my knowledge and experience in cloud computing throughout the semester.
+
+---
+
+<div align="center">
+
+### 🔵 Learn • Build • Deploy • Innovate 🔴
+
+⭐ **Cloud Computing Portfolio | CCM101 | BSIT Student**
+
+</div>
