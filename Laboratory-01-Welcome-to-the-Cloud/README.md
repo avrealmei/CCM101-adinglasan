@@ -18,7 +18,7 @@
 </a>
 
 <a href="./Reflection">
-<img src="https://img.shields.io/badge/💭_Reflection-DC143C?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/🤔_Reflection-DC143C?style=for-the-badge"/>
 </a>
 
 </div>
