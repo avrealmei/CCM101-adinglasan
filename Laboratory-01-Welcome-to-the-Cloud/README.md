@@ -9,9 +9,9 @@
 
 ## 📊 Dashboard
 
-| **Course** | **Activity** | **Mission** | **Status** |
+| **Course** | **Activity** | **Status** |
 |:----------:|:------------:|:-----------:|:----------:|
-| ☁️ **CCM101** | 🗂️ **Laboratory Activity 1** | 🚀 **Welcome to the Cloud** | ✅ **Completed** |
+| ☁️ **CCM101** | 🗂️ **Laboratory Activity 1** | ✅ **Completed** |
 
 | **Environment** | **Operating System** | **Platform** | **Repository** |
 |:---------------:|:--------------------:|:------------:|:--------------:|
