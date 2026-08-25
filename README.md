@@ -1,116 +1,157 @@
-<div align="center">
+# 🔵 CLOUD INFRASTRUCTURE BLUEPRINT 🔴
 
-# ☁️ Cloud Computing Portfolio
+<p align="center">
 
-### CCM101 – Cloud Computing
+### ☁️ CCM101 – Cloud Computing
 
-**College of Information Technology**  
-**University of Eastern Pangasinan (UEP)**
+**CloudNova Technologies | Cloud Infrastructure Assessment**
 
-<br>
+</p>
 
-<a href="#-student-profile">
-<img src="https://img.shields.io/badge/👤_Student_Profile-1565C0?style=for-the-badge">
+<p align="center">
+
+<a href="#mission-overview">
+<img src="https://img.shields.io/badge/🏠_OVERVIEW-1976D2?style=for-the-badge" />
+</a>
+<a href="#objectives">
+<img src="https://img.shields.io/badge/🎯_OBJECTIVES-D32F2F?style=for-the-badge" />
+</a>
+<a href="#cloud-infrastructure">
+<img src="https://img.shields.io/badge/🏗️_INFRASTRUCTURE-1976D2?style=for-the-badge" />
+</a>
+<a href="#cloud-services">
+<img src="https://img.shields.io/badge/☁️_CLOUD_SERVICES-D32F2F?style=for-the-badge" />
+</a>
+<a href="#mission-reflection">
+<img src="https://img.shields.io/badge/💭_REFLECTION-1976D2?style=for-the-badge" />
 </a>
 
-<a href="#-repository-overview">
-<img src="https://img.shields.io/badge/📖_Overview-C62828?style=for-the-badge">
-</a>
+</p>
 
-<a href="#-repository-structure">
-<img src="https://img.shields.io/badge/📁_Repository-1565C0?style=for-the-badge">
-</a>
+<p align="center">
 
-<a href="#-laboratory-activities">
-<img src="https://img.shields.io/badge/☁️_Laboratories-C62828?style=for-the-badge">
-</a>
+🔵 **CLOUD ENGINEERING** &nbsp; • &nbsp;
+🔴 **LINUX** &nbsp; • &nbsp;
+🔵 **INFRASTRUCTURE** &nbsp; • &nbsp;
+🔴 **DOCUMENTATION**
 
-<a href="#-goals">
-<img src="https://img.shields.io/badge/🎯_Goals-1565C0?style=for-the-badge">
-</a>
-
-</div>
+</p>
 
 ---
 
-# 👤 Student Profile
+<a id="mission-overview"></a>
+
+## 🔵 Mission Overview
+
+As a **Cloud Engineer for CloudNova Technologies**, I conducted a comprehensive cloud infrastructure assessment using the **KillerCoda Linux environment**.
+
+The goal of this mission was to investigate a Linux-based cloud server, identify its core **compute, storage, networking, and operating system resources**, and document the findings as a technical blueprint for a future cloud deployment.
+
+This mission also involved comparing the infrastructure services of **Amazon Web Services (AWS), Microsoft Azure, and Google Cloud Platform (GCP)** and creating a simple cloud architecture diagram.
+
+---
+
+## 📌 Mission Information
 
 | Information | Details |
-| ------------ | ------- |
-| **Name** | Avril Mei A. Dinglasan |
-| **Program** | Bachelor of Science in Information Technology (BSIT) |
-| **Course** | CCM101 – Cloud Computing |
-| **Institution** | University of Eastern Pangasinan (UEP) |
-| **Portfolio Role** | Junior Cloud Infrastructure Engineer Trainee *(Laboratory Simulation)* |
+|---|---|
+| 🎓 **Course** | CCM101 – Cloud Computing |
+| 🏢 **Organization** | CloudNova Technologies |
+| 🧑‍💻 **Role** | Cloud Engineer |
+| 🧪 **Environment** | KillerCoda Linux Playground |
+| 🐧 **Operating System** | Ubuntu 24.04.4 LTS |
+| ☁️ **Mission** | Mission 2 |
+| 📋 **Activity** | Build the Cloud Infrastructure Blueprint |
+| ✅ **Status** | Completed |
 
 ---
 
-# 📖 Repository Overview
+<a id="objectives"></a>
 
-Welcome to my **Cloud Computing Portfolio**.
+## 🎯 Objectives
 
-This GitHub repository serves as my official portfolio for **CCM101 – Cloud Computing**. It contains all laboratory activities, technical documentation, Linux exercises, reports, reflections, screenshots, and other course requirements completed throughout the semester.
+By completing this laboratory activity, I was able to:
 
-Each laboratory activity is documented using Markdown and organized into its own directory to demonstrate professional documentation practices, Linux command-line proficiency, and Git & GitHub version control. As the semester progresses, this repository will continue to grow with additional laboratory activities covering Linux administration, cloud infrastructure, virtualization, networking, containerization, Docker, Kubernetes, monitoring, automation, and other cloud computing technologies.
+- 🔵 Investigate hardware and software resources available in a Linux cloud environment.
+- 🔴 Identify compute, storage, networking, and operating system resources.
+- 🔵 Understand how cloud infrastructure components work together.
+- 🔴 Compare equivalent infrastructure services offered by AWS, Microsoft Azure, and GCP.
+- 🔵 Create a simple cloud infrastructure architecture.
+- 🔴 Practice Linux system investigation commands.
+- 🔵 Produce organized technical documentation using Markdown.
+- 🔴 Continue developing a professional GitHub Cloud Computing Portfolio.
 
 ---
 
-# 📁 Repository Structure
+<a id="cloud-infrastructure"></a>
+
+# 🏗️ Cloud Infrastructure
+
+The KillerCoda environment was investigated to identify the available infrastructure resources.
+
+## 🔧 Infrastructure Components
+
+| 🔧 Component | 📋 Resource Identified | 💡 Purpose |
+|---|---|---|
+| 🔵 **Compute** | Intel Xeon E312xx CPU — 1 Core | Processes workloads and executes applications |
+| 🔵 **Memory** | 1.9 GiB RAM | Temporarily stores data required by running processes |
+| 🔴 **Storage** | 21 GB virtual disk | Stores the operating system, applications, and files |
+| 🔵 **Networking** | Private IP `172.30.1.2` | Enables communication within the virtual network |
+| 🔴 **Operating System** | Ubuntu 24.04.4 LTS | Provides the software environment for applications and services |
+
+---
+
+## 🔵 Compute Resources
+
+The **Intel Xeon E312xx CPU** provides the processing capability of the cloud server.
+
+CPU resources are essential because cloud applications require processing power to:
+
+- Execute programs
+- Process user requests
+- Run background services
+- Perform computational tasks
+- Support application workloads
+
+The environment provides **1 available CPU core**.
+
+---
+
+## 🔴 Memory Resources
+
+The cloud environment provides approximately **1.9 GiB of RAM**.
+
+Memory is used by the operating system and running applications to temporarily store data and instructions.
+
+RAM is important for:
+
+- Running applications
+- Managing active processes
+- Supporting system services
+- Improving application responsiveness
+
+---
+
+## 🔵 Storage Resources
+
+The environment provides approximately **21 GB of virtual disk capacity**.
+
+Storage is required for:
+
+- Operating system files
+- Application files
+- Configuration files
+- Logs
+- User data
+- System packages
+
+Virtual storage allows cloud environments to provide flexible and scalable data storage.
+
+---
+
+## 🔴 Networking Resources
+
+The server uses the private IP address:
 
 ```text
-CCM101-adinglasan
-│
-├── README.md
-│
-└── Laboratory-01-Welcome-to-the-Cloud
-    ├── README.md
-    ├── about-me.md
-    ├── system-information.md
-    ├── reflection.md
-    └── screenshots
-
-```
-This repository will contain all laboratory activities completed throughout the semester.
-
----
-
-# ☁️ Laboratory Activities
-
-| Laboratory | Activity | Description | Status |
-| :--------: | -------- | ----------- | :----: |
-| **Laboratory 01** | Welcome to the Cloud | Linux Fundamentals, GitHub Portfolio, and Markdown Documentation | ✅ Completed |
-| **Laboratory 02** | Coming Soon | To be announced | ⏳ Pending |
-| **Laboratory 03** | Coming Soon | To be announced | ⏳ Pending |
-| **Laboratory 04** | Coming Soon | To be announced | ⏳ Pending |
-| **Laboratory 05** | Coming Soon | To be announced | ⏳ Pending |
-
----
-
-# 🎯 Goals
-
-Throughout this course, I aim to:
-
-- ☁️ Develop a strong foundation in Cloud Computing concepts.
-- 🐧 Strengthen my Linux command-line and system administration skills.
-- 📝 Create professional technical documentation using Markdown.
-- 🐙 Practice Git and GitHub version control workflows.
-- 💻 Apply classroom knowledge through hands-on laboratory activities.
-- 🚀 Build a professional Cloud Computing portfolio that showcases my technical growth and practical experience throughout the semester.
-
----
-
-# 🌟 Portfolio Statement
-
-> *"Every laboratory activity is another step toward becoming a skilled IT professional with cloud computing expertise. This portfolio reflects my commitment to continuous learning, hands-on practice, and professional growth throughout the CCM101 – Cloud Computing course."*
-
----
-
-<div align="center">
-
-### 🔵 Linux • Cloud Computing • GitHub • Markdown 🔴
-
-**CCM101 – Cloud Computing Portfolio**
-
-⭐ *Learning • Building • Documenting • Growing*
-
-</div>
+172.30.1.2
