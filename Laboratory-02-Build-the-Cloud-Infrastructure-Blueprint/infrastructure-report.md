@@ -22,30 +22,44 @@
 <!-- 🔵🔴 THREE-ITEM NAVIGATION BAR -->
 <!-- ===================================================== -->
 
-<p align="center">
+<table align="center">
+<tr>
+
+<td align="center">
 
 <a href="#system-section">
 <img src="https://img.shields.io/badge/🖥️_SYSTEM-1976D2?style=for-the-badge" />
 </a>
 
-&nbsp;&nbsp;
+</td>
+
+<td>&nbsp;&nbsp;&nbsp;</td>
+
+<td align="center">
 
 <a href="#infrastructure-section">
 <img src="https://img.shields.io/badge/☁️_INFRASTRUCTURE-D32F2F?style=for-the-badge" />
 </a>
 
-&nbsp;&nbsp;
+</td>
+
+<td>&nbsp;&nbsp;&nbsp;</td>
+
+<td align="center">
 
 <a href="#analysis-section">
 <img src="https://img.shields.io/badge/📊_ANALYSIS-1976D2?style=for-the-badge" />
 </a>
 
-</p>
+</td>
+
+</tr>
+</table>
 
 ---
 
 <!-- ===================================================== -->
-<!-- 🔵 SYSTEM SECTION -->
+<!-- 🔵 SYSTEM -->
 <!-- ===================================================== -->
 
 <a id="system-section"></a>
@@ -197,7 +211,7 @@ Unlike storage, RAM is temporary and is cleared when the system is restarted or 
 ---
 
 <!-- ===================================================== -->
-<!-- 🔴 INFRASTRUCTURE SECTION -->
+<!-- 🔴 INFRASTRUCTURE -->
 <!-- ===================================================== -->
 
 <a id="infrastructure-section"></a>
@@ -227,7 +241,7 @@ Unlike storage, RAM is temporary and is cleared when the system is restarted or 
 * **Mounted File Systems:**
 
 | Name | Size | Mount Point |
-|---|---:|---|
+|---|---|---|
 | `vda1` | 19G | `/` |
 | `vda15` | 106M | `/boot/efi` |
 | `vda16` | 913M | `/boot` |
