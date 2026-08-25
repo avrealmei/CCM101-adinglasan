@@ -22,68 +22,25 @@
 <!-- 🔵🔴 THREE-ITEM NAVIGATION BAR -->
 <!-- ===================================================== -->
 
-<table align="center">
-<tr>
-
-<td align="center">
+<p align="center">
 
 <a href="#system-section">
 <img src="https://img.shields.io/badge/🖥️_SYSTEM-1976D2?style=for-the-badge" />
 </a>
 
-</td>
-
-<td>&nbsp;&nbsp;&nbsp;</td>
-
-<td align="center">
+&nbsp;&nbsp;&nbsp;&nbsp;
 
 <a href="#infrastructure-section">
 <img src="https://img.shields.io/badge/☁️_INFRASTRUCTURE-D32F2F?style=for-the-badge" />
 </a>
 
-</td>
-
-<td>&nbsp;&nbsp;&nbsp;</td>
-
-<td align="center">
-
-<!-- ===================================================== -->
-<!-- 🔵🔴 THREE-ITEM NAVIGATION BAR -->
-<!-- ===================================================== -->
-
-<table align="center">
-<tr>
-
-<td align="center">
-
-<a href="#system-section">
-<img src="https://img.shields.io/badge/🖥️_SYSTEM-1976D2?style=for-the-badge" />
-</a>
-
-</td>
-
-<td>&nbsp;&nbsp;&nbsp;</td>
-
-<td align="center">
-
-<a href="#infrastructure-section">
-<img src="https://img.shields.io/badge/☁️_INFRASTRUCTURE-D32F2F?style=for-the-badge" />
-</a>
-
-</td>
-
-<td>&nbsp;&nbsp;&nbsp;</td>
-
-<td align="center">
+&nbsp;&nbsp;&nbsp;&nbsp;
 
 <a href="#storage-resources">
 <img src="https://img.shields.io/badge/💾_STORAGE_RESOURCES-1976D2?style=for-the-badge" />
 </a>
 
-</td>
-
-</tr>
-</table>
+</p>
 
 ---
 
@@ -197,10 +154,10 @@ A single-core configuration is appropriate for lightweight cloud workloads, deve
 
 | Purpose | Explanation |
 |---|---|
-| Processing | Executes application instructions |
-| Workload Handling | Processes requests and system tasks |
-| Application Execution | Provides processing power for programs |
-| Cloud Computing | Represents the virtual CPU allocated to the server |
+| **Processing** | Executes application instructions |
+| **Workload Handling** | Processes requests and system tasks |
+| **Application Execution** | Provides processing power for programs |
+| **Cloud Computing** | Represents the virtual CPU allocated to the server |
 
 ### 💡 Why CPU Matters
 
@@ -249,7 +206,81 @@ Unlike storage, RAM is temporary and is cleared when the system is restarted or 
 
 ---
 
+<a id="virtualization"></a>
+
+# 🔐 Virtualization
+
+The server uses **Full Virtualization through a KVM Hypervisor**.
+
+### 🎯 Purpose
+
+The purpose of identifying virtualization is to determine how the server's hardware resources are being provided to the operating system.
+
+### 💡 Explanation
+
+**KVM (Kernel-based Virtual Machine)** is a Linux virtualization technology that allows a physical host machine to run virtual machines.
+
+The virtual machine receives virtualized resources such as:
+
+| Virtual Resource | Function |
+|---|---|
+| ⚙️ **CPU** | Provides processing power |
+| 🧠 **RAM** | Provides temporary memory |
+| 💾 **Storage** | Provides persistent disk space |
+| 🌐 **Network** | Provides network communication |
+
+### ☁️ Cloud Computing Relevance
+
+Virtualization is one of the fundamental technologies behind cloud computing.
+
+Cloud providers can use virtualization to divide physical server resources into multiple virtual machines.
+
+Each virtual machine can run its own operating system and applications while sharing the underlying physical infrastructure.
+
+---
+
+<a id="networking"></a>
+
+# 🌐 Networking
+
+## 📋 Network Information
+
+| Network Resource | Value | Purpose |
+|---|---|---|
+| **Primary IP Address** | `172.30.1.2` | Main private network address |
+| **Internal/Docker IP** | `172.17.0.1` | Used for internal container networking |
+| **Network Type** | Private/Internal | Enables communication within the virtual environment |
+
+## Original Networking Information
+
+* **Primary IP Address:** 172.30.1.2
+* **Internal/Docker IP:** 172.17.0.1
+
+### 🎯 Purpose
+
+The purpose of identifying network addresses is to understand how the virtual server communicates with other systems and services.
+
+### 💡 Explanation
+
+The address `172.30.1.2` is a **private IP address** used within the virtual network.
+
+The address `172.17.0.1` is commonly associated with Docker's default bridge network and may be used for communication between the host and Docker containers.
+
+### ☁️ Cloud Computing Relevance
+
+Networking is essential in cloud infrastructure because applications, databases, storage services, users, and other cloud resources must communicate securely and efficiently.
+
+---
+
+<!-- ===================================================== -->
+<!-- 🔵 STORAGE RESOURCES -->
+<!-- ===================================================== -->
+
 <a id="storage-resources"></a>
+
+# 🔵 STORAGE RESOURCES
+
+---
 
 # 3. 💾 Storage Resources
 
@@ -285,12 +316,12 @@ Storage is used to permanently store:
 
 | Data Type | Examples |
 |---|---|
-| 🐧 Operating System | Ubuntu system files |
-| 📦 Applications | Installed software |
-| ⚙️ Configuration | System configuration files |
-| 📋 Logs | System and application logs |
-| 👤 User Data | Files created by users |
-| 📚 Packages | Installed and downloaded packages |
+| 🐧 **Operating System** | Ubuntu system files |
+| 📦 **Applications** | Installed software |
+| ⚙️ **Configuration** | System configuration files |
+| 📋 **Logs** | System and application logs |
+| 👤 **User Data** | Files created by users |
+| 📚 **Packages** | Installed and downloaded packages |
 
 Unlike RAM, storage retains information after the system is restarted.
 
