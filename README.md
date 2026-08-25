@@ -11,19 +11,19 @@
 <p align="center">
 
 <a href="#mission-overview">
-<img src="https://img.shields.io/badge/🏠_OVERVIEW-1976D2?style=for-the-badge" />
+<img src="https://img.shields.io/badge/🏠_MISSION_OVERVIEW-1976D2?style=for-the-badge" />
 </a>
 <a href="#objectives">
 <img src="https://img.shields.io/badge/🎯_OBJECTIVES-D32F2F?style=for-the-badge" />
 </a>
 <a href="#cloud-infrastructure">
-<img src="https://img.shields.io/badge/🏗️_INFRASTRUCTURE-1976D2?style=for-the-badge" />
+<img src="https://img.shields.io/badge/🏗️_CLOUD_INFRASTRUCTURE-1976D2?style=for-the-badge" />
 </a>
 <a href="#cloud-services">
 <img src="https://img.shields.io/badge/☁️_CLOUD_SERVICES-D32F2F?style=for-the-badge" />
 </a>
 <a href="#mission-reflection">
-<img src="https://img.shields.io/badge/💭_REFLECTION-1976D2?style=for-the-badge" />
+<img src="https://img.shields.io/badge/💭_MISSION_REFLECTION-1976D2?style=for-the-badge" />
 </a>
 
 </p>
