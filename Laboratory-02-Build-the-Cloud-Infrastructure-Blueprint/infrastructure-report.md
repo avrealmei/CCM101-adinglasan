@@ -47,8 +47,37 @@
 
 <td align="center">
 
-<a href="#analysis-section">
-<img src="https://img.shields.io/badge/📊_ANALYSIS-1976D2?style=for-the-badge" />
+<!-- ===================================================== -->
+<!-- 🔵🔴 THREE-ITEM NAVIGATION BAR -->
+<!-- ===================================================== -->
+
+<table align="center">
+<tr>
+
+<td align="center">
+
+<a href="#system-section">
+<img src="https://img.shields.io/badge/🖥️_SYSTEM-1976D2?style=for-the-badge" />
+</a>
+
+</td>
+
+<td>&nbsp;&nbsp;&nbsp;</td>
+
+<td align="center">
+
+<a href="#infrastructure-section">
+<img src="https://img.shields.io/badge/☁️_INFRASTRUCTURE-D32F2F?style=for-the-badge" />
+</a>
+
+</td>
+
+<td>&nbsp;&nbsp;&nbsp;</td>
+
+<td align="center">
+
+<a href="#storage-resources">
+<img src="https://img.shields.io/badge/💾_STORAGE_RESOURCES-1976D2?style=for-the-badge" />
 </a>
 
 </td>
