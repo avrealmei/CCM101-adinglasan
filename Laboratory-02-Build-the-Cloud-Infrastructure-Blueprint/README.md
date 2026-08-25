@@ -2,26 +2,70 @@
 
 # 🔵 CLOUD INFRASTRUCTURE BLUEPRINT 🔴
 
-### CCM101 – Cloud Computing
+<p align="center">
+
+### ☁️ CCM101 – Cloud Computing
 
 **CloudNova Technologies | Cloud Infrastructure Assessment**
 
+</p>
+
 <p align="center">
 
-[🏠 Overview](#-mission-overview) •
-[🎯 Objectives](#-objectives) •
-[🏗️ Infrastructure](#️-cloud-infrastructure-components) •
-[🛠️ Tools](#️-tools-used) •
-[⌨️ Commands](#️-linux-commands-executed) •
-[☁️ Providers](#️-cloud-providers) •
-[📐 Architecture](#-cloud-architecture) •
-[📚 Skills](#-skills-learned) •
-[⚠️ Challenges](#️-challenges-encountered) •
-[💭 Reflection](#-mission-reflection)
+<a href="#mission-overview">
+<img src="https://img.shields.io/badge/🏠_MISSION_OVERVIEW-1976D2?style=for-the-badge" />
+</a>
+<a href="#objectives">
+<img src="https://img.shields.io/badge/🎯_OBJECTIVES-D32F2F?style=for-the-badge" />
+</a>
+<a href="#cloud-infrastructure-components">
+<img src="https://img.shields.io/badge/🏗️_INFRASTRUCTURE-1976D2?style=for-the-badge" />
+</a>
+<a href="#tools-used">
+<img src="https://img.shields.io/badge/🛠️_TOOLS-D32F2F?style=for-the-badge" />
+</a>
+<a href="#linux-commands-executed">
+<img src="https://img.shields.io/badge/⌨️_LINUX_COMMANDS-1976D2?style=for-the-badge" />
+</a>
+<a href="#combined-infrastructure-information-command">
+<img src="https://img.shields.io/badge/🚀_COMBINED_COMMAND-D32F2F?style=for-the-badge" />
+</a>
+<a href="#cloud-providers">
+<img src="https://img.shields.io/badge/☁️_CLOUD_PROVIDERS-1976D2?style=for-the-badge" />
+</a>
+<a href="#cloud-architecture">
+<img src="https://img.shields.io/badge/📐_ARCHITECTURE-D32F2F?style=for-the-badge" />
+</a>
+<a href="#skills-learned">
+<img src="https://img.shields.io/badge/📚_SKILLS-1976D2?style=for-the-badge" />
+</a>
+<a href="#challenges-encountered">
+<img src="https://img.shields.io/badge/⚠️_CHALLENGES-D32F2F?style=for-the-badge" />
+</a>
+<a href="#mission-reflection">
+<img src="https://img.shields.io/badge/💭_REFLECTION-1976D2?style=for-the-badge" />
+</a>
+<a href="#repository-structure">
+<img src="https://img.shields.io/badge/📂_REPOSITORY-1976D2?style=for-the-badge" />
+</a>
+<a href="#mission-success-criteria">
+<img src="https://img.shields.io/badge/✅_MISSION_SUCCESS-D32F2F?style=for-the-badge" />
+</a>
+
+</p>
+
+<p align="center">
+
+🔵 **CLOUD ENGINEERING**   •  
+🔴 **LINUX**   •  
+🔵 **INFRASTRUCTURE**   •  
+🔴 **DOCUMENTATION**
 
 </p>
 
 ---
+
+<a id="mission-overview"></a>
 
 ## 🔵 Mission Overview
 
@@ -32,6 +76,8 @@ The goal of this mission was to investigate a Linux-based cloud server, identify
 This mission also involved comparing the infrastructure services of **Amazon Web Services (AWS), Microsoft Azure, and Google Cloud Platform (GCP)** and creating a simple cloud architecture diagram.
 
 ---
+
+<a id="objectives"></a>
 
 ## 🎯 Objectives
 
@@ -47,6 +93,8 @@ By completing this laboratory activity, I was able to:
 * 🔴 Continue developing a professional GitHub Cloud Computing Portfolio.
 
 ---
+
+<a id="cloud-infrastructure-components"></a>
 
 ## 🏗️ Cloud Infrastructure Components
 
@@ -78,6 +126,8 @@ The server runs **Ubuntu 24.04.4 LTS (Noble Numbat)**. The operating system mana
 
 ---
 
+<a id="tools-used"></a>
+
 ## 🛠️ Tools Used
 
 | 🔧 Tool               | 🎯 Purpose                              |
@@ -89,6 +139,8 @@ The server runs **Ubuntu 24.04.4 LTS (Noble Numbat)**. The operating system mana
 | 🔵 **Linux Terminal** | System and infrastructure investigation |
 
 ---
+
+<a id="linux-commands-executed"></a>
 
 ## ⌨️ Linux Commands Executed
 
@@ -234,6 +286,8 @@ Used to identify the server's network addresses, including the private IP addres
 
 ---
 
+<a id="combined-infrastructure-information-command"></a>
+
 ## 🚀 Combined Infrastructure Information Command
 
 The following command block combines several Linux commands to collect the main infrastructure information in one execution.
@@ -269,6 +323,8 @@ This makes it easier to:
 
 ---
 
+<a id="cloud-providers"></a>
+
 ## ☁️ Cloud Providers
 
 Three major public cloud providers were considered for the infrastructure comparison:
@@ -297,6 +353,8 @@ All three major cloud providers offer a broad range of infrastructure, applicati
 AWS, Azure, and GCP all provide comparable fundamental cloud infrastructure services, including compute, storage, networking, and identity and access management. They use different product names and interfaces, but the underlying infrastructure concepts are similar.
 
 ---
+
+<a id="cloud-architecture"></a>
 
 ## 📐 Cloud Architecture
 
@@ -335,6 +393,8 @@ The architecture demonstrates how a user can connect through the Internet to a c
 
 ---
 
+<a id="skills-learned"></a>
+
 ## 📚 Skills Learned
 
 During this laboratory activity, I developed the following skills:
@@ -352,6 +412,8 @@ During this laboratory activity, I developed the following skills:
 
 ---
 
+<a id="challenges-encountered"></a>
+
 ## ⚠️ Challenges Encountered
 
 One challenge was understanding how individual Linux commands could be combined to collect infrastructure information efficiently. I also needed to understand how hardware resources available in a Linux environment relate to cloud infrastructure concepts.
@@ -361,6 +423,8 @@ Another challenge was comparing AWS, Azure, and GCP because each provider uses d
 Creating a structured technical document was also important because the information needed to be organized clearly enough for another engineer to understand.
 
 ---
+
+<a id="mission-reflection"></a>
 
 ## 💭 Mission Reflection
 
@@ -375,6 +439,8 @@ Another important skill I developed was comparing cloud services between AWS, Az
 Finally, this mission improved my GitHub Cloud Computing Portfolio by adding a structured laboratory project containing technical reports, infrastructure documentation, commands, screenshots, and an architecture diagram. It demonstrates my ability to investigate a cloud environment and communicate technical information in an organized way.
 
 ---
+
+<a id="repository-structure"></a>
 
 ## 📂 Repository Structure
 
@@ -401,6 +467,8 @@ CCM101-adinglasan/
 ```
 
 ---
+
+<a id="mission-success-criteria"></a>
 
 ## ✅ Mission Success Criteria
 
@@ -432,17 +500,29 @@ CCM101-adinglasan/
 
 <p align="center">
 
-[🏠 Overview](#-mission-overview) •
-[🏗️ Infrastructure](#️-cloud-infrastructure-components) •
-[⌨️ Commands](#️-linux-commands-executed) •
-[☁️ Providers](#️-cloud-providers) •
-[📐 Architecture](#-cloud-architecture) •
-[💭 Reflection](#-mission-reflection)
+<a href="#mission-overview">
+<img src="https://img.shields.io/badge/🏠_OVERVIEW-1976D2?style=for-the-badge" />
+</a>
+<a href="#cloud-infrastructure-components">
+<img src="https://img.shields.io/badge/🏗️_INFRASTRUCTURE-D32F2F?style=for-the-badge" />
+</a>
+<a href="#linux-commands-executed">
+<img src="https://img.shields.io/badge/⌨️_COMMANDS-1976D2?style=for-the-badge" />
+</a>
+<a href="#cloud-providers">
+<img src="https://img.shields.io/badge/☁️_PROVIDERS-D32F2F?style=for-the-badge" />
+</a>
+<a href="#cloud-architecture">
+<img src="https://img.shields.io/badge/📐_ARCHITECTURE-1976D2?style=for-the-badge" />
+</a>
+<a href="#mission-reflection">
+<img src="https://img.shields.io/badge/💭_REFLECTION-D32F2F?style=for-the-badge" />
+</a>
 
 </p>
 
 <p align="center">
 
-⬆️ [Back to Top](#-mission-2-build-the-cloud-infrastructure-blueprint)
+⬆️ <a href="#-mission-2-build-the-cloud-infrastructure-blueprint">Back to Top</a>
 
 </p>
