@@ -69,6 +69,27 @@ CCM101-adinglasan
     ├── reflection.md
     └── screenshots
 
+```text
+
+CCM101-cbadongen 
+│ 
+├── README.md 
+│ 
+├── Laboratory-01-Welcome-to-the-Cloud 
+│ 
+└── Laboratory-02-Build-the-Cloud-Infrastructure-Blueprint 
+│ 
+├── README.md 
+    ├── infrastructure-report.md 
+    ├── cloud-components.md 
+    ├── cloud-provider-comparison.md 
+    ├── reflection.md 
+    └── screenshots 
+        ├── server-information.png 
+        ├── network-information.png 
+        ├── storage-information.png 
+        └── cloud-architecture.png
+
 ```
 This repository will contain all laboratory activities completed throughout the semester.
 
@@ -79,7 +100,7 @@ This repository will contain all laboratory activities completed throughout the 
 | Laboratory | Activity | Description | Status |
 | :--------: | -------- | ----------- | :----: |
 | **Laboratory 01** | Welcome to the Cloud | Linux Fundamentals, GitHub Portfolio, and Markdown Documentation | ✅ Completed |
-| **Laboratory 02** | Coming Soon | To be announced | ⏳ Pending |
+| **Laboratory 02** | Build the Cloud Infrastructure Blueprint  | To be announced | ✅ Completed  |
 | **Laboratory 03** | Coming Soon | To be announced | ⏳ Pending |
 | **Laboratory 04** | Coming Soon | To be announced | ⏳ Pending |
 | **Laboratory 05** | Coming Soon | To be announced | ⏳ Pending |
