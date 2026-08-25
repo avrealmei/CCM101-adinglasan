@@ -161,11 +161,7 @@ AWS offers the broadest range of services because it was the first major player 
 
 ### 💡 Additional Understanding
 
-AWS provides services across numerous categories, including compute, storage, networking, databases, security, analytics, artificial intelligence, machine learning, and application development.
-
-A broad service catalog can be useful for organizations that want to build multiple parts of their infrastructure within a single cloud ecosystem.
-
-However, service breadth alone does not determine which provider is best because organizations must also consider cost, performance, security, compatibility, and existing infrastructure.
+AWS provides services across numerous categories, including compute, storage, networking, databases, security, analytics, artificial intelligence, machine learning, and application development. A broad service catalog can be useful for organizations that want to build multiple parts of their infrastructure within a single cloud ecosystem. However, service breadth alone does not determine which provider is best because organizations must also consider cost, performance, security, compatibility, and existing infrastructure.
 
 ---
 
@@ -175,11 +171,7 @@ I would recommend Microsoft Azure because it offers seamless integration with ex
 
 ### 💡 Additional Understanding
 
-Azure is particularly relevant for organizations that already use Microsoft-based infrastructure and services.
-
-Its integration with Microsoft identity, server, productivity, and enterprise technologies can simplify administration and migration planning.
-
-Organizations should still evaluate workload requirements, licensing, pricing, security, and performance before making a final provider decision.
+Azure is particularly relevant for organizations that already use Microsoft-based infrastructure and services. Its integration with Microsoft identity, server, productivity, and enterprise technologies can simplify administration and migration planning. Organizations should still evaluate workload requirements, licensing, pricing, security, and performance before making a final provider decision.
 
 ---
 
@@ -189,11 +181,7 @@ Google Cloud Platform (GCP) is the leader in this area because Google originally
 
 ### 💡 Additional Understanding
 
-GCP has strong capabilities for large-scale data processing, machine learning, artificial intelligence, and cloud-native development.
-
-Google Kubernetes Engine (GKE) also provides managed Kubernetes capabilities for deploying and managing containerized workloads.
-
-These technologies make GCP a strong option for projects that require advanced data processing, machine learning, AI development, or Kubernetes-based infrastructure.
+GCP has strong capabilities for large-scale data processing, machine learning, artificial intelligence, and cloud-native development. Google Kubernetes Engine (GKE) also provides managed Kubernetes capabilities for deploying and managing containerized workloads. These technologies make GCP a strong option for projects that require advanced data processing, machine learning, AI development, or Kubernetes-based infrastructure.
 
 ---
 
@@ -203,11 +191,7 @@ All three providers follow a similar "pay-as-you-go" pricing model and offer hig
 
 ### 💡 Additional Understanding
 
-The three providers follow similar fundamental cloud computing concepts.
-
-For example, AWS EC2, Azure Virtual Machines, and GCP Compute Engine all provide virtual computing resources even though they are different products.
-
-This similarity makes it possible for cloud engineers to compare equivalent services and plan infrastructure migrations between cloud providers.
+The three providers follow similar fundamental cloud computing concepts. For instance, AWS EC2, Azure Virtual Machines, and GCP Compute Engine all provide virtual computing resources even though they are different products. This similarity makes it possible for cloud engineers to compare equivalent services and plan infrastructure migrations between cloud providers.
 
 ---
 
