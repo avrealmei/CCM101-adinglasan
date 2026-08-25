@@ -6,17 +6,6 @@
 
 **CloudNova Technologies | Cloud Infrastructure Assessment**
 
-</p>
-
-<p align="center">
-
-<img src="https://img.shields.io/badge/CCM101-CLOUD_COMPUTING-1976D2?style=for-the-badge" />
-<img src="https://img.shields.io/badge/MISSION-2-D32F2F?style=for-the-badge" />
-<img src="https://img.shields.io/badge/STATUS-COMPLETED-1976D2?style=for-the-badge" />
-
-</p>
-
----
 
 <!-- ===================================================== -->
 <!-- 🔵🔴 HORIZONTAL NAVIGATION BAR -->
