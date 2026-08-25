@@ -80,33 +80,7 @@
 
 </p>
 
-</details>
 
----
-
-<p align="center">
-
-🔵 **CLOUD ENGINEERING** &nbsp; • &nbsp;
-🔴 **LINUX** &nbsp; • &nbsp;
-🔵 **INFRASTRUCTURE** &nbsp; • &nbsp;
-🔴 **DOCUMENTATION**
-
-</p>
-
----
-
-<p align="center">
-
-🔵 **SYSTEM** &nbsp; • &nbsp;
-🔴 **COMPUTE** &nbsp; • &nbsp;
-🔵 **STORAGE** &nbsp; • &nbsp;
-🔴 **NETWORK** &nbsp; • &nbsp;
-🔵 **LINUX** &nbsp; • &nbsp;
-🔴 **CLOUD**
-
-</p>
-
----
 
 ## 📋 Report Overview
 
