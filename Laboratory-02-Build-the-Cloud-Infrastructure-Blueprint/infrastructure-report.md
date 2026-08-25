@@ -19,69 +19,44 @@
 ---
 
 <!-- ===================================================== -->
-<!-- 🔵🔴 THREE-SECTION NAVIGATION -->
+<!-- 🔵🔴 THREE-ITEM NAVIGATION BAR -->
 <!-- ===================================================== -->
 
 <p align="center">
 
-<details>
-<summary>
-🔵 <strong>SYSTEM</strong>
-</summary>
+<a href="#system-section">
+<img src="https://img.shields.io/badge/🖥️_SYSTEM-1976D2?style=for-the-badge" />
+</a>
 
-<br>
+&nbsp;&nbsp;
 
-<a href="#report-overview">📋 Report Overview</a> &nbsp; • &nbsp;
-<a href="#system-identification">🖥️ System Identification</a> &nbsp; • &nbsp;
-<a href="#compute-resources">⚙️ Compute Resources</a>
+<a href="#infrastructure-section">
+<img src="https://img.shields.io/badge/☁️_INFRASTRUCTURE-D32F2F?style=for-the-badge" />
+</a>
 
-</details>
+&nbsp;&nbsp;
 
-</p>
-
-<p align="center">
-
-<details>
-<summary>
-🔴 <strong>INFRASTRUCTURE</strong>
-</summary>
-
-<br>
-
-<a href="#storage-resources">💾 Storage Resources</a> &nbsp; • &nbsp;
-<a href="#networking">🌐 Networking</a> &nbsp; • &nbsp;
-<a href="#virtualization">🔐 Virtualization</a>
-
-</details>
-
-</p>
-
-<p align="center">
-
-<details>
-<summary>
-🔵 <strong>ANALYSIS</strong>
-</summary>
-
-<br>
-
-<a href="#technical-observations">🔎 Technical Observations</a> &nbsp; • &nbsp;
-<a href="#evidence">📸 Evidence</a> &nbsp; • &nbsp;
-<a href="#report-summary">📊 Report Summary</a>
-
-</details>
+<a href="#analysis-section">
+<img src="https://img.shields.io/badge/📊_ANALYSIS-1976D2?style=for-the-badge" />
+</a>
 
 </p>
 
 ---
 
 <!-- ===================================================== -->
-<!-- 📋 REPORT OVERVIEW -->
+<!-- 🔵 SYSTEM SECTION -->
 <!-- ===================================================== -->
+
+<a id="system-section"></a>
+
+# 🔵 SYSTEM
+
+---
 
 <a id="report-overview"></a>
 
-# 📋 Report Overview
+## 📋 Report Overview
 
 This report documents the results of the **Cloud Infrastructure Assessment** conducted during **Mission 2 – Build the Cloud Infrastructure Blueprint**.
 
@@ -89,7 +64,7 @@ The assessment was performed using the **KillerCoda Linux environment** to ident
 
 The collected information provides a technical overview of the cloud server and serves as supporting documentation for the overall **Cloud Infrastructure Blueprint**.
 
-## 🎯 Assessment Purpose
+### 🎯 Assessment Purpose
 
 | Area | Purpose |
 |---|---|
@@ -221,36 +196,13 @@ Unlike storage, RAM is temporary and is cleared when the system is restarted or 
 
 ---
 
-<a id="virtualization"></a>
+<!-- ===================================================== -->
+<!-- 🔴 INFRASTRUCTURE SECTION -->
+<!-- ===================================================== -->
 
-## 🔐 Virtualization
+<a id="infrastructure-section"></a>
 
-The server uses **Full Virtualization through a KVM Hypervisor**.
-
-### 🎯 Purpose
-
-The purpose of identifying virtualization is to determine how the server's hardware resources are being provided to the operating system.
-
-### 💡 Explanation
-
-**KVM (Kernel-based Virtual Machine)** is a Linux virtualization technology that allows a physical host machine to run virtual machines.
-
-The virtual machine receives virtualized resources such as:
-
-| Virtual Resource | Function |
-|---|---|
-| ⚙️ CPU | Provides processing power |
-| 🧠 RAM | Provides temporary memory |
-| 💾 Storage | Provides persistent disk space |
-| 🌐 Network | Provides network communication |
-
-### ☁️ Cloud Computing Relevance
-
-Virtualization is one of the fundamental technologies behind cloud computing.
-
-Cloud providers can use virtualization to divide physical server resources into multiple virtual machines.
-
-Each virtual machine can run its own operating system and applications while sharing the underlying physical infrastructure.
+# 🔴 INFRASTRUCTURE
 
 ---
 
