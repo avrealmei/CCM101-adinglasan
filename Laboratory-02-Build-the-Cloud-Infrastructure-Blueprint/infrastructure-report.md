@@ -5,54 +5,95 @@
 🔵 **CCM101 – CLOUD COMPUTING** 🔴  
 **CloudNova Technologies | Cloud Infrastructure Assessment**
 
-</p>
+<!-- 🔵🔴 CLOUDNOVA NAVIGATION -->
 
-<!-- ========================================================= -->
-<!-- 🔵🔴 TOP NAVIGATION BAR -->
-<!-- ========================================================= -->
+<details>
+<summary>
+
+🔵 <strong>☁️ CLOUD INFRASTRUCTURE REPORT — NAVIGATION</strong> 🔴
+
+</summary>
+
+<br>
 
 <p align="center">
 
 <a href="#system-identification">
 <img src="https://img.shields.io/badge/🖥️_SYSTEM-1976D2?style=for-the-badge" />
 </a>
+
 <a href="#compute-resources">
 <img src="https://img.shields.io/badge/⚙️_COMPUTE-D32F2F?style=for-the-badge" />
 </a>
+
 <a href="#storage-resources">
 <img src="https://img.shields.io/badge/💾_STORAGE-1976D2?style=for-the-badge" />
-</a>
-<a href="#networking">
-<img src="https://img.shields.io/badge/🌐_NETWORK-D32F2F?style=for-the-badge" />
-</a>
-<a href="#linux-investigation-commands">
-<img src="https://img.shields.io/badge/⌨️_LINUX_COMMANDS-1976D2?style=for-the-badge" />
 </a>
 
 </p>
 
 <p align="center">
 
+<a href="#networking">
+<img src="https://img.shields.io/badge/🌐_NETWORK-1976D2?style=for-the-badge" />
+</a>
+
+<a href="#linux-investigation-commands">
+<img src="https://img.shields.io/badge/⌨️_LINUX_COMMANDS-D32F2F?style=for-the-badge" />
+</a>
+
 <a href="#combined-infrastructure-information-command">
-<img src="https://img.shields.io/badge/🚀_COMBINED_COMMAND-D32F2F?style=for-the-badge" />
-</a>
-<a href="#technical-observations">
-<img src="https://img.shields.io/badge/🔬_OBSERVATIONS-1976D2?style=for-the-badge" />
-</a>
-<a href="#cloud-infrastructure-interpretation">
-<img src="https://img.shields.io/badge/☁️_CLOUD_INFRASTRUCTURE-D32F2F?style=for-the-badge" />
-</a>
-<a href="#evidence">
-<img src="https://img.shields.io/badge/📸_EVIDENCE-1976D2?style=for-the-badge" />
-</a>
-<a href="#skills-demonstrated">
-<img src="https://img.shields.io/badge/📚_SKILLS-D32F2F?style=for-the-badge" />
-</a>
-<a href="#assessment-conclusion">
-<img src="https://img.shields.io/badge/💭_CONCLUSION-1976D2?style=for-the-badge" />
+<img src="https://img.shields.io/badge/🚀_COMBINED_COMMAND-1976D2?style=for-the-badge" />
 </a>
 
 </p>
+
+<p align="center">
+
+<a href="#technical-observations">
+<img src="https://img.shields.io/badge/🔬_OBSERVATIONS-D32F2F?style=for-the-badge" />
+</a>
+
+<a href="#cloud-infrastructure-interpretation">
+<img src="https://img.shields.io/badge/☁️_CLOUD_INFRASTRUCTURE-1976D2?style=for-the-badge" />
+</a>
+
+<a href="#evidence">
+<img src="https://img.shields.io/badge/📸_EVIDENCE-D32F2F?style=for-the-badge" />
+</a>
+
+</p>
+
+<p align="center">
+
+<a href="#skills-demonstrated">
+<img src="https://img.shields.io/badge/📚_SKILLS-1976D2?style=for-the-badge" />
+</a>
+
+<a href="#assessment-conclusion">
+<img src="https://img.shields.io/badge/💭_CONCLUSION-D32F2F?style=for-the-badge" />
+</a>
+
+<a href="#report-overview">
+<img src="https://img.shields.io/badge/📋_OVERVIEW-1976D2?style=for-the-badge" />
+</a>
+
+</p>
+
+</details>
+
+---
+
+<p align="center">
+
+🔵 **CLOUD ENGINEERING** &nbsp; • &nbsp;
+🔴 **LINUX** &nbsp; • &nbsp;
+🔵 **INFRASTRUCTURE** &nbsp; • &nbsp;
+🔴 **DOCUMENTATION**
+
+</p>
+
+---
 
 <p align="center">
 
