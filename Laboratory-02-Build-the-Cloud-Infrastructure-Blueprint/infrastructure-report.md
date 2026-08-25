@@ -16,9 +16,68 @@
 
 </p>
 
+---
 
+<!-- ===================================================== -->
+<!-- 🔵🔴 THREE-SECTION NAVIGATION -->
+<!-- ===================================================== -->
+
+<p align="center">
+
+<details>
+<summary>
+🔵 <strong>SYSTEM</strong>
+</summary>
+
+<br>
+
+<a href="#report-overview">📋 Report Overview</a> &nbsp; • &nbsp;
+<a href="#system-identification">🖥️ System Identification</a> &nbsp; • &nbsp;
+<a href="#compute-resources">⚙️ Compute Resources</a>
+
+</details>
+
+</p>
+
+<p align="center">
+
+<details>
+<summary>
+🔴 <strong>INFRASTRUCTURE</strong>
+</summary>
+
+<br>
+
+<a href="#storage-resources">💾 Storage Resources</a> &nbsp; • &nbsp;
+<a href="#networking">🌐 Networking</a> &nbsp; • &nbsp;
+<a href="#virtualization">🔐 Virtualization</a>
+
+</details>
+
+</p>
+
+<p align="center">
+
+<details>
+<summary>
+🔵 <strong>ANALYSIS</strong>
+</summary>
+
+<br>
+
+<a href="#technical-observations">🔎 Technical Observations</a> &nbsp; • &nbsp;
+<a href="#evidence">📸 Evidence</a> &nbsp; • &nbsp;
+<a href="#report-summary">📊 Report Summary</a>
+
+</details>
+
+</p>
 
 ---
+
+<!-- ===================================================== -->
+<!-- 📋 REPORT OVERVIEW -->
+<!-- ===================================================== -->
 
 <a id="report-overview"></a>
 
@@ -61,9 +120,9 @@ The collected information provides a technical overview of the cloud server and 
 
 ## Original System Identification
 
-*   **Hostname:** ubuntu
-*   **Operating System:** Ubuntu 24.04.4 LTS (Noble Numbat)
-*   **Kernel Version:** 6.8.0-138-generic
+* **Hostname:** ubuntu
+* **Operating System:** Ubuntu 24.04.4 LTS (Noble Numbat)
+* **Kernel Version:** 6.8.0-138-generic
 
 ## 🎯 Purpose
 
@@ -101,10 +160,10 @@ Cloud engineers need to know the operating system and kernel version because sof
 
 ## Original Compute Resources
 
-*   **CPU Model:** Intel Xeon E312xx (Sandy Bridge, IBRS update)
-*   **Number of CPU Cores:** 1 Core
-*   **Total RAM:** 1.9 GiB (Approx. 2GB)
-*   **Virtualization Type:** Full (KVM Hypervisor)
+* **CPU Model:** Intel Xeon E312xx (Sandy Bridge, IBRS update)
+* **Number of CPU Cores:** 1 Core
+* **Total RAM:** 1.9 GiB (Approx. 2GB)
+* **Virtualization Type:** Full (KVM Hypervisor)
 
 ---
 
@@ -162,6 +221,8 @@ Unlike storage, RAM is temporary and is cleared when the system is restarted or 
 
 ---
 
+<a id="virtualization"></a>
+
 ## 🔐 Virtualization
 
 The server uses **Full Virtualization through a KVM Hypervisor**.
@@ -209,14 +270,15 @@ Each virtual machine can run its own operating system and applications while sha
 
 ## Original Storage Resources
 
-*   **Total Disk Capacity:** 21 GB (Total across all partitions)
-*   **Main Partition Size:** 19 GB (`/dev/vda1`)
-*   **Mounted File Systems:**
-    | Name | Size | Mount Point |
-    | :--- | :--- | :--- |
-    | vda1 | 19G | / |
-    | vda15| 106M | /boot/efi |
-    | vda16| 913M | /boot |
+* **Total Disk Capacity:** 21 GB (Total across all partitions)
+* **Main Partition Size:** 19 GB (`/dev/vda1`)
+* **Mounted File Systems:**
+
+| Name | Size | Mount Point |
+|---|---:|---|
+| `vda1` | 19G | `/` |
+| `vda15` | 106M | `/boot/efi` |
+| `vda16` | 913M | `/boot` |
 
 ## 🎯 Purpose
 
