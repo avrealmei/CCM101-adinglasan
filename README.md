@@ -97,8 +97,7 @@ This repository will contain all laboratory activities completed throughout the 
 | Laboratory | Activity | Description | Status |
 | :--------: | -------- | ----------- | :----: |
 | **Laboratory 01** | Welcome to the Cloud | Linux Fundamentals, GitHub Portfolio, and Markdown Documentation | ✅ Completed |
-| **Laboratory 02** | Build the Cloud Infrastructure Blueprint  | Investigate Cloud Infrastructure, Compare Providers, Design Architecture, And Document Findings
- | ✅ Completed  |
+| **Laboratory 02** | Build the Cloud Infrastructure Blueprint  | Investigate Cloud Infrastructure, Compare Providers, Design Architecture, And Document Findings | ✅ Completed  |
 | **Laboratory 03** | Coming Soon | To be announced | ⏳ Pending |
 | **Laboratory 04** | Coming Soon | To be announced | ⏳ Pending |
 | **Laboratory 05** | Coming Soon | To be announced | ⏳ Pending |
