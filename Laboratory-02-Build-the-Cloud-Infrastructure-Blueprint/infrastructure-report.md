@@ -1,34 +1,63 @@
-# Cloud Infrastructure Report
+# ☁️ Cloud Infrastructure Report
 
-## 1. System Identification
-*   **Hostname:** ubuntu
-*   **Operating System:** Ubuntu 24.04.4 LTS (Noble Numbat)
-*   **Kernel Version:** 6.8.0-138-generic
+<p align="center">
 
-## 2. Compute Resources
-*   **CPU Model:** Intel Xeon E312xx (Sandy Bridge, IBRS update)
-*   **Number of CPU Cores:** 1 Core
-*   **Total RAM:** 1.9 GiB (Approx. 2GB)
-*   **Virtualization Type:** Full (KVM Hypervisor)
+🔵 **CCM101 – CLOUD COMPUTING** 🔴  
+**CloudNova Technologies | Infrastructure Assessment**
 
-## 3. Storage Resources
-*   **Total Disk Capacity:** 21 GB (Total across all partitions)
-*   **Main Partition Size:** 19 GB (`/dev/vda1`)
-*   **Mounted File Systems:**
-    | Name | Size | Mount Point |
-    | :--- | :--- | :--- |
-    | vda1 | 19G | / |
-    | vda15| 106M | /boot/efi |
-    | vda16| 913M | /boot |
+</p>
 
-## 4. Networking
-*   **Primary IP Address:** 172.30.1.2
-*   **Internal/Docker IP:** 172.17.0.1
+<p align="center">
+
+<img src="https://img.shields.io/badge/STATUS-COMPLETED-1976D2?style=for-the-badge" />
+<img src="https://img.shields.io/badge/ENVIRONMENT-KILLERCODA-D32F2F?style=for-the-badge" />
+<img src="https://img.shields.io/badge/OS-UBUNTU_24.04.4-1976D2?style=for-the-badge" />
+
+</p>
 
 ---
 
-## 5. Technical Observations
-Based on the investigation, this server is a virtualized instance running on a **KVM Hypervisor**. It is a "General Purpose" entry-level instance (1 vCPU, 2GB RAM), which is suitable for lightweight web services, small databases, or development environments. The storage is handled via virtual disk images (`vda`), which is standard for cloud-based Linux deployments.
+## 📋 Report Overview
 
-## 6. Evidence
-*Refer to the screenshots folder for terminal output verification.*
+This report documents the infrastructure resources identified during **Mission 2 – Build the Cloud Infrastructure Blueprint**.
+
+The assessment was performed using the **KillerCoda Linux environment** to investigate the server's:
+
+- 🔵 System information
+- 🔴 Compute resources
+- 🔵 Memory resources
+- 🔴 Storage resources
+- 🔵 Networking configuration
+- 🔴 Virtualization environment
+
+The collected information provides a technical overview of the Linux cloud server and demonstrates how the available resources can support basic cloud workloads.
+
+---
+
+# 1. 🖥️ System Identification
+
+The first stage of the assessment involved identifying the operating system, hostname, and Linux kernel version.
+
+| 🔧 System Information | 📋 Identified Resource |
+|---|---|
+| **Hostname** | `ubuntu` |
+| **Operating System** | Ubuntu 24.04.4 LTS |
+| **Distribution Codename** | Noble Numbat |
+| **Kernel Version** | `6.8.0-138-generic` |
+| **Environment** | KillerCoda Linux Playground |
+| **Virtualization** | KVM Hypervisor |
+
+### 🔵 Operating System
+
+The server is running **Ubuntu 24.04.4 LTS (Noble Numbat)**.
+
+Ubuntu provides the operating environment required to manage system resources, install software packages, execute applications, and provide services to users.
+
+The Linux environment is particularly suitable for cloud infrastructure because it provides powerful command-line tools for system administration, monitoring, networking, and resource management.
+
+### 🔴 Kernel
+
+The server is using the Linux kernel:
+
+```text
+6.8.0-138-generic
