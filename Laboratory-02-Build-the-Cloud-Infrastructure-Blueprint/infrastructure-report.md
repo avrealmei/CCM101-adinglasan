@@ -36,18 +36,16 @@ The collected information provides a technical overview of the cloud server and 
 
 ### 🎯 Assessment Purpose
 
-The purpose of this assessment was to investigate a Linux-based virtual server and determine the resources available to it.
-
-The investigation focused on:
-
-* 🔵 Identifying the operating system and kernel.
-* 🔴 Identifying the available CPU resources.
-* 🔵 Measuring the available memory.
-* 🔴 Examining disk capacity and mounted filesystems.
-* 🔵 Identifying network addresses.
-* 🔴 Determining the virtualization environment.
-* 🔵 Connecting Linux system resources to cloud computing concepts.
-* 🔴 Collecting technical evidence for the Cloud Infrastructure Blueprint.
+| Area | Purpose |
+|---|---|
+| 🖥️ **System Identification** | Identify the hostname, operating system, and Linux kernel |
+| ⚙️ **Compute** | Determine the available CPU resources |
+| 🧠 **Memory** | Determine the available RAM |
+| 💾 **Storage** | Examine disk capacity, partitions, and filesystems |
+| 🌐 **Networking** | Identify the server's network addresses |
+| 🔐 **Virtualization** | Determine the virtualization technology |
+| 📝 **Documentation** | Record and organize the infrastructure findings |
+| ☁️ **Cloud Computing** | Relate the Linux resources to cloud infrastructure concepts |
 
 ---
 
@@ -55,19 +53,19 @@ The investigation focused on:
 
 ## 📋 System Information
 
+| Information | Details | Purpose |
+|---|---|---|
+| **Hostname** | `ubuntu` | Identifies the Linux server |
+| **Operating System** | Ubuntu 24.04.4 LTS | Provides the server's software environment |
+| **Codename** | Noble Numbat | Identifies the Ubuntu release |
+| **Kernel Version** | `6.8.0-138-generic` | Identifies the running Linux kernel |
+| **Environment** | KillerCoda Linux Playground | Provides the virtual Linux server |
+
+### Original System Identification
+
 *   **Hostname:** ubuntu
 *   **Operating System:** Ubuntu 24.04.4 LTS (Noble Numbat)
 *   **Kernel Version:** 6.8.0-138-generic
-
-### 🔎 System Identification Summary
-
-| System Information | Details |
-|---|---|
-| 🖥️ **Hostname** | `ubuntu` |
-| 🐧 **Operating System** | Ubuntu 24.04.4 LTS |
-| 📦 **Codename** | Noble Numbat |
-| ⚙️ **Kernel Version** | `6.8.0-138-generic` |
-| ☁️ **Environment** | KillerCoda Linux Playground |
 
 ### 🎯 Purpose
 
@@ -81,7 +79,7 @@ The **operating system** provides the software platform used to manage applicati
 
 The **Linux kernel** is the core component of Ubuntu responsible for communicating with the underlying hardware and managing system resources.
 
-### 🔵 Why It Matters in Cloud Computing
+### ☁️ Cloud Computing Relevance
 
 Cloud engineers need to know the operating system and kernel version because software compatibility, security updates, system administration, and application deployment depend on the underlying operating environment.
 
@@ -91,28 +89,26 @@ Cloud engineers need to know the operating system and kernel version because sof
 
 ## 📋 Compute Information
 
+| Compute Resource | Specification | Purpose |
+|---|---|---|
+| **CPU Model** | Intel Xeon E312xx | Processes system and application workloads |
+| **CPU Generation** | Sandy Bridge | Identifies the processor generation |
+| **CPU Cores** | 1 Core | Provides processing capacity |
+| **Total RAM** | 1.9 GiB | Provides temporary working memory |
+| **Approximate RAM** | 2 GB | Simplified memory capacity |
+| **Virtualization Type** | Full Virtualization | Provides an isolated virtual machine |
+| **Hypervisor** | KVM | Manages the virtual machine |
+
+### Original Compute Resources
+
 *   **CPU Model:** Intel Xeon E312xx (Sandy Bridge, IBRS update)
 *   **Number of CPU Cores:** 1 Core
 *   **Total RAM:** 1.9 GiB (Approx. 2GB)
 *   **Virtualization Type:** Full (KVM Hypervisor)
 
-### ⚙️ Compute Resource Summary
+---
 
-| Compute Resource | Specification |
-|---|---|
-| 🔵 **CPU Model** | Intel Xeon E312xx |
-| 🔵 **CPU Architecture/Generation** | Sandy Bridge |
-| 🔴 **CPU Cores** | 1 Core |
-| 🔵 **Total RAM** | 1.9 GiB |
-| 🔴 **Approximate RAM** | 2 GB |
-| 🔵 **Virtualization Type** | Full Virtualization |
-| 🔴 **Hypervisor** | KVM |
-
-### 🎯 Purpose
-
-The purpose of investigating compute resources is to determine how much processing capability is available to the virtual server.
-
-### 🔵 CPU Resources
+## ⚙️ CPU Resources
 
 The **Intel Xeon E312xx** processor provides the computational capability of the virtual server.
 
@@ -120,17 +116,20 @@ The available **1 CPU core** is responsible for executing system instructions, a
 
 A single-core configuration is appropriate for lightweight cloud workloads, development environments, testing, and educational activities.
 
-### 💡 Explanation
+### 🎯 Purpose
 
-The CPU, or **Central Processing Unit**, performs the calculations and instructions required by applications and the operating system.
+| Purpose | Explanation |
+|---|---|
+| Processing | Executes application instructions |
+| Workload Handling | Processes requests and system tasks |
+| Application Execution | Provides processing power for programs |
+| Cloud Computing | Represents the virtual CPU allocated to the server |
 
-A server with more CPU cores can generally handle more simultaneous processing tasks.
+### 💡 Why CPU Matters
 
-### 🔴 Why It Matters in Cloud Computing
+CPU capacity affects how much processing a server can perform.
 
-CPU capacity is an important factor when selecting a cloud virtual machine.
-
-Applications that require more processing power may require additional virtual CPUs, while lightweight applications can operate using fewer resources.
+A server with more CPU cores can generally handle more simultaneous processing tasks, while a single-core environment is more appropriate for lightweight workloads.
 
 ---
 
@@ -148,20 +147,18 @@ RAM temporarily stores data and instructions that are actively being used by the
 
 Unlike storage, RAM is temporary and is cleared when the system is restarted or powered off.
 
-The available memory can support:
+### 📊 RAM Usage Suitability
 
-* Lightweight web services
-* Development environments
-* Testing applications
-* Linux system services
-* Small databases
-* Educational cloud laboratories
-
-### 🔵 Why It Matters in Cloud Computing
-
-RAM affects how many applications and processes can run efficiently at the same time.
-
-If an application requires more memory than is available, the system may experience slower performance or rely more heavily on disk-based memory mechanisms.
+| Workload | Suitability |
+|---|---|
+| Linux administration | ✅ Suitable |
+| Development environment | ✅ Suitable |
+| Small web application | ✅ Suitable |
+| Small API | ✅ Suitable |
+| Small database | ⚠️ Limited |
+| Large database | ❌ Not recommended |
+| Machine learning | ❌ Not recommended |
+| Heavy data processing | ❌ Not recommended |
 
 ---
 
@@ -179,12 +176,14 @@ The purpose of identifying virtualization is to determine how the server's hardw
 
 The virtual machine receives virtualized resources such as:
 
-* CPU
-* RAM
-* Storage
-* Network interfaces
+| Virtual Resource | Function |
+|---|---|
+| ⚙️ CPU | Provides processing power |
+| 🧠 RAM | Provides temporary memory |
+| 💾 Storage | Provides persistent disk space |
+| 🌐 Network | Provides network communication |
 
-### ☁️ Cloud Computing Connection
+### ☁️ Cloud Computing Relevance
 
 Virtualization is one of the fundamental technologies behind cloud computing.
 
@@ -195,6 +194,18 @@ Each virtual machine can run its own operating system and applications while sha
 ---
 
 # 3. 💾 Storage Resources
+
+## 📋 Storage Information
+
+| Storage Resource | Specification | Purpose |
+|---|---|---|
+| **Total Disk Capacity** | 21 GB | Total storage across partitions |
+| **Main Partition** | `/dev/vda1` | Main Linux filesystem |
+| **Main Partition Size** | 19 GB | Stores the primary Linux environment |
+| **Storage Device** | `vda` | Virtual disk device |
+| **Storage Type** | Virtual Disk | Provides storage to the virtual machine |
+
+### Original Storage Resources
 
 *   **Total Disk Capacity:** 21 GB (Total across all partitions)
 *   **Main Partition Size:** 19 GB (`/dev/vda1`)
@@ -209,17 +220,18 @@ Each virtual machine can run its own operating system and applications while sha
 
 The purpose of investigating storage resources is to determine how much persistent disk capacity is available and how the disk is divided among the system's filesystems.
 
-### 💡 Explanation
+### 💡 Storage Explanation
 
 Storage is used to permanently store:
 
-* Operating system files
-* Applications
-* Configuration files
-* Logs
-* User files
-* Packages
-* Other system data
+| Data Type | Examples |
+|---|---|
+| 🐧 Operating System | Ubuntu system files |
+| 📦 Applications | Installed software |
+| ⚙️ Configuration | System configuration files |
+| 📋 Logs | System and application logs |
+| 👤 User Data | Files created by users |
+| 📚 Packages | Installed and downloaded packages |
 
 Unlike RAM, storage retains information after the system is restarted.
 
