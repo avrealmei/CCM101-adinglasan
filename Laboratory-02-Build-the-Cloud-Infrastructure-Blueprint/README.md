@@ -10,6 +10,109 @@
 
 </p>
 
+<!-- ═══════════════════════════════════════════════════════════════ -->
+
+<!--                         NAVIGATION                             -->
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+
+<p align="center">
+
+<details>
+<summary>
+<img src="https://img.shields.io/badge/🏠_MISSION-1976D2?style=for-the-badge" />
+</summary>
+
+<br>
+
+<a href="#mission-overview">
+<img src="https://img.shields.io/badge/🔵_MISSION_OVERVIEW-1976D2?style=flat-square" />
+</a>
+
+ 
+
+<a href="#objectives">
+<img src="https://img.shields.io/badge/🔴_OBJECTIVES-D32F2F?style=flat-square" />
+</a>
+
+ 
+
+<a href="#mission-reflection">
+<img src="https://img.shields.io/badge/🔵_REFLECTION-1976D2?style=flat-square" />
+</a>
+
+</details>
+
+ 
+
+<details>
+<summary>
+<img src="https://img.shields.io/badge/🏗️_INFRASTRUCTURE-D32F2F?style=for-the-badge" />
+</summary>
+
+<br>
+
+<a href="#cloud-infrastructure-components">
+<img src="https://img.shields.io/badge/🔵_COMPONENTS-1976D2?style=flat-square" />
+</a>
+
+ 
+
+<a href="#linux-commands-executed">
+<img src="https://img.shields.io/badge/🔴_LINUX_COMMANDS-D32F2F?style=flat-square" />
+</a>
+
+ 
+
+<a href="#cloud-architecture">
+<img src="https://img.shields.io/badge/🔵_ARCHITECTURE-1976D2?style=flat-square" />
+</a>
+
+</details>
+
+ 
+
+<details>
+<summary>
+<img src="https://img.shields.io/badge/☁️_CLOUD_&_DOCUMENTATION-1976D2?style=for-the-badge" />
+</summary>
+
+<br>
+
+<a href="#cloud-providers">
+<img src="https://img.shields.io/badge/🔴_CLOUD_PROVIDERS-D32F2F?style=flat-square" />
+</a>
+
+ 
+
+<a href="#skills-learned">
+<img src="https://img.shields.io/badge/🔵_SKILLS-1976D2?style=flat-square" />
+</a>
+
+ 
+
+<a href="#challenges-encountered">
+<img src="https://img.shields.io/badge/🔴_CHALLENGES-D32F2F?style=flat-square" />
+</a>
+
+ 
+
+<a href="#repository-structure">
+<img src="https://img.shields.io/badge/🔵_REPOSITORY-1976D2?style=flat-square" />
+</a>
+
+ 
+
+<a href="#mission-success-criteria">
+<img src="https://img.shields.io/badge/🔴_MISSION_SUCCESS-D32F2F?style=flat-square" />
+</a>
+
+</details>
+
+</p>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+
 <p align="center">
 
 🔵 **CLOUD ENGINEERING**   •  
@@ -18,47 +121,6 @@
 🔴 **DOCUMENTATION**
 
 </p>
-
----
-
-<details>
-<summary><strong>🔵 ☰ CLOUD INFRASTRUCTURE MENU 🔴</strong></summary>
-
-<br>
-
-<p align="center">
-
-<a href="#mission-overview">
-<img src="https://img.shields.io/badge/🏠_OVERVIEW-1976D2?style=for-the-badge" />
-</a>
-
-<a href="#objectives">
-<img src="https://img.shields.io/badge/🎯_OBJECTIVES-D32F2F?style=for-the-badge" />
-</a>
-
-<a href="#cloud-infrastructure-components">
-<img src="https://img.shields.io/badge/🏗️_INFRASTRUCTURE-1976D2?style=for-the-badge" />
-</a>
-
-<a href="#linux-commands-executed">
-<img src="https://img.shields.io/badge/⌨️_LINUX_COMMANDS-D32F2F?style=for-the-badge" />
-</a>
-
-<a href="#cloud-providers">
-<img src="https://img.shields.io/badge/☁️_CLOUD_PROVIDERS-1976D2?style=for-the-badge" />
-</a>
-
-<a href="#cloud-architecture">
-<img src="https://img.shields.io/badge/📐_ARCHITECTURE-D32F2F?style=for-the-badge" />
-</a>
-
-<a href="#mission-reflection">
-<img src="https://img.shields.io/badge/💭_REFLECTION-1976D2?style=for-the-badge" />
-</a>
-
-</p>
-
-</details>
 
 ---
 
@@ -115,7 +177,14 @@ CPU resources are essential because cloud applications require processing power 
 
 The environment provides approximately **21 GB of virtual disk capacity**.
 
-Storage is required for the operating system, application files, configuration files, logs, and other data.
+Storage is required for:
+
+* Operating system files
+* Application files
+* Configuration files
+* Logs
+* User data
+* System packages
 
 ### 🔵 Networking Resources
 
@@ -146,86 +215,139 @@ Displays the hostname of the Linux server.
 hostname
 ```
 
+---
+
 ### 2. Operating System Information
+
+**Purpose:**
+Identifies the Linux distribution and version.
 
 ```bash
 grep "PRETTY_NAME" /etc/os-release | cut -d'=' -f2 | tr -d '"'
 ```
 
-**Purpose:**
-Identifies the Linux distribution and version.
+---
 
 ### 3. `uname -r`
+
+**Purpose:**
+Displays the Linux kernel version.
 
 ```bash
 uname -r
 ```
 
-**Purpose:**
-Displays the Linux kernel version.
+---
 
 ### 4. CPU Model
+
+**Purpose:**
+Displays information about the processor.
 
 ```bash
 lscpu | grep "Model name" | sed 's/Model name: *//' | head -n 1 | xargs
 ```
 
-**Purpose:**
-Displays information about the processor.
+---
 
 ### 5. `nproc`
+
+**Purpose:**
+Displays the number of available processing units.
 
 ```bash
 nproc
 ```
 
-**Purpose:**
-Displays the number of available processing units.
+---
 
 ### 6. RAM Information
+
+**Purpose:**
+Displays the total RAM available to the cloud server.
 
 ```bash
 free -h | awk '/Mem:/ {print $2}'
 ```
 
-**Purpose:**
-Displays the total RAM available to the cloud server.
+---
 
 ### 7. Disk Capacity
+
+**Purpose:**
+Displays the total available disk capacity.
 
 ```bash
 df -h --total | grep total | awk '{print $2}'
 ```
 
-**Purpose:**
-Displays the total available disk capacity.
+---
 
 ### 8. Root Disk Information
+
+**Purpose:**
+Displays the size of the root filesystem.
 
 ```bash
 df -h / | awk 'NR==2 {print $2}'
 ```
 
-**Purpose:**
-Displays the size of the root filesystem.
+---
 
 ### 9. Mounted File Systems
+
+**Purpose:**
+Displays storage devices, partitions, sizes, and mount points.
 
 ```bash
 lsblk -lo NAME,SIZE,MOUNTPOINT
 ```
 
-**Purpose:**
-Displays storage devices, partitions, sizes, and mount points.
+---
 
 ### 10. IP Address
+
+**Purpose:**
+Displays the IP addresses assigned to the server.
 
 ```bash
 hostname -I
 ```
 
-**Purpose:**
-Displays the IP addresses assigned to the server.
+---
+
+## 🚀 Combined Infrastructure Information Command
+
+The following command block combines several Linux commands to collect the main infrastructure information in one execution.
+
+```bash
+cat <<EOF
+Hostname: $(hostname)
+Operating System: $(grep "PRETTY_NAME" /etc/os-release | cut -d'=' -f2 | tr -d '"')
+Kernel Version: $(uname -r)
+CPU Model: $(lscpu | grep "Model name" | sed 's/Model name: *//' | head -n 1 | xargs)
+CPU Cores: $(nproc)
+Total RAM: $(free -h | awk '/Mem:/ {print $2}')
+Total Disk Capacity: $(df -h --total | grep total | awk '{print $2}')
+Root Filesystem: $(df -h / | awk 'NR==2 {print $2}')
+Mounted Filesystems:
+$(lsblk -lo NAME,SIZE,MOUNTPOINT | grep -E 'vda1|vda15|vda16' | awk '{printf "%-7s %-7s %s\n", $1, $2, $3}')
+IP Address: $(hostname -I | awk '{print $1}')
+Secondary IP: $(hostname -I | awk '{print $2}')
+EOF
+```
+
+### 📌 Why Use a Combined Command?
+
+Instead of manually executing every command separately, this script collects the major infrastructure details in a single formatted output.
+
+This makes it easier to:
+
+* 🔵 Collect system information.
+* 🔴 Reduce repetitive commands.
+* 🔵 Prepare the infrastructure report.
+* 🔴 Verify server specifications.
+* 🔵 Capture evidence for documentation.
 
 ---
 
@@ -308,25 +430,11 @@ The architecture demonstrates how a user can connect through the Internet to a c
 
 ---
 
-<a id="mission-reflection"></a>
-
-## 💭 Mission Reflection
-
-This laboratory helped me understand that cloud computing is not only about deploying applications but also about understanding the infrastructure that supports those applications.
-
-Investigating the KillerCoda Linux environment allowed me to see how **compute, storage, networking, and operating system resources** work together.
-
-I learned that compute resources provide processing power, storage resources maintain data, networking resources connect systems, and the operating system manages the overall environment.
-
-I also learned the importance of technical documentation before deploying infrastructure. Proper documentation provides engineers with a clear reference of the resources, configurations, and decisions involved in a system.
-
-Another important skill I developed was comparing cloud services between **AWS, Azure, and GCP**. Although the providers use different product names, their fundamental infrastructure concepts are similar.
-
-Finally, this mission improved my GitHub Cloud Computing Portfolio by adding a structured laboratory project containing technical reports, infrastructure documentation, commands, screenshots, and an architecture diagram.
-
----
+<a id="skills-learned"></a>
 
 ## 📚 Skills Learned
+
+During this laboratory activity, I developed the following skills:
 
 * 🔵 Linux system administration
 * 🔴 Cloud infrastructure identification
@@ -341,6 +449,8 @@ Finally, this mission improved my GitHub Cloud Computing Portfolio by adding a s
 
 ---
 
+<a id="challenges-encountered"></a>
+
 ## ⚠️ Challenges Encountered
 
 One challenge was understanding how individual Linux commands could be combined to collect infrastructure information efficiently.
@@ -352,6 +462,8 @@ Comparing AWS, Azure, and GCP was also challenging because each provider uses di
 Creating a structured technical document was important because the information needed to be organized clearly enough for another engineer to understand.
 
 ---
+
+<a id="repository-structure"></a>
 
 ## 📂 Repository Structure
 
@@ -379,6 +491,8 @@ CCM101-adinglasan/
 
 ---
 
+<a id="mission-success-criteria"></a>
+
 ## ✅ Mission Success Criteria
 
 * [x] Investigated a Linux server running in a cloud environment.
@@ -389,6 +503,24 @@ CCM101-adinglasan/
 * [x] Practiced Linux command-line investigation.
 * [x] Created organized Markdown documentation.
 * [x] Continued developing the GitHub Cloud Computing Portfolio.
+
+---
+
+<a id="mission-reflection"></a>
+
+## 💭 Mission Reflection
+
+This laboratory helped me understand that cloud computing is not only about deploying applications but also about understanding the infrastructure that supports those applications.
+
+Investigating the KillerCoda Linux environment allowed me to see how **compute, storage, networking, and operating system resources** work together.
+
+I learned that compute resources provide processing power, storage resources maintain data, networking resources connect systems, and the operating system manages the overall environment.
+
+I also learned the importance of technical documentation before deploying infrastructure. Proper documentation provides engineers with a clear reference of the resources, configurations, and decisions involved in a system.
+
+Another important skill I developed was comparing cloud services between **AWS, Azure, and GCP**. Although the providers use different product names, their fundamental infrastructure concepts are similar.
+
+Finally, this mission improved my GitHub Cloud Computing Portfolio by adding a structured laboratory project containing technical reports, infrastructure documentation, commands, screenshots, and an architecture diagram.
 
 ---
 
