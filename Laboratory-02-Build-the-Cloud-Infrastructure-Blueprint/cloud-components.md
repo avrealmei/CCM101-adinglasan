@@ -6,31 +6,7 @@
 
 **CloudNova Technologies | Cloud Infrastructure Blueprint**
 
-</p>
 
-<!-- ===================================================== -->
-<!-- 🔵🔴 HORIZONTAL NAVIGATION BAR -->
-<!-- ===================================================== -->
-
-<p align="center">
-
-<a href="#compute-resources">
-<img src="https://img.shields.io/badge/⚙️_COMPUTE-1976D2?style=for-the-badge" />
-</a>
-&nbsp;&nbsp;
-<a href="#storage-resources">
-<img src="https://img.shields.io/badge/💾_STORAGE-D32F2F?style=for-the-badge" />
-</a>
-&nbsp;&nbsp;
-<a href="#networking-resources">
-<img src="https://img.shields.io/badge/🌐_NETWORKING-1976D2?style=for-the-badge" />
-</a>
-&nbsp;&nbsp;
-<a href="#operating-system">
-<img src="https://img.shields.io/badge/🐧_OPERATING_SYSTEM-D32F2F?style=for-the-badge" />
-</a>
-
-</p>
 
 ---
 
@@ -59,7 +35,7 @@ The purpose of this document is to explain how the resources discovered during t
 
 <a id="compute-resources"></a>
 
-# 🔵 1. Compute Resources
+# 🔵 Compute Resources
 
 *   **Purpose:** Compute resources provide the "brain" of the server, including the CPU for processing instructions and RAM for temporary data storage during active tasks.
 *   **Importance in Cloud:** In the cloud, compute is scalable. It allows businesses to pay only for the processing power they need, whether it is a small micro-service or a massive database.
