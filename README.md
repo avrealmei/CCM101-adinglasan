@@ -74,8 +74,6 @@ CCM101-adingladan
 │ 
 ├── README.md 
 │ 
-├── Laboratory-01-Welcome-to-the-Cloud 
-│ 
 └── Laboratory-02-Build-the-Cloud-Infrastructure-Blueprint 
 │ 
 ├── README.md 
