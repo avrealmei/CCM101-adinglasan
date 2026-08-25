@@ -19,7 +19,7 @@
 ---
 
 <!-- ===================================================== -->
-<!-- 🔵🔴 THREE-ITEM NAVIGATION BAR -->
+<!-- 🔵🔴 HORIZONTAL NAVIGATION BAR -->
 <!-- ===================================================== -->
 
 <p align="center">
@@ -27,15 +27,11 @@
 <a href="#system-section">
 <img src="https://img.shields.io/badge/🖥️_SYSTEM-1976D2?style=for-the-badge" />
 </a>
-
-&nbsp;&nbsp;&nbsp;&nbsp;
-
+&nbsp;&nbsp;
 <a href="#infrastructure-section">
 <img src="https://img.shields.io/badge/☁️_INFRASTRUCTURE-D32F2F?style=for-the-badge" />
 </a>
-
-&nbsp;&nbsp;&nbsp;&nbsp;
-
+&nbsp;&nbsp;
 <a href="#storage-resources">
 <img src="https://img.shields.io/badge/💾_STORAGE_RESOURCES-1976D2?style=for-the-badge" />
 </a>
@@ -196,19 +192,7 @@ Unlike storage, RAM is temporary and is cleared when the system is restarted or 
 
 ---
 
-<!-- ===================================================== -->
-<!-- 🔴 INFRASTRUCTURE -->
-<!-- ===================================================== -->
-
-<a id="infrastructure-section"></a>
-
-# 🔴 INFRASTRUCTURE
-
----
-
-<a id="virtualization"></a>
-
-# 🔐 Virtualization
+## 🔐 Virtualization
 
 The server uses **Full Virtualization through a KVM Hypervisor**.
 
@@ -224,10 +208,10 @@ The virtual machine receives virtualized resources such as:
 
 | Virtual Resource | Function |
 |---|---|
-| ⚙️ **CPU** | Provides processing power |
-| 🧠 **RAM** | Provides temporary memory |
-| 💾 **Storage** | Provides persistent disk space |
-| 🌐 **Network** | Provides network communication |
+| ⚙️ CPU | Provides processing power |
+| 🧠 RAM | Provides temporary memory |
+| 💾 Storage | Provides persistent disk space |
+| 🌐 Network | Provides network communication |
 
 ### ☁️ Cloud Computing Relevance
 
@@ -239,36 +223,78 @@ Each virtual machine can run its own operating system and applications while sha
 
 ---
 
-<a id="networking"></a>
+<!-- ===================================================== -->
+<!-- 🔴 INFRASTRUCTURE -->
+<!-- ===================================================== -->
 
-# 🌐 Networking
+<a id="infrastructure-section"></a>
 
-## 📋 Network Information
+# 🔴 INFRASTRUCTURE
 
-| Network Resource | Value | Purpose |
+---
+
+## 🌐 Networking Resources
+
+The server uses the following network addresses:
+
+| Network Resource | Address | Purpose |
 |---|---|---|
-| **Primary IP Address** | `172.30.1.2` | Main private network address |
-| **Internal/Docker IP** | `172.17.0.1` | Used for internal container networking |
-| **Network Type** | Private/Internal | Enables communication within the virtual environment |
-
-## Original Networking Information
-
-* **Primary IP Address:** 172.30.1.2
-* **Internal/Docker IP:** 172.17.0.1
+| **Primary IP Address** | `172.30.1.2` | Provides private network communication |
+| **Internal/Docker IP** | `172.17.0.1` | Provides communication for Docker networking |
+| **Network Type** | Private Network | Allows communication within the virtual environment |
 
 ### 🎯 Purpose
 
-The purpose of identifying network addresses is to understand how the virtual server communicates with other systems and services.
+The purpose of investigating networking resources is to identify the addresses assigned to the server and understand how the virtual machine communicates with other systems.
 
 ### 💡 Explanation
 
-The address `172.30.1.2` is a **private IP address** used within the virtual network.
+The **primary IP address `172.30.1.2`** is a private IP address assigned to the server within the virtual network.
 
-The address `172.17.0.1` is commonly associated with Docker's default bridge network and may be used for communication between the host and Docker containers.
+The **Docker IP `172.17.0.1`** is associated with the Docker bridge network and is commonly used for communication between the host system and Docker containers.
 
 ### ☁️ Cloud Computing Relevance
 
-Networking is essential in cloud infrastructure because applications, databases, storage services, users, and other cloud resources must communicate securely and efficiently.
+Networking is essential in cloud computing because applications, users, databases, storage services, and other infrastructure components must communicate with each other.
+
+Cloud platforms provide virtual networking services that perform similar functions.
+
+---
+
+## 🔐 Virtualization Infrastructure
+
+The investigated server operates as a virtual machine using **KVM virtualization**.
+
+| Component | Details | Purpose |
+|---|---|---|
+| **Virtualization** | Full Virtualization | Provides a virtual computing environment |
+| **Hypervisor** | KVM | Manages virtual machines |
+| **Virtual CPU** | 1 Core | Provides processing capacity |
+| **Virtual RAM** | 1.9 GiB | Provides temporary memory |
+| **Virtual Disk** | 21 GB | Provides persistent storage |
+
+### 💡 Explanation
+
+The physical hardware is abstracted by the virtualization layer.
+
+The virtual machine receives allocated resources without directly managing the physical server hardware.
+
+This is similar to how many cloud computing environments provide virtual machines to users.
+
+---
+
+## 📊 Infrastructure Summary
+
+| Infrastructure Category | Resource | Specification |
+|---|---|---|
+| ⚙️ **Compute** | CPU | Intel Xeon E312xx |
+| ⚙️ **Compute** | CPU Cores | 1 Core |
+| 🧠 **Memory** | RAM | 1.9 GiB |
+| 💾 **Storage** | Virtual Disk | 21 GB |
+| 🌐 **Networking** | Primary IP | `172.30.1.2` |
+| 🌐 **Networking** | Docker IP | `172.17.0.1` |
+| 🐧 **Operating System** | Ubuntu | 24.04.4 LTS |
+| 🔐 **Virtualization** | Hypervisor | KVM |
 
 ---
 
@@ -282,9 +308,9 @@ Networking is essential in cloud infrastructure because applications, databases,
 
 ---
 
-# 3. 💾 Storage Resources
+## 3. 💾 Storage Resources
 
-## 📋 Storage Information
+### 📋 Storage Information
 
 | Storage Resource | Specification | Purpose |
 |---|---|---|
@@ -316,12 +342,12 @@ Storage is used to permanently store:
 
 | Data Type | Examples |
 |---|---|
-| 🐧 **Operating System** | Ubuntu system files |
-| 📦 **Applications** | Installed software |
-| ⚙️ **Configuration** | System configuration files |
-| 📋 **Logs** | System and application logs |
-| 👤 **User Data** | Files created by users |
-| 📚 **Packages** | Installed and downloaded packages |
+| 🐧 Operating System | Ubuntu system files |
+| 📦 Applications | Installed software |
+| ⚙️ Configuration | System configuration files |
+| 📋 Logs | System and application logs |
+| 👤 User Data | Files created by users |
+| 📚 Packages | Installed and downloaded packages |
 
 Unlike RAM, storage retains information after the system is restarted.
 
