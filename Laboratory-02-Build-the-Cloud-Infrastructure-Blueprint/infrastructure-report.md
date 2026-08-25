@@ -36,7 +36,15 @@ The collected information provides a technical overview of the cloud server and 
 
 ---
 
-## 1. System Identification
+# 1. 🖥️ System Identification
+
+## 📌 Purpose
+
+The purpose of system identification is to determine the basic identity and software environment of the cloud server. This includes identifying the hostname, operating system, and Linux kernel version.
+
+## 📝 Explanation
+
+System identification provides the foundation for understanding the server before investigating its hardware and infrastructure resources. Knowing the operating system and kernel version helps administrators determine what software environment is running and what system capabilities are available.
 
 *   **Hostname:** ubuntu
 *   **Operating System:** Ubuntu 24.04.4 LTS (Noble Numbat)
@@ -44,92 +52,27 @@ The collected information provides a technical overview of the cloud server and 
 
 ### 🔎 System Identification Summary
 
-| System Information | Details |
-|---|---|
-| 🖥️ **Hostname** | `ubuntu` |
-| 🐧 **Operating System** | Ubuntu 24.04.4 LTS |
-| 📦 **Codename** | Noble Numbat |
-| ⚙️ **Kernel Version** | `6.8.0-138-generic` |
-| ☁️ **Environment** | KillerCoda Linux Playground |
+| System Information | Details | Purpose |
+|---|---|---|
+| 🖥️ **Hostname** | `ubuntu` | Identifies the server within the environment |
+| 🐧 **Operating System** | Ubuntu 24.04.4 LTS | Provides the software environment for the server |
+| 📦 **Codename** | Noble Numbat | Identifies the Ubuntu release |
+| ⚙️ **Kernel Version** | `6.8.0-138-generic` | Manages hardware and core system operations |
+| ☁️ **Environment** | KillerCoda Linux Playground | Provides the virtual cloud laboratory environment |
 
-### 💡 Observation
+### 🔵 Operating System
 
-The server is running **Ubuntu 24.04.4 LTS**, a Linux distribution commonly used for server and cloud computing environments.
+The server is running **Ubuntu 24.04.4 LTS (Noble Numbat)**.
 
-The Linux kernel is responsible for managing the system's hardware resources and providing the core services required by applications and system processes.
+**Purpose:**  
+The operating system manages hardware resources and provides the environment required to run applications, services, and system processes.
 
----
+**Explanation:**  
+Ubuntu is a Linux-based operating system commonly used for servers and cloud computing. It provides command-line tools and system utilities that allow administrators and cloud engineers to investigate and manage infrastructure resources.
 
-## 2. Compute Resources
+### 🔴 Linux Kernel
 
-*   **CPU Model:** Intel Xeon E312xx (Sandy Bridge, IBRS update)
-*   **Number of CPU Cores:** 1 Core
-*   **Total RAM:** 1.9 GiB (Approx. 2GB)
-*   **Virtualization Type:** Full (KVM Hypervisor)
-
-### ⚙️ Compute Resource Summary
-
-| Compute Resource | Specification |
-|---|---|
-| 🔵 **CPU Model** | Intel Xeon E312xx |
-| 🔵 **CPU Architecture/Generation** | Sandy Bridge |
-| 🔴 **CPU Cores** | 1 Core |
-| 🔵 **Total RAM** | 1.9 GiB |
-| 🔴 **Approximate RAM** | 2 GB |
-| 🔵 **Virtualization Type** | Full Virtualization |
-| 🔴 **Hypervisor** | KVM |
-
-### 🔵 CPU Resources
-
-The **Intel Xeon E312xx** processor provides the computational capability of the virtual server.
-
-The available **1 CPU core** is responsible for executing system instructions, applications, background processes, and other workloads running on the server.
-
-A single-core configuration is appropriate for lightweight cloud workloads, development environments, testing, and educational activities.
-
-### 🔴 Memory Resources
-
-The server provides approximately **1.9 GiB of RAM**, which is approximately **2 GB of memory**.
-
-RAM is used to temporarily store data and instructions required by running applications and system processes.
-
-The available memory can support lightweight services, development environments, small applications, and basic server workloads.
-
-### 🔵 Virtualization
-
-The server uses **Full Virtualization through a KVM Hypervisor**.
-
-KVM allows physical hardware resources to be presented as virtual resources to a guest operating system.
-
-This is an important concept in cloud computing because cloud providers commonly use virtualization to provide customers with isolated virtual machines.
-
----
-
-## 3. Storage Resources
-
-*   **Total Disk Capacity:** 21 GB (Total across all partitions)
-*   **Main Partition Size:** 19 GB (`/dev/vda1`)
-*   **Mounted File Systems:**
-    | Name | Size | Mount Point |
-    | :--- | :--- | :--- |
-    | vda1 | 19G | / |
-    | vda15| 106M | /boot/efi |
-    | vda16| 913M | /boot |
-
-### 💾 Storage Summary
-
-| Storage Resource | Specification |
-|---|---|
-| 🔵 **Total Disk Capacity** | 21 GB |
-| 🔴 **Main Partition** | `/dev/vda1` |
-| 🔵 **Main Partition Size** | 19 GB |
-| 🔴 **Boot EFI Partition** | 106 MB |
-| 🔵 **Boot Partition** | 913 MB |
-| 🔴 **Storage Type** | Virtual Disk |
-
-### 🔵 Main Partition
-
-The main partition is:
+The server is using:
 
 ```text
-/dev/vda1
+6.8.0-138-generic
