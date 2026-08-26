@@ -1,549 +1,74 @@
-# ☁️ Mission 2: Build the Cloud Infrastructure Blueprint
-
-# 🔵 CLOUD INFRASTRUCTURE BLUEPRINT 🔴
-
-<p align="center">
-
-### ☁️ CCM101 – Cloud Computing
-
-**CloudNova Technologies | Cloud Infrastructure Assessment**
-
-</p>
-
-<!-- ═══════════════════════════════════════════════════════════════ -->
-
-<!--                         NAVIGATION                             -->
-
-<!-- ═══════════════════════════════════════════════════════════════ -->
-
-<p align="center">
-
-<details>
-<summary>
-<img src="https://img.shields.io/badge/🏠_MISSION-1976D2?style=for-the-badge" />
-</summary>
-
-<br>
-
-<a href="#mission-overview">
-<img src="https://img.shields.io/badge/🔵_MISSION_OVERVIEW-1976D2?style=flat-square" />
-</a>
-
- 
-
-<a href="#objectives">
-<img src="https://img.shields.io/badge/🔴_OBJECTIVES-D32F2F?style=flat-square" />
-</a>
-
- 
-
-<a href="#mission-reflection">
-<img src="https://img.shields.io/badge/🔵_REFLECTION-1976D2?style=flat-square" />
-</a>
-
-</details>
-
- 
-
-<details>
-<summary>
-<img src="https://img.shields.io/badge/🏗️_INFRASTRUCTURE-D32F2F?style=for-the-badge" />
-</summary>
-
-<br>
-
-<a href="#cloud-infrastructure-components">
-<img src="https://img.shields.io/badge/🔵_COMPONENTS-1976D2?style=flat-square" />
-</a>
-
- 
-
-<a href="#linux-commands-executed">
-<img src="https://img.shields.io/badge/🔴_LINUX_COMMANDS-D32F2F?style=flat-square" />
-</a>
-
- 
-
-<a href="#cloud-architecture">
-<img src="https://img.shields.io/badge/🔵_ARCHITECTURE-1976D2?style=flat-square" />
-</a>
-
-</details>
-
- 
-
-<details>
-<summary>
-<img src="https://img.shields.io/badge/☁️_CLOUD_&_DOCUMENTATION-1976D2?style=for-the-badge" />
-</summary>
-
-<br>
-
-<a href="#cloud-providers">
-<img src="https://img.shields.io/badge/🔴_CLOUD_PROVIDERS-D32F2F?style=flat-square" />
-</a>
-
- 
-
-<a href="#skills-learned">
-<img src="https://img.shields.io/badge/🔵_SKILLS-1976D2?style=flat-square" />
-</a>
-
- 
-
-<a href="#challenges-encountered">
-<img src="https://img.shields.io/badge/🔴_CHALLENGES-D32F2F?style=flat-square" />
-</a>
-
- 
-
-<a href="#repository-structure">
-<img src="https://img.shields.io/badge/🔵_REPOSITORY-1976D2?style=flat-square" />
-</a>
-
- 
-
-<a href="#mission-success-criteria">
-<img src="https://img.shields.io/badge/🔴_MISSION_SUCCESS-D32F2F?style=flat-square" />
-</a>
-
-</details>
-
-</p>
-
-<!-- ═══════════════════════════════════════════════════════════════ -->
-
-<p align="center">
-
-🔵 **CLOUD ENGINEERING**   •  
-🔴 **LINUX**   •  
-🔵 **INFRASTRUCTURE**   •  
-🔴 **DOCUMENTATION**
-
-</p>
-
 ---
 
-<a id="mission-overview"></a>
+## 🧠 Skills Learned
 
-## 🔵 Mission Overview
+Through this mission, I developed and strengthened the following technical skills:
 
-As a **Cloud Engineer for CloudNova Technologies**, I conducted a comprehensive cloud infrastructure assessment using the **KillerCoda Linux environment**.
+- **Linux System Administration** – Learned how to use terminal commands to inspect the operating system, CPU, memory, storage, disk partitions, and network configuration.
+- **Cloud Infrastructure Analysis** – Improved my understanding of how compute, storage, networking, and operating system resources work together as components of a cloud infrastructure.
+- **Technical Documentation and Git Workflow** – Practiced documenting technical findings in Markdown and managing changes using Git commands such as `git add`, `git commit`, `git pull`, and `git push`.
+- **Command-Line Data Collection** – Learned how to combine Linux commands with tools such as `grep`, `awk`, `sed`, `df`, `free`, `lsblk`, and `ip` to collect and organize system information.
+- **Infrastructure Reporting** – Developed the ability to translate raw system information into a structured technical report that can be used for cloud infrastructure assessment.
 
-The goal of this mission was to investigate a Linux-based cloud server, identify its core **compute, storage, networking, and operating system resources**, and document the findings as a technical blueprint for a future cloud deployment.
-
-This mission also involved comparing the infrastructure services of **Amazon Web Services (AWS), Microsoft Azure, and Google Cloud Platform (GCP)** and creating a simple cloud architecture diagram.
-
----
-
-<a id="objectives"></a>
-
-## 🎯 Objectives
-
-By completing this laboratory activity, I was able to:
-
-* 🔵 Investigate hardware and software resources available in a Linux cloud environment.
-* 🔴 Identify compute, storage, networking, and operating system resources.
-* 🔵 Understand how cloud infrastructure components work together.
-* 🔴 Compare equivalent infrastructure services offered by AWS, Microsoft Azure, and GCP.
-* 🔵 Create a simple cloud infrastructure architecture.
-* 🔴 Practice Linux system investigation commands.
-* 🔵 Produce organized technical documentation using Markdown.
-* 🔴 Continue developing a professional GitHub Cloud Computing Portfolio.
+> 💡 **Key takeaway:** *“Good cloud infrastructure starts with understanding what is running underneath it.”*
 
 ---
-
-<a id="cloud-infrastructure-components"></a>
-
-## 🏗️ Cloud Infrastructure Components
-
-The KillerCoda environment was investigated to identify the available infrastructure resources.
-
-| 🔧 Component            | 📋 Resource Identified         | 💡 Purpose                                                      |
-| ----------------------- | ------------------------------ | --------------------------------------------------------------- |
-| 🔵 **Compute**          | Intel Xeon E312xx CPU — 1 Core | Processes workloads and executes applications                   |
-| 🔵 **Memory**           | 1.9 GiB RAM                    | Temporarily stores data required by running processes           |
-| 🔴 **Storage**          | 21 GB virtual disk             | Stores the operating system, applications, and files            |
-| 🔵 **Networking**       | Private IP `172.30.1.2`        | Enables communication within the virtual network                |
-| 🔴 **Operating System** | Ubuntu 24.04.4 LTS             | Provides the software environment for applications and services |
-
-### 🔵 Compute Resources
-
-The **Intel Xeon E312xx CPU** provides the processing capability of the cloud server.
-
-CPU resources are essential because cloud applications require processing power to execute programs, handle requests, and perform computational tasks.
-
-### 🔴 Storage Resources
-
-The environment provides approximately **21 GB of virtual disk capacity**.
-
-Storage is required for:
-
-* Operating system files
-* Application files
-* Configuration files
-* Logs
-* User data
-* System packages
-
-### 🔵 Networking Resources
-
-The server uses a **private IP address (`172.30.1.2`)** within its virtual network.
-
-Networking allows the server to communicate with other systems and cloud infrastructure components.
-
-### 🔴 Operating System
-
-The server runs **Ubuntu 24.04.4 LTS (Noble Numbat)**.
-
-The operating system manages the hardware resources and provides the environment required to run cloud applications and services.
-
----
-
-<a id="linux-commands-executed"></a>
-
-## ⌨️ Linux Commands Executed
-
-The following commands were used to investigate and collect information from the Linux cloud environment.
-
-### 1. `hostname`
-
-**Purpose:**
-Displays the hostname of the Linux server.
-
-```bash
-hostname
-```
-
----
-
-### 2. Operating System Information
-
-**Purpose:**
-Identifies the Linux distribution and version.
-
-```bash
-grep "PRETTY_NAME" /etc/os-release | cut -d'=' -f2 | tr -d '"'
-```
-
----
-
-### 3. `uname -r`
-
-**Purpose:**
-Displays the Linux kernel version.
-
-```bash
-uname -r
-```
-
----
-
-### 4. CPU Model
-
-**Purpose:**
-Displays information about the processor.
-
-```bash
-lscpu | grep "Model name" | sed 's/Model name: *//' | head -n 1 | xargs
-```
-
----
-
-### 5. `nproc`
-
-**Purpose:**
-Displays the number of available processing units.
-
-```bash
-nproc
-```
-
----
-
-### 6. RAM Information
-
-**Purpose:**
-Displays the total RAM available to the cloud server.
-
-```bash
-free -h | awk '/Mem:/ {print $2}'
-```
-
----
-
-### 7. Disk Capacity
-
-**Purpose:**
-Displays the total available disk capacity.
-
-```bash
-df -h --total | grep total | awk '{print $2}'
-```
-
----
-
-### 8. Root Disk Information
-
-**Purpose:**
-Displays the size of the root filesystem.
-
-```bash
-df -h / | awk 'NR==2 {print $2}'
-```
-
----
-
-### 9. Mounted File Systems
-
-**Purpose:**
-Displays storage devices, partitions, sizes, and mount points.
-
-```bash
-lsblk -lo NAME,SIZE,MOUNTPOINT
-```
-
----
-
-### 10. IP Address
-
-**Purpose:**
-Displays the IP addresses assigned to the server.
-
-```bash
-hostname -I
-```
-
----
-
-## 🚀 Combined Infrastructure Information Command
-
-The following command block combines several Linux commands to collect the main infrastructure information in one execution.
-
-```bash
-cat <<EOF
-Hostname: $(hostname)
-Operating System: $(grep "PRETTY_NAME" /etc/os-release | cut -d'=' -f2 | tr -d '"')
-Kernel Version: $(uname -r)
-CPU Model: $(lscpu | grep "Model name" | sed 's/Model name: *//' | head -n 1 | xargs)
-CPU Cores: $(nproc)
-Total RAM: $(free -h | awk '/Mem:/ {print $2}')
-Total Disk Capacity: $(df -h --total | grep total | awk '{print $2}')
-Root Filesystem: $(df -h / | awk 'NR==2 {print $2}')
-Mounted Filesystems:
-$(lsblk -lo NAME,SIZE,MOUNTPOINT | grep -E 'vda1|vda15|vda16' | awk '{printf "%-7s %-7s %s\n", $1, $2, $3}')
-IP Address: $(hostname -I | awk '{print $1}')
-Secondary IP: $(hostname -I | awk '{print $2}')
-EOF
-```
-
-### 📌 Why Use a Combined Command?
-
-Instead of manually executing every command separately, this script collects the major infrastructure details in a single formatted output.
-
-This makes it easier to:
-
-* 🔵 Collect system information.
-* 🔴 Reduce repetitive commands.
-* 🔵 Prepare the infrastructure report.
-* 🔴 Verify server specifications.
-* 🔵 Capture evidence for documentation.
-
----
-
-<a id="cloud-providers"></a>
-
-## ☁️ Cloud Providers
-
-Three major public cloud providers were considered for the infrastructure comparison.
-
-| Infrastructure Component         | 🔶 AWS     | 🔷 Microsoft Azure             | 🔵 Google Cloud       |
-| -------------------------------- | ---------- | ------------------------------ | --------------------- |
-| **Compute**                      | Amazon EC2 | Azure Virtual Machines         | Compute Engine        |
-| **Storage**                      | Amazon S3  | Azure Blob Storage             | Cloud Storage         |
-| **Networking**                   | Amazon VPC | Azure Virtual Network          | Virtual Private Cloud |
-| **Identity & Access Management** | AWS IAM    | Microsoft Entra ID / Azure IAM | Cloud IAM             |
-
-### Which provider offers the broadest range of services?
-
-All three major cloud providers offer a broad range of infrastructure, application, database, networking, storage, security, and AI-related services.
-
-### Which platform would you recommend for an organization that primarily uses Microsoft products?
-
-**Microsoft Azure** would be a strong choice because it integrates closely with Microsoft's existing ecosystem.
-
-### Which platform is widely recognized for AI, ML, and Kubernetes services?
-
-**Google Cloud Platform (GCP)** is widely recognized for its strengths in artificial intelligence, machine learning, and Kubernetes technologies.
-
-### What similarities were observed?
-
-AWS, Azure, and GCP all provide comparable fundamental cloud infrastructure services, including:
-
-* Compute
-* Storage
-* Networking
-* Identity and access management
-* Security
-* Monitoring
-
-Although the providers use different product names and interfaces, the fundamental infrastructure concepts are similar.
-
----
-
-<a id="cloud-architecture"></a>
-
-## 📐 Cloud Architecture
-
-The proposed cloud infrastructure contains:
-
-```text
-                    🌐 INTERNET
-                         │
-                         ▼
-                    👤 USER
-                         │
-                         ▼
-                  🔵 CLOUD NETWORK
-                         │
-                ┌────────┴────────┐
-                │                 │
-                ▼                 ▼
-        🖥️ COMPUTE            💾 STORAGE
-        RESOURCE              RESOURCE
-```
-
-The architecture demonstrates how a user can connect through the Internet to a cloud network, access a compute resource, and interact with a storage resource.
-
-### Architecture Components
-
-| Component       | Role                                       |
-| --------------- | ------------------------------------------ |
-| 🌐 **Internet** | Provides external connectivity             |
-| 👤 **User**     | Represents the person accessing the system |
-| 🔵 **Network**  | Connects the cloud resources               |
-| 🖥️ **Compute** | Processes application workloads            |
-| 💾 **Storage**  | Stores application and user data           |
-
-**Architecture Diagram:**
-`/screenshots/cloud-architecture.png`
-
----
-
-<a id="skills-learned"></a>
-
-## 📚 Skills Learned
-
-During this laboratory activity, I developed the following skills:
-
-* 🔵 Linux system administration
-* 🔴 Cloud infrastructure identification
-* 🔵 CPU, RAM, disk, and filesystem investigation
-* 🔴 Network information gathering
-* 🔵 Linux command-line usage
-* 🔴 Cloud service comparison
-* 🔵 Technical Markdown documentation
-* 🔴 Cloud architecture design
-* 🔵 GitHub repository management
-* 🔴 Infrastructure assessment and reporting
-
----
-
-<a id="challenges-encountered"></a>
 
 ## ⚠️ Challenges Encountered
 
-One challenge was understanding how individual Linux commands could be combined to collect infrastructure information efficiently.
+During the completion of Mission 2, I encountered several challenges while preparing the cloud infrastructure documentation:
 
-Another challenge was understanding how hardware resources available in a Linux environment relate to cloud infrastructure concepts.
+1. **Git Authentication and Repository Management**  
+   One of the challenges was managing the Git repository and ensuring that the correct user configuration was applied before committing and pushing the documentation. I had to verify the Git username and email configuration and make sure that the changes were pushed to the correct branch.
 
-Comparing AWS, Azure, and GCP was also challenging because each provider uses different names for services that perform similar functions.
+2. **Understanding Linux System Information**  
+   Some Linux commands produced information that was initially unfamiliar. I needed to understand what each command represented, particularly CPU details, memory usage, disk capacity, partitions, and network interfaces.
 
-Creating a structured technical document was important because the information needed to be organized clearly enough for another engineer to understand.
+3. **Formatting the Technical Documentation**  
+   Organizing the information into a clear Markdown structure required careful formatting. The commands, headings, lists, and technical descriptions had to remain readable and properly organized.
 
----
+4. **Creating a System Information Command Block**  
+   Combining several Linux commands into one script was challenging because each command had a different output format. I had to organize the commands so that the resulting information could be easily understood in the technical report.
 
-<a id="repository-structure"></a>
+5. **Working Within a Limited Linux Environment**  
+   The laboratory environment provided limited system resources, so I had to work efficiently while gathering system information and completing the required documentation.
 
-## 📂 Repository Structure
+### 🎯 How I Overcame the Challenges
 
-```text
-CCM101-adinglasan/
-│
-├── README.md
-│
-├── Laboratory-01-Welcome-to-the-Cloud/
-│
-└── Laboratory-02-Build-the-Cloud-Infrastructure-Blueprint/
-    │
-    ├── README.md
-    ├── infrastructure-report.md
-    ├── cloud-components.md
-    ├── cloud-provider-comparison.md
-    ├── reflection.md
-    │
-    └── screenshots/
-        ├── server-information.png
-        ├── network-information.png
-        ├── storage-information.png
-        └── cloud-architecture.png
-```
+I addressed these challenges by reviewing Linux command syntax, checking Git configuration, testing commands directly in the terminal, and organizing the results step-by-step in the README. This helped me become more comfortable with both Linux administration and Git-based technical documentation.
+
+> 🚀 **Reflection:** *“Every command that failed became another opportunity to understand how the system actually works.”*
 
 ---
 
-<a id="mission-success-criteria"></a>
+## 📝 Mission 2 Summary
 
-## ✅ Mission Success Criteria
+Mission 2 provided practical experience in investigating and documenting a cloud infrastructure environment. By examining compute, memory, storage, networking, and operating system resources, I gained a better understanding of the foundation required for cloud computing.
 
-* [x] Investigated a Linux server running in a cloud environment.
-* [x] Identified major cloud infrastructure components.
-* [x] Documented compute, storage, networking, and operating system resources.
-* [x] Compared AWS, Microsoft Azure, and Google Cloud.
-* [x] Designed a simple cloud infrastructure architecture.
-* [x] Practiced Linux command-line investigation.
-* [x] Created organized Markdown documentation.
-* [x] Continued developing the GitHub Cloud Computing Portfolio.
+The combination of **Linux commands, infrastructure analysis, Markdown documentation, and Git workflow** helped me develop practical skills that are applicable to real-world cloud infrastructure engineering.
 
 ---
 
-<a id="mission-reflection"></a>
+## ✅ Checkpoint 6 Completion
 
-## 💭 Mission Reflection
+**Checkpoint:** Technical Documentation  
+**Status:** ✅ Completed  
+**Mission:** Mission 2 – Build the Cloud Infrastructure Blueprint
 
-This laboratory helped me understand that cloud computing is not only about deploying applications but also about understanding the infrastructure that supports those applications.
+### Completed Requirements
 
-Investigating the KillerCoda Linux environment allowed me to see how **compute, storage, networking, and operating system resources** work together.
-
-I learned that compute resources provide processing power, storage resources maintain data, networking resources connect systems, and the operating system manages the overall environment.
-
-I also learned the importance of technical documentation before deploying infrastructure. Proper documentation provides engineers with a clear reference of the resources, configurations, and decisions involved in a system.
-
-Another important skill I developed was comparing cloud services between **AWS, Azure, and GCP**. Although the providers use different product names, their fundamental infrastructure concepts are similar.
-
-Finally, this mission improved my GitHub Cloud Computing Portfolio by adding a structured laboratory project containing technical reports, infrastructure documentation, commands, screenshots, and an architecture diagram.
+- ✅ Mission Overview
+- ✅ Objectives
+- ✅ Cloud Infrastructure Components
+- ✅ Tools Used
+- ✅ Linux Commands Executed
+- ✅ Skills Learned
+- ✅ Challenges Encountered
+- ✅ Technical documentation formatted in Markdown
+- ✅ Changes committed using Git
+- ✅ Documentation pushed to GitHub
 
 ---
 
-<p align="center">
-
-🔵 **CLOUD ENGINEERING**   •  
-🔴 **LINUX**   •  
-🔵 **INFRASTRUCTURE**   •  
-🔴 **DOCUMENTATION**
-
-</p>
-
-<p align="center">
-
-**CCM101 – Cloud Computing**
-**Mission 2 Completed**
-
-</p>
-
-<p align="center">
-
-<a href="#-mission-2-build-the-cloud-infrastructure-blueprint">
-<img src="https://img.shields.io/badge/⬆️_BACK_TO_TOP-1976D2?style=for-the-badge" />
-</a>
-
-</p>
+> ☁️ **CloudNova Technologies**  
+> *Cloud Infrastructure Assessment – Mission 2*
