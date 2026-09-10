@@ -5,3 +5,9 @@ Diving deep into AWS, Azure, and GCP for this mission really opened my eyes to h
 Evaluating those platforms also proved how much business requirements dictate cloud architecture decisions. A budget-driven startup naturally gravitates toward AWS for cost-flexible scalability, whereas an enterprise deeply embedded in the Microsoft ecosystem saves time and licensing costs by choosing Azure. Meanwhile, heavy data-crunching operations or AI research teams turn straight to GCP for specialized hardware like TPUs and managed Kubernetes infrastructure. 
 
 Stepping into the shoes of a Cloud Solutions Consultant completely shifted my perspective from just writing code to actually aligning technical infrastructure with real-world business needs. I learned how to balance cost efficiency, security, and performance when designing multi-cloud solutions for clients. Completing this mission has significantly leveled up my GitHub Cloud Computing Portfolio by organizing structured research files, practical comparison matrices, and clear architectural recommendations into a professional repository that properly showcases what I can do.
+
+---
+
+> <font color="#1f6feb">☁️ Cloud computing is not about the computer. It is about computing anywhere, anytime, and scaling to meet infinite possibilities.</font>
+> 
+> <font color="#d73a49">The biggest risk is not taking any risk... In a world that is changing really quickly, the only strategy that is guaranteed to fail is not taking risks. — **Werner Vogels, CTO of Amazon**</font>
