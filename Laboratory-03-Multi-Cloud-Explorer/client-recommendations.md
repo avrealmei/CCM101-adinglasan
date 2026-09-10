@@ -31,3 +31,14 @@
   1. Amazon CloudFront
   2. Amazon EC2 Auto Scaling
   3. Amazon Aurora
+
+## Multi-Cloud Decision Matrix
+
+| Business Requirement | Recommended Platform | Justification |
+| :--- | :--- | :--- |
+| **Startup Company** | Amazon Web Services (AWS) | Offers low-cost entry, a generous free tier, and scalable pay-as-you-go pricing for growing companies. |
+| **Enterprise Organization** | Amazon Web Services (AWS) | Provides unmatched global infrastructure maturity, robust compliance frameworks, and an extensive enterprise partner ecosystem. |
+| **Microsoft Environment** | Microsoft Azure | Features native integration with Windows Server, Active Directory, and cost-saving licensing benefits. |
+| **AI / Machine Learning** | Google Cloud Platform (GCP) | Delivers specialized computing hardware like TPUs, advanced data pipelines, and cutting-edge machine learning infrastructure. |
+| **Kubernetes Deployment** | Google Cloud Platform (GCP) | Built by the original creators of Kubernetes, offering seamless, industry-leading container orchestration via GKE. |
+| **Global Web Application** | Amazon Web Services (AWS) | Leverages massive global edge networking, content delivery networks, and automated scaling groups to handle international traffic. |
