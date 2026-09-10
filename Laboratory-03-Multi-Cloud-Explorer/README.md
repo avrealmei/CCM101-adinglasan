@@ -1,4 +1,3 @@
-cat << 'EOF' > README.md
 <div align="center">
 
 # ☁️ CCM101 Laboratory 03: Multi-Cloud Explorer 🚀
@@ -43,4 +42,3 @@ If this specific Linux server environment were migrated to the public cloud, it 
 <div align="center">
   <p><i>"The cloud is not a destination, it's a different way of doing computing." — Peter Levine</i></p>
 </div>
-EOF
