@@ -1,9 +1,11 @@
-<p align="center">
-  🔵 <strong><a href="#overview">Overview</a></strong> &nbsp;&bull;&nbsp; 
-  🌐 <strong><a href="#global-infrastructure">Infrastructure</a></strong> &nbsp;&bull;&nbsp; 
-  🖥️ <strong><a href="#core-services">Core Services</a></strong> &nbsp;&bull;&nbsp; 
-  🛡️ <strong><a href="#advantages--use-cases">Advantages & Use Cases</a></strong> 🔴
-</p>
+<div align="center">
+
+[![Overview](https://img.shields.io/badge/☁️_Overview-blue?style=for-the-badge)](#overview)
+[![Infrastructure](https://img.shields.io/badge/🌐_Infrastructure-blue?style=for-the-badge)](#global-infrastructure)
+[![Core Services](https://img.shields.io/badge/🖥️_Core_Services-blue?style=for-the-badge)](#core-services)
+[![Advantages & Use Cases](https://img.shields.io/badge/🛡️_Advantages_%26_Use_Cases-red?style=for-the-badge)](#advantages--use-cases)
+
+</div>
 
 ---
 
