@@ -3,7 +3,7 @@
 # ☁️ CCM101 Laboratory 03: Multi-Cloud Explorer 🚀
 
 [![Overview](https://img.shields.io/badge/👤_Student_Info-blue?style=for-the-badge)](#student-information)
-[![Infrastructure](https://img.shields.io/badge/💻_System_Specs-blue?style=for-the-badge)](#checkpoint-7-linux-server-investigation--cloud-migration-mapping)
+[![Infrastructure](https://img.shields.io/badge/💻_System_Specs-red?style=for-the-badge)](#checkpoint-7-linux-server-investigation--cloud-migration-mapping)
 [![Cloud Mapping](https://img.shields.io/badge/🌐_Cloud_Mapping-blue?style=for-the-badge)](#cloud-hosting-equivalence-mapping)
 [![Repository](https://img.shields.io/badge/📂_Repository-red?style=for-the-badge)](https://github.com/avrealmei/CCM101-adinglasan)
 
