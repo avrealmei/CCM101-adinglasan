@@ -82,13 +82,13 @@ CCM101-adinglasan
 
 # ☁️ Laboratory Status
 
-|     Laboratory    | Activity                                 |     Status     |
-| :---------------: | ---------------------------------------- | :------------: |
-| **Laboratory 01** | Welcome to the Cloud                     |   ✅ Completed  |
-| **Laboratory 02** | Build the Cloud Infrastructure Blueprint |   ✅ Completed  |
-| **Laboratory 03** | Multi-Cloud Explorer                     | 🟢 In Progress |
-| **Laboratory 04** | Coming Soon                              |    ⏳ Pending   |
-| **Laboratory 05** | Coming Soon                              |    ⏳ Pending   |
+|     Laboratory    | Activity                                 | Description                                                                                                         |     Status     |
+| :---------------: | ---------------------------------------- | ------------------------------------------------------------------------------------------------------------------- | :------------: |
+| **Laboratory 01** | Welcome to the Cloud                     | Introduction to cloud computing, Linux fundamentals, GitHub, and Markdown documentation.                            |   ✅ Completed  |
+| **Laboratory 02** | Build the Cloud Infrastructure Blueprint | Investigation of Linux resources, cloud infrastructure components, provider services, and basic cloud architecture. |   ✅ Completed  |
+| **Laboratory 03** | Multi-Cloud Explorer                     | Research and comparison of AWS, Azure, and GCP, including cloud service evaluation and client recommendations.      | 🟢 In Progress |
+| **Laboratory 04** | Coming Soon                              | Future cloud computing laboratory activity.                                                                         |    ⏳ Pending   |
+| **Laboratory 05** | Coming Soon                              | Future cloud computing laboratory activity.                                                                         |    ⏳ Pending   |
 
 ---
 
@@ -253,7 +253,7 @@ All submitted work must be original and properly documented.
 * Disclose AI use when required.
 * Take responsibility for submitted work.
 
-> **Be the pilot of AI, not the passenger.**
+> **“Be the pilot of AI, not the passenger.”**
 
 ---
 
@@ -284,6 +284,8 @@ All laboratory deliverables must be available in this repository. ZIP files or e
 ---
 
 <div align="center">
+
+> **“The cloud is not just about technology—it is about learning how to build, connect, and solve problems.”**
 
 ### 🔵 Linux • Cloud Computing • GitHub • Markdown 🔴
 
