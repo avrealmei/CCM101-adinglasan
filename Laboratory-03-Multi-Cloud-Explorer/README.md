@@ -3,24 +3,24 @@
 # ☁️ CCM101 Laboratory 03: Multi-Cloud Explorer 🚀
 
 <p align="center">
-  <a href="#student-information"><b>👤 Student Info</b></a> &nbsp;&bull;&nbsp;
-  <a href="#checkpoint-7-linux-server-investigation--cloud-migration-mapping"><b>💻 System Specs</b></a> &nbsp;&bull;&nbsp;
-  <a href="#cloud-hosting-equivalence-mapping"><b>🌐 Cloud Mapping</b></a> &nbsp;&bull;&nbsp;
-  <a href="https://github.com/avrealmei/CCM101-adinglasan" target="_blank"><b>📂 Repository</b></a>
+  🔵 <a href="#student-information"><b>👤 Student Info</b></a> &nbsp;&bull;&nbsp;
+  🌐 <a href="#checkpoint-7-linux-server-investigation--cloud-migration-mapping"><b>💻 System Specs</b></a> &nbsp;&bull;&nbsp;
+  🖥️ <a href="#cloud-hosting-equivalence-mapping"><b>☁️ Cloud Mapping</b></a> &nbsp;&bull;&nbsp;
+  📂 <a href="https://github.com/avrealmei/CCM101-adinglasan" target="_blank"><b>Repository</b></a> 🔴
 </p>
 
 </div>
 
 ---
 
-## 👤 Student Information
+## <a id="student-information"></a>👤 Student Information
 * **Name:** Avril Mei Agaoid Dinglasan
 * **Course & Section:** BSIT - University of Eastern Pangasinan
 * **Repository:** `CCM101-adinglasan`
 
 ---
 
-## 💻 Checkpoint 7: Linux Server Investigation & Cloud Migration Mapping
+## <a id="checkpoint-7-linux-server-investigation--cloud-migration-mapping"></a>💻 Checkpoint 7: Linux Server Investigation & Cloud Migration Mapping
 
 ### 📊 System Information Collected via Terminal
 * **Operating System:** Ubuntu 24.04.4 LTS (Noble Numbat)
@@ -28,7 +28,9 @@
 * **Memory (RAM):** 1.9 GiB total (~1.4 GiB available)
 * **Disk Space:** 19 GB root filesystem (`/dev/vda1`), with 5.4 GB used and 13 GB available (30% usage)
 
-### ☁️ Cloud Hosting Equivalence Mapping
+---
+
+## <a id="cloud-hosting-equivalence-mapping"></a>☁️ Cloud Hosting Equivalence Mapping
 If this specific Linux server environment were migrated to the public cloud, it could be hosted on the following infrastructure-as-a-service (IaaS) virtual machine offerings:
 
 | Cloud Provider | Hosting Service | Description / Application |
@@ -41,4 +43,5 @@ If this specific Linux server environment were migrated to the public cloud, it 
 
 <div align="center">
   <p><i>"The cloud is not a destination, it's a different way of doing computing." — Peter Levine</i></p>
+  <p><i>"The biggest risk is not taking any risk... In a world that is changing really quickly, the only strategy that is guaranteed to fail is not taking risks." — Werner Vogels</i></p>
 </div>
