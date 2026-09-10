@@ -1,8 +1,8 @@
 <div align="center">
 
 [![Overview](https://img.shields.io/badge/☁️_Overview-blue?style=for-the-badge)](#overview)
-[![Infrastructure](https://img.shields.io/badge/🌐_Infrastructure-blue?style=for-the-badge)](#global-infrastructure)
-[![Core Services](https://img.shields.io/badge/🖥️_Core_Services-red?style=for-the-badge)](#core-services)
+[![Infrastructure](https://img.shields.io/badge/🌐_Infrastructure-red?style=for-the-badge)](#global-infrastructure)
+[![Core Services](https://img.shields.io/badge/🖥️_Core_Services-blue?style=for-the-badge)](#core-services)
 [![Advantages & Use Cases](https://img.shields.io/badge/🛡️_Advantages_%26_Use_Cases-red?style=for-the-badge)](#advantages--use-cases)
 
 </div>
