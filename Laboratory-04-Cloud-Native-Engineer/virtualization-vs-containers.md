@@ -1,14 +1,18 @@
 <div align="center">
 
 [![Cloud Computing Lab](https://img.shields.io/badge/CCM101-Cloud%20Computing-blue?style=flat-square&logo=cloud&logoColor=white)](./README.md)
-[![Theme](https://img.shields.io/badge/Theme-Blue%20%2F%20Red-red?style=flat-square&logo=docker&logoColor=blue)](./virtualization-vs-containers.md)
+[![Theme](https://img.shields.io/badge/Theme-Blue%20%2F%20Red-red?style=flat-square&logo=docker&logoColor=white)](./virtualization-vs-containers.md)
 
 </div>
 
 ---
 
 ### 🌐 Navigation Bar
-[🏠 Home Portfolio](../../README.md) | [📋 Lab README](./README.md) | [⚖️ VMs vs Containers](./virtualization-vs-containers.md) | [🐳 Docker Deployment](./docker-deployment.md) | [📝 Reflection](./reflection.md)
+<div align="center">
+
+[🏠 **Home**](./README.md) &nbsp;&nbsp;|&nbsp;&nbsp; [🔵 **VMs vs Containers**](./virtualization-vs-containers.md) &nbsp;&nbsp;|&nbsp;&nbsp; [🔴 **Docker Deployment**](./docker-deployment.md)
+
+</div>
 
 ---
 
