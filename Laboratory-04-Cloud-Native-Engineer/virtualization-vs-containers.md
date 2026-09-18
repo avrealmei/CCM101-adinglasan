@@ -10,17 +10,17 @@
 ### 🌐 Navigation Bar
 <div align="center">
 
-[🏠 **Home**](./README.md) &nbsp;&nbsp;|&nbsp;&nbsp; [🔵 **VMs vs Containers**](./virtualization-vs-containers.md) &nbsp;&nbsp;|&nbsp;&nbsp; [🔴 **Docker Deployment**](./docker-deployment.md)
+[🏠 **Home**](./README.md) &nbsp;&nbsp;|&nbsp;&nbsp; [🔵 **VMs vs Containers**](./virtualization-vs-containers.md) &nbsp;&nbsp;|&nbsp;&nbsp; [🔴 **Docker Deployment**](./docker-deployment.md) &nbsp;&nbsp;|&nbsp;&nbsp; [📝 **Reflection**](./reflection.md)
 
 </div>
 
 ---
 
-# Virtualization vs. Containers: Technical Comparison
+# 🔵 Virtualization vs. Containers: Technical Comparison
 
 This document provides a comprehensive technical comparison between traditional Virtual Machines (VMs) and modern Containers, prepared as a client briefing for CloudNova Technologies.
 
-| Category | 🔵 Virtual Machines (VMs) | 🔴 Containers |
+| Category | Virtual Machines (VMs) | Containers |
 | :--- | :--- | :--- |
 | **Architecture** | Relies on a hypervisor to run a complete **Guest OS** on top of the host hardware. | Shares the host operating system kernel while isolating application processes. |
 | **Boot Time** | Takes **minutes** due to the overhead of booting an entire operating system. | Boots in **seconds** because there is no Guest OS initialization required. |
