@@ -10,7 +10,9 @@
 ### 🌐 Navigation Bar
 <div align="center">
 
-[🏠 **Home**](./README.md) &nbsp;&nbsp;|&nbsp;&nbsp; [🔵 **VMs vs Containers**](./virtualization-vs-containers.md) &nbsp;&nbsp;|&nbsp;&nbsp; [📝 **Reflection**](./reflection.md)
+<a href="./README.md"><img src="https://img.shields.io/badge/🏠_Home-1565C0?style=for-the-badge"></a>
+<a href="./virtualization-vs-containers.md"><img src="https://img.shields.io/badge/⚖️_Virtualization_vs_Containers-C62828?style=for-the-badge"></a>
+<a href="./reflection.md"><img src="https://img.shields.io/badge/📝_Reflection-1565C0?style=for-the-badge"></a>
 
 </div>
 
