@@ -16,17 +16,19 @@
 
 ---
 
-# 🔴 Checkpoint 3: Entering the Docker Playground & Environment Verification
+# 🔴 Docker Deployment & Operations
 
-This document records the verification steps and terminal commands used to validate the Docker environment inside the KillerCoda playground.
+This document records the complete lifecycle operations performed in the KillerCoda playground for CloudNova Technologies, ranging from environment verification to the deployment and validation of an Nginx containerized web server.
 
-## 1. Environment Verification Commands
+---
 
-To verify that Docker was installed and active on the cloud host, the following CLI commands were executed:
+## 1. Checkpoint 3: Environment Verification
+
+To verify that Docker was installed, configured, and active on the cloud host, the following CLI commands were executed:
 
 ```bash
-# Check Docker version
-docker --version
+# Check the installed version of the Docker client and build tools
+root@ubuntu:~$ docker --version
 
-# Check detailed Docker daemon status and system info
-docker info
+# Display system-wide diagnostic information regarding the Docker daemon, storage drivers, and resource limits
+root@ubuntu:~$ docker info
