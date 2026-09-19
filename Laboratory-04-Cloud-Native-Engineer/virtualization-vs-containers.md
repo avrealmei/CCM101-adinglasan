@@ -1,8 +1,5 @@
 <div align="center">
 
-### 🌐 Navigation Bar
-<div align="center">
-
 <a href="./README.md"><img src="https://img.shields.io/badge/🏠_Home-1565C0?style=for-the-badge"></a>
 <a href="./docker-deployment.md"><img src="https://img.shields.io/badge/🐳_Docker_Deployment-C62828?style=for-the-badge"></a>
 <a href="./reflection.md"><img src="https://img.shields.io/badge/📝_Reflection-1565C0?style=for-the-badge"></a>
