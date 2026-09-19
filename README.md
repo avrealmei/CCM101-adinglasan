@@ -47,30 +47,30 @@
 ### 📂 Expected Repository Structure
 
 ```text
-CCM101-adinglasan/
+CCM101-adinglasan
 │
 ├── README.md
 │
-├── Laboratory-01-Welcome-to-the-Cloud/
+├── Laboratory-01-Welcome-to-the-Cloud
 │   ├── README.md
 │   ├── about-me.md
 │   ├── system-information.md
 │   ├── reflection.md
-│   └── screenshots/
+│   └── screenshots
 │
-├── Laboratory-02-Build-the-Cloud-Infrastructure-Blueprint/
+├── Laboratory-02-Build-the-Cloud-Infrastructure-Blueprint
 │   ├── README.md
 │   ├── infrastructure-report.md
 │   ├── cloud-components.md
 │   ├── cloud-provider-comparison.md
 │   ├── reflection.md
-│   └── screenshots/
+│   └── screenshots
 │       ├── server-information.png
 │       ├── network-information.png
 │       ├── storage-information.png
 │       └── cloud-architecture.png
 │
-├── Laboratory-03-Multi-Cloud-Explorer/
+├── Laboratory-03-Multi-Cloud-Explorer
 │   ├── README.md
 │   ├── aws-research.md
 │   ├── azure-research.md
@@ -78,19 +78,19 @@ CCM101-adinglasan/
 │   ├── cloud-platform-comparison.md
 │   ├── client-recommendations.md
 │   ├── reflection.md
-│   └── screenshots/
+│   └── screenshots
 │       ├── aws-homepage.png
 │       ├── azure-homepage.png
 │       ├── gcp-homepage.png
 │       ├── killercoda-terminal.png
 │       └── github-repository.png
 │
-└── Laboratory-04-Cloud-Native-Engineer/
+└── Laboratory-04-Cloud-Native-Engineer
     ├── README.md
     ├── virtualization-vs-containers.md
     ├── docker-deployment.md
     ├── reflection.md
-    └── screenshots/
+    └── screenshots
         ├── docker-version.png
         ├── nginx-running.png
         └── container-lifecycle.png
@@ -139,17 +139,17 @@ As the semester progresses, this repository will continue to grow with additiona
 # 📁 Repository Structure
 
 ```text
-CCM101-adinglasan/
+CCM101-adinglasan
 ├── README.md
-├── Laboratory-01-Welcome-to-the-Cloud/
-├── Laboratory-02-Build-the-Cloud-Infrastructure-Blueprint/
-├── Laboratory-03-Multi-Cloud-Explorer/
-└── Laboratory-04-Cloud-Native-Engineer/
+├── Laboratory-01-Welcome-to-the-Cloud
+├── Laboratory-02-Build-the-Cloud-Infrastructure-Blueprint
+├── Laboratory-03-Multi-Cloud-Explorer
+└── Laboratory-04-Cloud-Native-Engineer
     ├── README.md
     ├── virtualization-vs-containers.md
     ├── docker-deployment.md
     ├── reflection.md
-    └── screenshots/
+    └── screenshots
         ├── docker-version.png
         ├── nginx-running.png
         └── container-lifecycle.png
