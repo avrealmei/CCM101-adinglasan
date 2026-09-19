@@ -6,9 +6,6 @@
 <a href="./docker-deployment.md"><img src="https://img.shields.io/badge/🐳_Docker_Deployment-1565C0?style=for-the-badge"></a>
 <a href="./reflection.md"><img src="https://img.shields.io/badge/📝_Reflection-C62828?style=for-the-badge"></a>
 <a href="./virtualization-vs-containers.md"><img src="https://img.shields.io/badge/⚖️_Virtualization_vs_Containers-1565C0?style=for-the-badge"></a>
-
-<br><br>
-
 </div>
 
 ---
