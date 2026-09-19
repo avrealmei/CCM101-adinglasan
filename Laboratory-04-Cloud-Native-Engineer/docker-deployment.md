@@ -10,7 +10,7 @@
 ### 🌐 Navigation Bar
 <div align="center">
 
-[🏠 **Home**](./README.md) &nbsp;&nbsp;|&nbsp;&nbsp; [🔵 **VMs vs Containers**](./virtualization-vs-containers.md) &nbsp;&nbsp;|&nbsp;&nbsp; [🔴 **Docker Deployment**](./docker-deployment.md) &nbsp;&nbsp;|&nbsp;&nbsp; [📝 **Reflection**](./reflection.md)
+[🏠 **Home**](./README.md) &nbsp;&nbsp;|&nbsp;&nbsp; [🔵 **VMs vs Containers**] [📝 **Reflection**](./reflection.md)
 
 </div>
 
