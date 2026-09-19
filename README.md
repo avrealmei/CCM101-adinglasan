@@ -43,6 +43,8 @@
 | **Institution**    | University of Eastern Pangasinan (UEP)                                 |
 | **Portfolio Role** | Junior Cloud Infrastructure Engineer Trainee *(Laboratory Simulation)* |
 
+# ☁️ Laboratory Activity 1
+---
 ### 💡 About This Portfolio
 
 This portfolio documents my learning journey in **Cloud Computing**, including hands-on Linux activities, cloud infrastructure investigation, technical documentation, cloud provider research, and GitHub-based project management.
