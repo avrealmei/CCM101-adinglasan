@@ -67,6 +67,16 @@ CCM101-adinglasan
 │   ├── reflection.md
 │   └── screenshots
 │
+├── Laboratory-04-Cloud-Native-Engineer
+│   ├── README.md
+│   ├── virtualization-vs-containers.md
+│   ├── docker-deployment.md
+│   ├── reflection.md
+│   └── screenshots
+│       ├── docker-version.png
+│       ├── nginx-running.png
+│       └── container-lifecycle.png
+│
 └── CCM101-cbadongen 
 │ 
 ├── README.md 
@@ -85,80 +95,12 @@ CCM101-adinglasan
       ├── client-recommendations.md 
       ├── reflection.md 
       └── screenshots 
-            ├── aws-homepage.png 
-            ├── azure-homepage.png 
-            ├── gcp-homepage.png 
-            ├── killercoda-terminal.png 
-            └── github-repository.png
-```
-
----
-
-# ☁️ Laboratory Status
-
-|     Laboratory    | Activity                                 | Description                                                                                                         |     Status     |
-| :---------------: | ---------------------------------------- | ------------------------------------------------------------------------------------------------------------------- | :------------: |
-| **Laboratory 01** | Welcome to the Cloud                     | Introduction to cloud computing, Linux fundamentals, GitHub, and Markdown documentation.                            |   ✅ Completed  |
-| **Laboratory 02** | Build the Cloud Infrastructure Blueprint | Investigation of Linux resources, cloud infrastructure components, provider services, and basic cloud architecture. |   ✅ Completed  |
-| **Laboratory 03** | Multi-Cloud Explorer                     | Research and comparison of AWS, Azure, and GCP, including cloud service evaluation and client recommendations.      | 🟢 In Progress |
-| **Laboratory 04** | Coming Soon                              | Future cloud computing laboratory activity.                                                                         |    ⏳ Pending   |
-| **Laboratory 05** | Coming Soon                              | Future cloud computing laboratory activity.                                                                         |    ⏳ Pending   |
-
----
-
-# 🧭 Laboratory Navigation
-
-|      Laboratory      | Documentation                                                                                         |
-| :------------------: | ----------------------------------------------------------------------------------------------------- |
-| ☁️ **Laboratory 01** | [Welcome to the Cloud](./Laboratory-01-Welcome-to-the-Cloud/)                                         |
-| ☁️ **Laboratory 02** | [Build the Cloud Infrastructure Blueprint](./Laboratory-02-Build-the-Cloud-Infrastructure-Blueprint/) |
-| ☁️ **Laboratory 03** | [Multi-Cloud Explorer](./Laboratory-03-Multi-Cloud-Explorer/)                                         |
-| 🔜 **Laboratory 04** | Coming Soon                                                                                           |
-| 🔜 **Laboratory 05** | Coming Soon                                                                                           |
-
----
-
-# 🧪 Laboratory Activities
-
-## ☁️ Laboratory 01 – Welcome to the Cloud
-
-**Focus:** Linux fundamentals, cloud computing, GitHub, and Markdown documentation.
-
-**Main Outputs:**
-
-* About Me
-* System Information
-* Screenshots
-* Reflection
-* Technical documentation
-
----
-
-## ☁️ Laboratory 02 – Build the Cloud Infrastructure Blueprint
-
-**Focus:** Cloud infrastructure investigation and architecture.
-
-**Objectives:**
-
-* Investigate a Linux cloud environment.
-* Identify compute, storage, networking, and operating system resources.
-* Compare AWS, Azure, and GCP infrastructure services.
-* Design a basic cloud architecture.
-* Create professional technical documentation.
-
-**Main Outputs:**
-
-* Infrastructure Report
-* Cloud Components
-* Cloud Provider Comparison
-* Cloud Architecture Diagram
-* Reflection
-* Screenshots
-
-**Linux Investigation Commands:**
-
-```bash
-cat /etc/os-release
+          ├── aws-homepage.png 
+          ├── azure-homepage.png 
+          ├── gcp-homepage.png 
+          ├── killercoda-terminal.png 
+          └── github-repository.png
+☁️ Laboratory StatusLaboratoryActivityDescriptionStatusLaboratory 01Welcome to the CloudIntroduction to cloud computing, Linux fundamentals, GitHub, and Markdown documentation.✅ CompletedLaboratory 02Build the Cloud Infrastructure BlueprintInvestigation of Linux resources, cloud infrastructure components, provider services, and basic cloud architecture.✅ CompletedLaboratory 03Multi-Cloud ExplorerResearch and comparison of AWS, Azure, and GCP, including cloud service evaluation and client recommendations.🟢 In ProgressLaboratory 04The Cloud-Native EngineerIntroduction to containerization, Docker CLI operations, Nginx deployment, and container lifecycle management.✅ CompletedLaboratory 05Coming SoonFuture cloud computing laboratory activity.⏳ Pending🧭 Laboratory NavigationLaboratoryDocumentation☁️ Laboratory 01Welcome to the Cloud☁️ Laboratory 02Build the Cloud Infrastructure Blueprint☁️ Laboratory 03Multi-Cloud Explorer☁️ Laboratory 04The Cloud-Native Engineer🔜 Laboratory 05Coming Soon🧪 Laboratory Activities☁️ Laboratory 01 – Welcome to the CloudFocus: Linux fundamentals, cloud computing, GitHub, and Markdown documentation.Main Outputs:About MeSystem InformationScreenshotsReflectionTechnical documentation☁️ Laboratory 02 – Build the Cloud Infrastructure BlueprintFocus: Cloud infrastructure investigation and architecture.Objectives:Investigate a Linux cloud environment.Identify compute, storage, networking, and operating system resources.Compare AWS, Azure, and GCP infrastructure services.Design a basic cloud architecture.Create professional technical documentation.Main Outputs:Infrastructure ReportCloud ComponentsCloud Provider ComparisonCloud Architecture DiagramReflectionScreenshotsLinux Investigation Commands:Bashcat /etc/os-release
 uname -r
 lscpu
 nproc
@@ -168,146 +110,13 @@ mount
 hostname
 hostname -I
 ip addr
-```
-
----
-
-## ☁️ Laboratory 03 – Multi-Cloud Explorer
-
-**Focus:** Researching, comparing, and evaluating AWS, Microsoft Azure, and Google Cloud Platform.
-
-**Objectives:**
-
-* Explore AWS, Azure, and GCP.
-* Identify and compare their core services.
-* Analyze business requirements.
-* Recommend suitable cloud platforms.
-* Match equivalent cloud services.
-* Relate Linux environments to cloud virtual machines.
-
-### Core Services
-
-| Category       | AWS        | Microsoft Azure                 | GCP            |
-| -------------- | ---------- | ------------------------------- | -------------- |
-| **Compute**    | EC2        | Azure Virtual Machines          | Compute Engine |
-| **Storage**    | Amazon S3  | Azure Blob Storage              | Cloud Storage  |
-| **Networking** | Amazon VPC | Azure Virtual Network           | VPC            |
-| **Identity**   | AWS IAM    | Microsoft Entra ID / Azure RBAC | Cloud IAM      |
-| **Kubernetes** | EKS        | AKS                             | GKE            |
-
-### Client Scenarios
-
-| Client       | Requirement                                      |
-| ------------ | ------------------------------------------------ |
-| **Client A** | Startup with limited budget and rapid growth     |
-| **Client B** | University using Microsoft technologies          |
-| **Client C** | AI/ML research company                           |
-| **Client D** | Global e-commerce platform requiring scalability |
-
-**Main Outputs:**
-
-* AWS Research
-* Azure Research
-* GCP Research
-* Cloud Platform Comparison
-* Client Recommendations
-* Decision Matrix
-* Linux Investigation
-* Reflection
-* Screenshots
-
----
-
-# 🛠️ Tools & Technologies
-
-* 🐧 Ubuntu Linux
-* ☁️ KillerCoda Playground
-* ☁️ AWS
-* 🔷 Microsoft Azure
-* 🌈 Google Cloud
-* 🐙 Git & GitHub
-* 📝 Markdown
-* 🌐 Web Browser
-* 📊 Draw.io / Excalidraw / Figma / PowerPoint
-
----
-
-# 🧠 Skills Developed
-
-* Linux command-line operations
-* Cloud infrastructure analysis
-* Cloud service comparison
-* Cloud architecture
-* Networking and storage concepts
-* Technical documentation
-* Git and GitHub
-* Cloud platform evaluation
-* Technical research and problem-solving
-
----
-
-# 🎯 Portfolio Goals
-
-* Develop practical Cloud Computing skills.
-* Strengthen Linux and system administration knowledge.
-* Understand AWS, Azure, and GCP.
-* Practice professional technical documentation.
-* Develop cloud architecture and infrastructure skills.
-* Build a professional Cloud Computing portfolio.
-
----
-
-# 📚 Academic Integrity
-
-All submitted work must be original and properly documented.
-
-* Cite sources and external materials.
-* Use AI responsibly as a learning aid.
-* Understand, review, and revise AI-assisted work.
-* Disclose AI use when required.
-* Take responsibility for submitted work.
-
-> **“Be the pilot of AI, not the passenger.”**
-
----
-
-# 📤 Submission
-
-**Required:** GitHub Repository URL
-
-All laboratory deliverables must be available in this repository. ZIP files or email submissions are not required unless instructed by the instructor.
-
----
-
-# 🏆 Portfolio Progress
-
-| Skill Area               |    Progress   |
-| ------------------------ | :-----------: |
-| Linux Fundamentals       | 🟢 Developing |
-| Cloud Infrastructure     | 🟢 Developing |
-| Git & GitHub             | 🟢 Developing |
-| Technical Documentation  | 🟢 Developing |
-| Cloud Provider Knowledge | 🟢 Developing |
-| Networking               |  🟡 Learning  |
-| Cloud Architecture       |  🟡 Learning  |
-| Cloud Security           |  🟡 Learning  |
-| Containerization         |   ⚪ Upcoming  |
-| Kubernetes               |   ⚪ Upcoming  |
-| Cloud Automation         |   ⚪ Upcoming  |
-
----
-
-<div align="center">
-
-> **“The cloud is not just about technology—it is about learning how to build, connect, and solve problems.”**
-
-### 🔵 Linux • Cloud Computing • GitHub • Markdown 🔴
-
-**CCM101 – Cloud Computing Portfolio**
-
-⭐ *Learning • Building • Documenting • Growing*
-
-**College of Information Technology**
-**University of Eastern Pangasinan**
-
-</div>
+☁️ Laboratory 03 – Multi-Cloud ExplorerFocus: Researching, comparing, and evaluating AWS, Microsoft Azure, and Google Cloud Platform.Objectives:Explore AWS, Azure, and GCP.Identify and compare their core services.Analyze business requirements.Recommend suitable cloud platforms.Match equivalent cloud services.Relate Linux environments to cloud virtual machines.Core ServicesCategoryAWSMicrosoft AzureGCPComputeEC2Azure Virtual MachinesCompute EngineStorageAmazon S3Azure Blob StorageCloud StorageNetworkingAmazon VPCAzure Virtual NetworkVPCIdentityAWS IAMMicrosoft Entra ID / Azure RBACCloud IAMKubernetesEKSAKSGKEClient ScenariosClientRequirementClient AStartup with limited budget and rapid growthClient BUniversity using Microsoft technologiesClient CAI/ML research companyClient DGlobal e-commerce platform requiring scalabilityMain Outputs:AWS ResearchAzure ResearchGCP ResearchCloud Platform ComparisonClient RecommendationsDecision MatrixLinux InvestigationReflectionScreenshots☁️ Laboratory 04 – The Cloud-Native EngineerFocus: Containerization fundamentals, Docker CLI commands, web server deployment, and container lifecycle management.Objectives:Compare traditional Virtual Machines against lightweight Containers.Verify Docker installation and status in a Linux environment.Pull, deploy, and validate an Nginx web server container.Manage container states (start, stop, remove).Maintain professional Markdown documentation and GitHub portfolio structure.Main Outputs:Virtualization vs. Containers ComparisonDocker Deployment DocumentationTerminal Execution Screenshots (docker-version.png, nginx-running.png, container-lifecycle.png)Mission ReflectionDocker CLI Commands:Bashdocker --version
+docker info
+docker pull nginx
+docker run -d --name cloudnova-nginx -p 8080:80 nginx
+curl http://localhost:8080
+docker ps
+docker stop cloudnova-nginx
+docker ps -a
+docker rm cloudnova-nginx
+🛠️ Tools & Technologies🐧 Ubuntu Linux☁️ KillerCoda Playground☁️ AWS🔷 Microsoft Azure🌈 Google Cloud🐙 Git & GitHub📝 Markdown🌐 Web Browser📊 Draw.io / Excalidraw / Figma / PowerPoint🧠 Skills DevelopedLinux command-line operationsCloud infrastructure analysisCloud service comparisonCloud architectureNetworking and storage conceptsTechnical documentationGit and GitHubCloud platform evaluationTechnical research and problem-solving🎯 Portfolio GoalsDevelop practical Cloud Computing skills.Strengthen Linux and system administration knowledge.Understand AWS, Azure, and GCP.Practice professional technical documentation.Develop cloud architecture and infrastructure skills.Build a professional Cloud Computing portfolio.📚 Academic IntegrityAll submitted work must be original and properly documented.Cite sources and external materials.Use AI responsibly as a learning aid.Understand, review, and revise AI-assisted work.Disclose AI use when required.Take responsibility for submitted work.“Be the pilot of AI, not the passenger.”📤 SubmissionRequired: GitHub Repository URLAll laboratory deliverables must be available in this repository. ZIP files or email submissions are not required unless instructed by the instructor.🏆 Portfolio ProgressSkill AreaProgressLinux Fundamentals🟢 DevelopingCloud Infrastructure🟢 DevelopingGit & GitHub🟢 DevelopingTechnical Documentation🟢 DevelopingCloud Provider Knowledge🟢 DevelopingNetworking🟡 LearningCloud Architecture🟡 LearningCloud Security🟡 LearningContainerization🟢 DevelopingKubernetes⚪ UpcomingCloud Automation⚪ Upcoming“The cloud is not just about technology—it is about learning how to build, connect, and solve problems.”🔵 Linux • Cloud Computing • GitHub • Markdown 🔴CCM101 – Cloud Computing Portfolio⭐ Learning • Building • Documenting • GrowingCollege of Information TechnologyUniversity of Eastern Pangasinan
