@@ -513,18 +513,18 @@ Your reflection should contain approximately **250–350 words**.
 ### 📂 Expected Repository Structure
 
 ```text
-CCM101-adinglasan/
+CCM101-adinglasan
 │
 ├── README.md
 │
-├── Laboratory-01-Welcome-to-the-Cloud/
+├── Laboratory-01-Welcome-to-the-Cloud
 │   ├── README.md
 │   ├── about-me.md
 │   ├── system-information.md
 │   ├── reflection.md
 │   └── screenshots/
 │
-├── Laboratory-02-Build-the-Cloud-Infrastructure-Blueprint/
+├── Laboratory-02-Build-the-Cloud-Infrastructure-Blueprint
 │   ├── README.md
 │   ├── infrastructure-report.md
 │   ├── cloud-components.md
@@ -536,7 +536,7 @@ CCM101-adinglasan/
 │       ├── storage-information.png
 │       └── cloud-architecture.png
 │
-├── Laboratory-03-Multi-Cloud-Explorer/
+├── Laboratory-03-Multi-Cloud-Explorer
 │   ├── README.md
 │   ├── aws-research.md
 │   ├── azure-research.md
@@ -551,7 +551,7 @@ CCM101-adinglasan/
 │       ├── killercoda-terminal.png
 │       └── github-repository.png
 │
-└── Laboratory-04-Cloud-Native-Engineer/
+└── Laboratory-04-Cloud-Native-Engineer
     ├── README.md
     ├── virtualization-vs-containers.md
     ├── docker-deployment.md
