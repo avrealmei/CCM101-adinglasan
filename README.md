@@ -697,8 +697,6 @@ Maintain structured GitHub portfolio
 - 
 ---
 
-<div align="center">
-
 ### 🔵 Linux • Cloud Computing • GitHub • Markdown 🔴
 
 **CCM101 – Cloud Computing Portfolio**
