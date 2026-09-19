@@ -9,19 +9,19 @@
 
 <br>
 
-<a href="#-student-profile">
+<a href="#student-profile">
 <img alt="Student Profile" src="https://img.shields.io/badge/👤_Student_Profile-1565C0?style=for-the-badge">
 </a>
-<a href="#-repository-overview">
+<a href="#repository-overview">
 <img alt="Overview" src="https://img.shields.io/badge/📖_Overview-C62828?style=for-the-badge">
 </a>
-<a href="#-repository-structure">
+<a href="#repository-structure">
 <img alt="Repository" src="https://img.shields.io/badge/📁_Repository-1565C0?style=for-the-badge">
 </a>
-<a href="#-laboratory-activities">
+<a href="#laboratory-activities">
 <img alt="Laboratories" src="https://img.shields.io/badge/☁️_Laboratories-C62828?style=for-the-badge">
 </a>
-<a href="#-goals">
+<a href="#goals">
 <img alt="Goals" src="https://img.shields.io/badge/🎯_Goals-1565C0?style=for-the-badge">
 </a>
 
@@ -33,6 +33,8 @@
 
 ---
 
+<a id="student-profile"></a>
+
 # 👤 Student Profile
 
 | Information        | Details                                                                |
@@ -43,8 +45,6 @@
 | **Institution**    | University of Eastern Pangasinan (UEP)                                 |
 | **Portfolio Role** | Junior Cloud Infrastructure Engineer Trainee *(Laboratory Simulation)* |
 
-# ☁️ Laboratory Activity 1
----
 ### 💡 About This Portfolio
 
 This portfolio documents my learning journey in **Cloud Computing**, including hands-on Linux activities, cloud infrastructure investigation, technical documentation, cloud provider research, and GitHub-based project management.
@@ -52,6 +52,8 @@ This portfolio documents my learning journey in **Cloud Computing**, including h
 The repository is designed to demonstrate both my **technical skills** and my ability to organize and communicate technical information professionally.
 
 ---
+
+<a id="repository-overview"></a>
 
 # 📖 Repository Overview
 
@@ -79,20 +81,22 @@ As the semester progresses, this repository will continue to grow with additiona
 
 ---
 
+<a id="repository-structure"></a>
+
 # 📁 Repository Structure
 
 ```text
-CCM101-adinglasan
+CCM101-adinglasan/
 ├── README.md
-├── Laboratory-01-Welcome-to-the-Cloud
-├── Laboratory-02-Build-the-Cloud-Infrastructure-Blueprint
-├── Laboratory-03-Multi-Cloud-Explorer
-└── Laboratory-04-Cloud-Native-Engineer
+├── Laboratory-01-Welcome-to-the-Cloud/
+├── Laboratory-02-Build-the-Cloud-Infrastructure-Blueprint/
+├── Laboratory-03-Multi-Cloud-Explorer/
+└── Laboratory-04-Cloud-Native-Engineer/
     ├── README.md
     ├── virtualization-vs-containers.md
     ├── docker-deployment.md
     ├── reflection.md
-    └── screenshots
+    └── screenshots/
         ├── docker-version.png
         ├── nginx-running.png
         └── container-lifecycle.png
@@ -114,6 +118,8 @@ Each laboratory has its own directory containing:
 This structure makes the portfolio easier to navigate, maintain, and review.
 
 ---
+
+<a id="laboratory-activities"></a>
 
 # ☁️ Laboratory Activities
 
@@ -138,6 +144,8 @@ This structure makes the portfolio easier to navigate, maintain, and review.
 | 🔜 **Laboratory 05** | Coming Soon                                                                                           |
 
 ---
+
+<a id="goals"></a>
 
 # 🎯 Goals
 
@@ -208,6 +216,62 @@ To uphold honesty, fairness, and academic excellence, all students are expected 
 > **Be the pilot of AI, not the passenger.**
 
 Use technology to enhance your learning, but let your own knowledge, judgment, and critical thinking guide your work.
+
+---
+
+# ☁️ Laboratory Activity 1
+
+## 🔵 Mission 1: Welcome to the Cloud 🔴
+
+### 🚀 Mission Overview
+
+Welcome to **CloudNova Technologies**! As a new Junior Cloud Infrastructure Engineer Trainee, your first mission is onboarding: set up your professional **GitHub Cloud Computing Portfolio**, get comfortable with the Linux command line, and document everything in Markdown.
+
+### 🎯 Mission Objectives
+
+* Learn the fundamentals of the Linux command line
+* Create and organize a GitHub portfolio repository
+* Document your work using Markdown
+* Record basic information about your Linux environment
+* Reflect on your first steps into cloud computing
+
+### 📋 Mission Tasks
+
+#### Checkpoint 1 – Create Your Portfolio Repository
+
+Create your GitHub repository and the Laboratory 01 folder with the following structure:
+
+```text
+Laboratory-01-Welcome-to-the-Cloud/
+├── README.md
+├── about-me.md
+├── system-information.md
+├── reflection.md
+└── screenshots/
+```
+
+#### Checkpoint 2 – About Me
+
+Introduce yourself professionally in `about-me.md`.
+
+#### Checkpoint 3 – System Information
+
+Explore the Linux environment and record your findings in `system-information.md`, with screenshots saved in `screenshots/`.
+
+#### Checkpoint 4 – Documentation
+
+Update the laboratory `README.md` so it follows proper Markdown formatting and includes relevant screenshots.
+
+#### Checkpoint 5 – Reflection
+
+Write your mission reflection in `reflection.md`.
+
+### 🏆 Success Criteria
+
+* ✅ Create and organize a GitHub portfolio repository
+* ✅ Use basic Linux commands to explore a system
+* ✅ Produce clear technical documentation in Markdown
+* ✅ Commit and push your work to GitHub
 
 ---
 
@@ -515,30 +579,30 @@ Your reflection should contain approximately **250–350 words**.
 ### 📂 Expected Repository Structure
 
 ```text
-CCM101-adinglasan
+CCM101-adinglasan/
 │
 ├── README.md
 │
-├── Laboratory-01-Welcome-to-the-Cloud
+├── Laboratory-01-Welcome-to-the-Cloud/
 │   ├── README.md
 │   ├── about-me.md
 │   ├── system-information.md
 │   ├── reflection.md
-│   └── screenshots
+│   └── screenshots/
 │
-├── Laboratory-02-Build-the-Cloud-Infrastructure-Blueprint
+├── Laboratory-02-Build-the-Cloud-Infrastructure-Blueprint/
 │   ├── README.md
 │   ├── infrastructure-report.md
 │   ├── cloud-components.md
 │   ├── cloud-provider-comparison.md
 │   ├── reflection.md
-│   └── screenshots
+│   └── screenshots/
 │       ├── server-information.png
 │       ├── network-information.png
 │       ├── storage-information.png
 │       └── cloud-architecture.png
 │
-├── Laboratory-03-Multi-Cloud-Explorer
+├── Laboratory-03-Multi-Cloud-Explorer/
 │   ├── README.md
 │   ├── aws-research.md
 │   ├── azure-research.md
@@ -546,19 +610,19 @@ CCM101-adinglasan
 │   ├── cloud-platform-comparison.md
 │   ├── client-recommendations.md
 │   ├── reflection.md
-│   └── screenshots
+│   └── screenshots/
 │       ├── aws-homepage.png
 │       ├── azure-homepage.png
 │       ├── gcp-homepage.png
 │       ├── killercoda-terminal.png
 │       └── github-repository.png
 │
-└── Laboratory-04-Cloud-Native-Engineer
+└── Laboratory-04-Cloud-Native-Engineer/
     ├── README.md
     ├── virtualization-vs-containers.md
     ├── docker-deployment.md
     ├── reflection.md
-    └── screenshots
+    └── screenshots/
         ├── docker-version.png
         ├── nginx-running.png
         └── container-lifecycle.png
