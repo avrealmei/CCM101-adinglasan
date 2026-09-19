@@ -90,7 +90,7 @@ CCM101-adinglasan
     ├── virtualization-vs-containers.md
     ├── docker-deployment.md
     ├── reflection.md
-    └── screenshots/
+    └── screenshots
         ├── docker-version.png
         ├── nginx-running.png
         └── container-lifecycle.png
@@ -522,7 +522,7 @@ CCM101-adinglasan
 │   ├── about-me.md
 │   ├── system-information.md
 │   ├── reflection.md
-│   └── screenshots/
+│   └── screenshots
 │
 ├── Laboratory-02-Build-the-Cloud-Infrastructure-Blueprint
 │   ├── README.md
@@ -530,7 +530,7 @@ CCM101-adinglasan
 │   ├── cloud-components.md
 │   ├── cloud-provider-comparison.md
 │   ├── reflection.md
-│   └── screenshots/
+│   └── screenshots
 │       ├── server-information.png
 │       ├── network-information.png
 │       ├── storage-information.png
@@ -544,7 +544,7 @@ CCM101-adinglasan
 │   ├── cloud-platform-comparison.md
 │   ├── client-recommendations.md
 │   ├── reflection.md
-│   └── screenshots/
+│   └── screenshots
 │       ├── aws-homepage.png
 │       ├── azure-homepage.png
 │       ├── gcp-homepage.png
@@ -556,7 +556,7 @@ CCM101-adinglasan
     ├── virtualization-vs-containers.md
     ├── docker-deployment.md
     ├── reflection.md
-    └── screenshots/
+    └── screenshots
         ├── docker-version.png
         ├── nginx-running.png
         └── container-lifecycle.png
