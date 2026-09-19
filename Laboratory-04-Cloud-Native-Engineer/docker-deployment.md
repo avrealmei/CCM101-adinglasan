@@ -18,7 +18,7 @@
 
 # 🔴 Docker Deployment & Operations
 
-This document records the complete lifecycle operations performed in the KillerCoda playground for CloudNova Technologies, ranging from environment verification to the deployment and validation of an Nginx containerized web server.
+This document records the complete lifecycle operations performed in the KillerCoda playground for CloudNova Technologies, ranging from environment verification to container deployment, management, and cleanup.
 
 ---
 
