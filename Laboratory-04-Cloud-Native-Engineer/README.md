@@ -23,14 +23,6 @@
 
 ---
 
-# 🌐 Quick Navigation
-<div align="center">
-
-[🔵 **Virtualization vs Containers**](./virtualization-vs-containers.md) &nbsp;&nbsp;|&nbsp;&nbsp; [🔴 **Docker Deployment**](./docker-deployment.md) &nbsp;&nbsp;|&nbsp;&nbsp; [📝 **Reflection**](./reflection.md)
-
-</div>
-
----
 
 # 🔴 Laboratory Activity 4: Mission 4 - The Cloud-Native Engineer
 
