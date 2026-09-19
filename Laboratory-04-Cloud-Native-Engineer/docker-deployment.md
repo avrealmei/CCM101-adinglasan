@@ -10,25 +10,25 @@
 ### 🌐 Navigation Bar
 <div align="center">
 
-[🏠 **Home**](./README.md) &nbsp;&nbsp;|&nbsp;&nbsp; [🔵 **VMs vs Containers**] [📝 **Reflection**](./reflection.md)
+[🏠 **Home**](./README.md) &nbsp;&nbsp;|&nbsp;&nbsp; [🔵 **VMs vs Containers**](./virtualization-vs-containers.md) &nbsp;&nbsp;|&nbsp;&nbsp; [📝 **Reflection**](./reflection.md)
 
 </div>
 
 ---
 
-# 🔴 Docker Deployment & Operations
+# 🔴 Checkpoint 3: Entering the Docker Playground & Environment Verification
 
-This document records the complete lifecycle operations performed in the KillerCoda playground for CloudNova Technologies, ranging from environment verification to container deployment, management, and cleanup.
+This document records the verification steps, terminal commands, and system responses used to validate the Docker environment inside the KillerCoda playground for CloudNova Technologies.
 
 ---
 
-## 1. Checkpoint 3: Environment Verification
+## 1. Environment Verification Commands
 
 To verify that Docker was installed, configured, and active on the cloud host, the following CLI commands were executed:
 
 ```bash
-# Check the installed version of the Docker client and build tools
+# Check Docker version
 root@ubuntu:~$ docker --version
 
-# Display system-wide diagnostic information regarding the Docker daemon, storage drivers, and resource limits
+# Check detailed Docker daemon status and system info
 root@ubuntu:~$ docker info
