@@ -16,11 +16,6 @@
 <a href="#-quick-links"><img src="https://img.shields.io/badge/🌐_Quick_Links-C62828?style=for-the-badge"></a>
 
 <br><br>
-
-**🔵 Learn • Build • Document • Deploy 🔴**
-
-</div>
-
 ---
 
 
