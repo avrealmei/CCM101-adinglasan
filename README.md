@@ -96,7 +96,7 @@ CCM101-adinglasan/
         └── container-lifecycle.png
 ```
 
-# ☁️ Laboratory Activity 3
+# ☁️ Laboratory Activity 1
 
 ### 💡 About This Portfolio
 
