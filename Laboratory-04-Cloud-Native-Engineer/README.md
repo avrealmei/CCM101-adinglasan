@@ -1,18 +1,32 @@
 <div align="center">
 
-[![Cloud Computing Lab](https://img.shields.io/badge/CCM101-Cloud%20Computing-blue?style=flat-square&logo=cloud&logoColor=white)](./README.md)
-[![Theme](https://img.shields.io/badge/Theme-Blue%20%2F%20Red-red?style=flat-square&logo=docker&logoColor=white)](./README.md)
+# ☁️ Laboratory 04 – The Cloud-Native Engineer
+
+### CCM101 – Cloud Computing
+
+**College of Information Technology**
+**University of Eastern Pangasinan (UEP)**
+
+<br>
+
+<!-- Blue and Red Navigation Bar with Icons -->
+<a href="#-mission-overview"><img src="https://img.shields.io/badge/👤_Overview-1565C0?style=for-the-badge"></a>
+<a href="#-objectives"><img src="https://img.shields.io/badge/🎯_Objectives-C62828?style=for-the-badge"></a>
+<a href="#-docker-commands-executed"><img src="https://img.shields.io/badge/💻_Docker_Commands-1565C0?style=for-the-badge"></a>
+<a href="#-quick-links"><img src="https://img.shields.io/badge/🌐_Quick_Links-C62828?style=for-the-badge"></a>
+
+<br><br>
+
+**🔵 Learn • Build • Document • Deploy 🔴**
 
 </div>
 
 ---
 
-### 🌐 Navigation Bar
+# 🌐 Quick Navigation
 <div align="center">
 
-<a href="./virtualization-vs-containers.md"><img src="https://img.shields.io/badge/🔵_VMs_vs_Containers-1565C0?style=for-the-badge"></a> &nbsp;&nbsp;
-<a href="./docker-deployment.md"><img src="https://img.shields.io/badge/🔴_Docker_Deployment-C62828?style=for-the-badge"></a> &nbsp;&nbsp;
-<a href="./reflection.md"><img src="https://img.shields.io/badge/🔵_Reflection-1565C0?style=for-the-badge"></a>
+[🔵 **Virtualization vs Containers**](./virtualization-vs-containers.md) &nbsp;&nbsp;|&nbsp;&nbsp; [🔴 **Docker Deployment**](./docker-deployment.md) &nbsp;&nbsp;|&nbsp;&nbsp; [📝 **Reflection**](./reflection.md)
 
 </div>
 
