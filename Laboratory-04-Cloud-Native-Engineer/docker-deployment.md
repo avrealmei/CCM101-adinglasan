@@ -1,15 +1,4 @@
 <div align="center">
-
-[![Cloud Computing Lab](https://img.shields.io/badge/CCM101-Cloud%20Computing-blue?style=flat-square&logo=cloud&logoColor=white)](./README.md)
-[![Theme](https://img.shields.io/badge/Theme-Blue%20%2F%20Red-red?style=flat-square&logo=docker&logoColor=white)](./docker-deployment.md)
-
-</div>
-
----
-
-### 🌐 Navigation Bar
-<div align="center">
-
 <a href="./README.md"><img src="https://img.shields.io/badge/🏠_Home-1565C0?style=for-the-badge"></a>
 <a href="./virtualization-vs-containers.md"><img src="https://img.shields.io/badge/⚖️_Virtualization_vs_Containers-C62828?style=for-the-badge"></a>
 <a href="./reflection.md"><img src="https://img.shields.io/badge/📝_Reflection-1565C0?style=for-the-badge"></a>
