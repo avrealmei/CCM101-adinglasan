@@ -44,6 +44,59 @@
 | **Course**         | CCM101 – Cloud Computing                                               |
 | **Institution**    | University of Eastern Pangasinan (UEP)                                 |
 | **Portfolio Role** | Junior Cloud Infrastructure Engineer Trainee *(Laboratory Simulation)* |
+### 📂 Expected Repository Structure
+
+```text
+CCM101-adinglasan/
+│
+├── README.md
+│
+├── Laboratory-01-Welcome-to-the-Cloud/
+│   ├── README.md
+│   ├── about-me.md
+│   ├── system-information.md
+│   ├── reflection.md
+│   └── screenshots/
+│
+├── Laboratory-02-Build-the-Cloud-Infrastructure-Blueprint/
+│   ├── README.md
+│   ├── infrastructure-report.md
+│   ├── cloud-components.md
+│   ├── cloud-provider-comparison.md
+│   ├── reflection.md
+│   └── screenshots/
+│       ├── server-information.png
+│       ├── network-information.png
+│       ├── storage-information.png
+│       └── cloud-architecture.png
+│
+├── Laboratory-03-Multi-Cloud-Explorer/
+│   ├── README.md
+│   ├── aws-research.md
+│   ├── azure-research.md
+│   ├── gcp-research.md
+│   ├── cloud-platform-comparison.md
+│   ├── client-recommendations.md
+│   ├── reflection.md
+│   └── screenshots/
+│       ├── aws-homepage.png
+│       ├── azure-homepage.png
+│       ├── gcp-homepage.png
+│       ├── killercoda-terminal.png
+│       └── github-repository.png
+│
+└── Laboratory-04-Cloud-Native-Engineer/
+    ├── README.md
+    ├── virtualization-vs-containers.md
+    ├── docker-deployment.md
+    ├── reflection.md
+    └── screenshots/
+        ├── docker-version.png
+        ├── nginx-running.png
+        └── container-lifecycle.png
+```
+
+# ☁️ Laboratory Activity 3
 
 ### 💡 About This Portfolio
 
@@ -573,60 +626,6 @@ Answer the following questions:
 5. How has your GitHub portfolio improved after completing this mission?
 
 Your reflection should contain approximately **250–350 words**.
-
----
-
-### 📂 Expected Repository Structure
-
-```text
-CCM101-adinglasan/
-│
-├── README.md
-│
-├── Laboratory-01-Welcome-to-the-Cloud/
-│   ├── README.md
-│   ├── about-me.md
-│   ├── system-information.md
-│   ├── reflection.md
-│   └── screenshots/
-│
-├── Laboratory-02-Build-the-Cloud-Infrastructure-Blueprint/
-│   ├── README.md
-│   ├── infrastructure-report.md
-│   ├── cloud-components.md
-│   ├── cloud-provider-comparison.md
-│   ├── reflection.md
-│   └── screenshots/
-│       ├── server-information.png
-│       ├── network-information.png
-│       ├── storage-information.png
-│       └── cloud-architecture.png
-│
-├── Laboratory-03-Multi-Cloud-Explorer/
-│   ├── README.md
-│   ├── aws-research.md
-│   ├── azure-research.md
-│   ├── gcp-research.md
-│   ├── cloud-platform-comparison.md
-│   ├── client-recommendations.md
-│   ├── reflection.md
-│   └── screenshots/
-│       ├── aws-homepage.png
-│       ├── azure-homepage.png
-│       ├── gcp-homepage.png
-│       ├── killercoda-terminal.png
-│       └── github-repository.png
-│
-└── Laboratory-04-Cloud-Native-Engineer/
-    ├── README.md
-    ├── virtualization-vs-containers.md
-    ├── docker-deployment.md
-    ├── reflection.md
-    └── screenshots/
-        ├── docker-version.png
-        ├── nginx-running.png
-        └── container-lifecycle.png
-```
 
 ---
 
