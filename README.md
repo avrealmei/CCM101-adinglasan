@@ -564,6 +564,7 @@ CCM101-adinglasan/
         ├── docker-version.png
         ├── nginx-running.png
         └── container-lifecycle.png
+---
 
 ## 📤 Submission Guidelines
 
