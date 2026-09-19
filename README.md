@@ -517,199 +517,233 @@ Your reflection should contain approximately **250–350 words**.
 # 📂 Expected Repository Structure
 
 ```text
-CCM101-adinglasan
+CCM101-adinglasan/
 │
 ├── README.md
 │
-├── Laboratory-01-Welcome-to-the-Cloud
+├── Laboratory-01-Welcome-to-the-Cloud/
 │   ├── README.md
 │   ├── about-me.md
 │   ├── system-information.md
 │   ├── reflection.md
-│   └── screenshots
+│   └── screenshots/
 │
-└── Laboratory-02-Build-the-Cloud-Infrastructure-Blueprint
-    │
-    ├── README.md
-    ├── infrastructure-report.md
-    ├── cloud-components.md
-    ├── cloud-provider-comparison.md
-    ├── reflection.md
-    │
-    └── screenshots
-        ├── server-information.png
-        ├── network-information.png
-        ├── storage-information.png
-        └── cloud-architecture.png
+├── Laboratory-02-Build-the-Cloud-Infrastructure-Blueprint/
+│   ├── README.md
+│   ├── infrastructure-report.md
+│   ├── cloud-components.md
+│   ├── cloud-provider-comparison.md
+│   ├── reflection.md
+│   └── screenshots/
+│       ├── server-information.png
+│       ├── network-information.png
+│       ├── storage-information.png
+│       └── cloud-architecture.png
 │
-├── Laboratory-03-Multi-Cloud-Explorer
-    ├── README.md
-    ├── aws-research.md
-    ├── azure-research.md
-    ├── gcp-research.md
-    ├── cloud-platform-comparison.md
-    ├── client-recommendations.md
-    ├── reflection.md
-    └── screenshots
-        ├── aws-homepage.png
-        ├── azure-homepage.png
-        ├── gcp-homepage.png
-        ├── killercoda-terminal.png
-        └── github-repository.png
-|
-├── Laboratory-04-Cloud-Native-Engineer
+├── Laboratory-03-Multi-Cloud-Explorer/
+│   ├── README.md
+│   ├── aws-research.md
+│   ├── azure-research.md
+│   ├── gcp-research.md
+│   ├── cloud-platform-comparison.md
+│   ├── client-recommendations.md
+│   ├── reflection.md
+│   └── screenshots/
+│       ├── aws-homepage.png
+│       ├── azure-homepage.png
+│       ├── gcp-homepage.png
+│       ├── killercoda-terminal.png
+│       └── github-repository.png
+│
+└── Laboratory-04-Cloud-Native-Engineer/
     ├── README.md
     ├── virtualization-vs-containers.md
     ├── docker-deployment.md
     ├── reflection.md
-    └── screenshots
+    └── screenshots/
         ├── docker-version.png
         ├── nginx-running.png
         └── container-lifecycle.png
-
----
-
-# 📤 Submission Guidelines
+📤 Submission Guidelines
 
 Submit the following:
 
-* **GitHub Repository URL**
+GitHub Repository URL
 
 No ZIP files or email submissions will be accepted unless instructed otherwise.
 
 All deliverables must be available in your GitHub repository.
 
----
+🏆 Mission Success Criteria
 
-# 🏆 Mission Success Criteria
+You have successfully completed Mission 2 if you can:
 
-You have successfully completed **Mission 2** if you can:
+✅ Investigate a Linux server running in a cloud environment.
+✅ Identify and explain the major components of cloud infrastructure.
+✅ Compare equivalent cloud services offered by AWS, Microsoft Azure, and Google Cloud Platform.
+✅ Create a simple cloud infrastructure diagram.
+✅ Produce organized technical documentation using Markdown.
+✅ Maintain a professional GitHub Cloud Computing Portfolio through meaningful commits and structured documentation.
+☁️ Laboratory Activity 3
+🔵 Mission 3: Multi-Cloud Explorer 🔴
+🚀 Mission Overview
 
-* ✅ Investigate a Linux server running in a cloud environment.
-* ✅ Identify and explain the major components of cloud infrastructure.
-* ✅ Compare equivalent cloud services offered by AWS, Microsoft Azure, and Google Cloud Platform.
-* ✅ Create a simple cloud infrastructure diagram.
-* ✅ Produce organized technical documentation using Markdown.
-* ✅ Maintain a professional GitHub Cloud Computing Portfolio through meaningful commits and structured documentation.
-
----
-
-
-# ☁️ Laboratory Activity 3
-
-# 🔵 Mission 3: Multi-Cloud Explorer 🔴
-
-## 🚀 Mission Overview
-Promotion to Cloud Evaluation Team.  
+Promotion to Cloud Evaluation Team.
 Mission: Explore AWS, Azure, GCP. Compare services. Recommend best provider for business scenarios.
 
-## 🎯 Mission Objectives
-- Explore AWS, Azure, GCP  
-- Identify core services  
-- Compare providers  
-- Recommend solutions  
-- Document in Markdown  
-- Continue portfolio growth  
+🎯 Mission Objectives
+Explore AWS, Azure, GCP
+Identify core services
+Compare providers
+Recommend solutions
+Document in Markdown
+Continue portfolio growth
 📋 Mission Tasks
 Checkpoint 1: Create folder + structure
-
-Checkpoint 2: Research AWS, Azure, GCP (overview, infra, console, 4 services, 3 advantages, use cases, screenshot)
-
-Checkpoint 3: Comparison table + 4 questions
-
-Checkpoint 4: Client recommendations (A–D, 3–5 sentences, 3 services each)
-
-Checkpoint 5: Match equivalent services (VM, Storage, IAM, SQL, Kubernetes)
-
-Checkpoint 6: Decision matrix (business req → platform + justification)
-
-Checkpoint 7: Linux investigation (OS, CPU, RAM, Disk → map to AWS/Azure/GCP)
-
-Checkpoint 8: Reflection (250–350 words, 5 questions)
-
+Checkpoint 2: Research AWS, Azure, GCP
+Overview
+Infrastructure
+Console
+4 services
+3 advantages
+Use cases
+Screenshot
+Checkpoint 3: Comparison
+Comparison table
+4 questions
+Checkpoint 4: Client Recommendations
+Scenarios A–D
+3–5 sentences each
+3 services each
+Checkpoint 5: Match Equivalent Services
+Virtual Machine
+Storage
+IAM
+SQL
+Kubernetes
+Checkpoint 6: Decision Matrix
+Business requirement
+Recommended platform
+Justification
+Checkpoint 7: Linux Investigation
+OS
+CPU
+RAM
+Disk
+Map findings to AWS, Azure, and GCP
+Checkpoint 8: Reflection
+250–350 words
+Answer all 5 questions
 🏆 Success Criteria
 Research AWS, Azure, GCP
-
-Compare services + strengths
-
+Compare services and strengths
 Recommend platforms for scenarios
-
 Match equivalent services
+Relate Linux environment to cloud VMs
+Maintain a professional GitHub portfolio
+🐳 Laboratory Activity 4
+🔵 Mission 4: The Cloud-Native Engineer 🔴
+🚀 Mission Overview
 
-Relate Linux env to cloud VMs
+Explore cloud-native technologies by comparing Virtual Machines and containers and deploying an Nginx web server using Docker.
 
-Maintain professional GitHub portfolio
-
-Code
-
-
+🎯 Mission Objectives
+Differentiate Virtual Machines and containers
+Verify Docker installation
+Use basic Docker CLI commands
+Pull and run an Nginx container
+Expose Nginx through port 8080
+Manage the container lifecycle
+Document the activity using Markdown
+Continue portfolio growth
 📋 Mission Tasks
-Checkpoint 1: Create folder + structure
+Checkpoint 1: Create Folder + Structure
 
-Checkpoint 2: Compare VMs vs Containers (table + summary)
+Create:
 
-Checkpoint 3: Verify Docker install (docker --version) screenshot
+README.md
+virtualization-vs-containers.md
+docker-deployment.md
+reflection.md
+screenshots/
+Checkpoint 2: Compare VMs vs Containers
 
-Checkpoint 4: Deploy Nginx (docker pull nginx, docker run -d -p 8080:80 nginx, curl http://localhost:8080) screenshot
+Create a comparison table and provide a short summary.
 
-Checkpoint 5: Lifecycle (docker ps, docker stop, docker rm) + screenshot
+Checkpoint 3: Verify Docker Installation
+docker --version
+docker info
 
-Checkpoint 6: Update README (overview, objectives, commands, skills, challenges)
+Screenshot:
 
-Checkpoint 7: Reflection (250–350 words, 5 questions)
+screenshots/docker-version.png
+Checkpoint 4: Deploy Nginx
+docker pull nginx
+docker run -d -p 8080:80 --name nginx-server nginx
+curl http://localhost:8080
+
+Screenshot:
+
+screenshots/nginx-running.png
+Checkpoint 5: Container Lifecycle
+docker ps
+docker stop nginx-server
+docker ps -a
+docker rm nginx-server
+
+Screenshot:
+
+screenshots/container-lifecycle.png
+Checkpoint 6: Update README
+
+Include:
+
+Mission Overview
+Objectives
+Docker Commands Executed
+Skills Learned
+Challenges Encountered
+Checkpoint 7: Reflection
+
+Write a 250–350 word reflection answering all 5 required questions.
 
 🏆 Success Criteria
 Explain VM vs Container differences
-
 Verify Docker installation
+Pull and run an Nginx container
+Manage the container lifecycle
+Document commands and evidence
+Maintain a structured GitHub portfolio
+🌟 Portfolio Statement
 
-Pull + run Nginx container
+"Every laboratory activity is another step toward becoming a skilled IT professional with cloud computing expertise. This portfolio reflects my commitment to continuous learning, hands-on practice, and professional growth throughout the CCM101 – Cloud Computing course."
 
-Manage container lifecycle
+📈 Learning Progress
+Skill Area	Progress
+Linux Fundamentals	🟢 Developing
+Cloud Infrastructure	🟢 Developing
+Git & GitHub	🟢 Developing
+Technical Documentation	🟢 Developing
+Cloud Provider Knowledge	🟢 Developing
+Networking Fundamentals	🟡 Learning
+Cloud Architecture	🟡 Learning
+Cloud Security	🟡 Learning
+Containerization	🟢 Developing
+Kubernetes	⚪ Upcoming
+Cloud Automation	⚪ Upcoming
+<div align="center">
+🔵 Linux • Cloud Computing • GitHub • Markdown 🔴
 
-Document commands + evidence
+CCM101 – Cloud Computing Portfolio
 
-Maintain structured GitHub portfolio
-
----
-
-# 🌟 Portfolio Statement
-
-> *"Every laboratory activity is another step toward becoming a skilled IT professional with cloud computing expertise. This portfolio reflects my commitment to continuous learning, hands-on practice, and professional growth throughout the CCM101 – Cloud Computing course."*
-
----
-
-# 📈 Learning Progress
-
-| Skill Area               |    Progress   |
-| ------------------------ | :-----------: |
-| Linux Fundamentals       | 🟢 Developing |
-| Cloud Infrastructure     | 🟢 Developing |
-| Git & GitHub             | 🟢 Developing |
-| Technical Documentation  | 🟢 Developing |
-| Cloud Provider Knowledge | 🟢 Developing |
-| Networking Fundamentals  |  🟡 Learning  |
-| Cloud Architecture       |  🟡 Learning  |
-| Cloud Security           |  🟡 Learning  |
-| Containerization         |   ⚪ Upcoming  |
-| Kubernetes               |   ⚪ Upcoming  |
-| Cloud Automation         |   ⚪ Upcoming  | 
-- 
----
-
-### 🔵 Linux • Cloud Computing • GitHub • Markdown 🔴
-
-**CCM101 – Cloud Computing Portfolio**
-
-⭐ *Learning • Building • Documenting • Growing*
+⭐ Learning • Building • Documenting • Growing
 
 <br>
 
-**College of Information Technology**
-**University of Eastern Pangasinan**
+College of Information Technology
+University of Eastern Pangasinan
 
 <br>
 
-☁️ **Cloud Computing Laboratory Activities** ☁️
-
-</div>
+☁️ Cloud Computing Laboratory Activities ☁️
+<div>
