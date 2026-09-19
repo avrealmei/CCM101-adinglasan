@@ -2,13 +2,6 @@
 
 # ☁️ Laboratory 04 – The Cloud-Native Engineer
 
-### CCM101 – Cloud Computing
-
-**College of Information Technology**
-**University of Eastern Pangasinan (UEP)**
-
-<br>
-
 <!-- Blue, Red, Blue Navigation Bar with Icons -->
 <a href="./docker-deployment.md"><img src="https://img.shields.io/badge/🐳_Docker_Deployment-1565C0?style=for-the-badge"></a>
 <a href="./reflection.md"><img src="https://img.shields.io/badge/📝_Reflection-C62828?style=for-the-badge"></a>
