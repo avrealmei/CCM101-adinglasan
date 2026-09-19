@@ -1,5 +1,3 @@
-div align="center">
-
 # ☁️ Cloud Computing Portfolio
 
 ### CCM101 – Cloud Computing
