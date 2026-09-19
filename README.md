@@ -80,12 +80,12 @@ As the semester progresses, this repository will continue to grow with additiona
 # 📁 Repository Structure
 
 ```text
-CCM101-adinglasan/
+CCM101-adinglasan
 ├── README.md
-├── Laboratory-01-Welcome-to-the-Cloud/
-├── Laboratory-02-Build-the-Cloud-Infrastructure-Blueprint/
-├── Laboratory-03-Multi-Cloud-Explorer/
-└── Laboratory-04-Cloud-Native-Engineer/
+├── Laboratory-01-Welcome-to-the-Cloud
+├── Laboratory-02-Build-the-Cloud-Infrastructure-Blueprint
+├── Laboratory-03-Multi-Cloud-Explorer
+└── Laboratory-04-Cloud-Native-Engineer
     ├── README.md
     ├── virtualization-vs-containers.md
     ├── docker-deployment.md
