@@ -5,11 +5,6 @@
 ### 🔵 CLOUD DEPLOYMENT ENGINEER 🔴
 
 **CCM101 – Cloud Computing Laboratory**
-
-[![Docker](https://img.shields.io/badge/Docker-Containerization-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com/)
-[![Docker Compose](https://img.shields.io/badge/Docker_Compose-Multi--Container-DC2626?style=for-the-badge&logo=docker&logoColor=white)](https://docs.docker.com/compose/)
-[![Laboratory](https://img.shields.io/badge/Laboratory-06-123B78?style=for-the-badge)](#-mission-overview)
-
 ---
 
 [🏠 HOME](./README.md)　|　[🎯 OBJECTIVES](./README.md#-objectives)　|　[💻 COMMANDS](./README.md#-commands-executed)　|　[📘 DOCUMENTATION](./docker-compose-guide.md)
