@@ -13,12 +13,12 @@ Remember: A cloud engineer doesn't just store data; they ensure it is scalable, 
 
 ## Mission Objectives 
 At the end of this laboratory activity, you should be able to: 
- Differentiate between Block, File, and Object Storage. 
- Deploy an S3-compatible Object Storage server (MinIO) using Docker. 
- Access a cloud service via a web interface using port forwarding. 
- Create a storage bucket and upload objects (files) to the cloud. 
- Document cloud storage operations using Markdown. 
- Continue expanding a professional GitHub Cloud Computing Portfolio. 
+- Differentiate between Block, File, and Object Storage. 
+- Deploy an S3-compatible Object Storage server (MinIO) using Docker. 
+- Access a cloud service via a web interface using port forwarding. 
+- Create a storage bucket and upload objects (files) to the cloud. 
+- Document cloud storage operations using Markdown. 
+- Continue expanding a professional GitHub Cloud Computing Portfolio. 
 
 ## Tools Used
 - **Docker Engine:** Container platform used to pull and run the MinIO server image.
