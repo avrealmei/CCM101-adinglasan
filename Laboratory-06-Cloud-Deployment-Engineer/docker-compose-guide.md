@@ -4,13 +4,19 @@
 
 ### 🔵 CLOUD DEPLOYMENT ENGINEER 🔴
 
+**CCM101 – Cloud Computing Laboratory**
+
+[![Docker](https://img.shields.io/badge/DOCKER-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com/)
+[![Docker Compose](https://img.shields.io/badge/DOCKER_COMPOSE-DC2626?style=for-the-badge&logo=docker&logoColor=white)](https://docs.docker.com/compose/)
+[![Mission](https://img.shields.io/badge/MISSION-06-123B78?style=for-the-badge)](#-overview)
 
 </div>
 
 ---
 
 <div align="center">
-| [🏠 OVERVIEW](#-overview) | [💻 COMMANDS](#-docker-compose-commands) | [📘 DOCUMENTATION](#-technical-explanation) |
+
+[🏠 OVERVIEW](#-overview)　🔵 |　[💻 COMMANDS](#-docker-compose-commands)　🔴 |　[📘 DOCUMENTATION](#-technical-explanation)
 
 </div>
 
@@ -50,7 +56,7 @@ In this example, `db` must match the name of the database service defined in the
 
 Docker Compose creates a default network for the application. Containers connected to this network can communicate using their service names. Because of this, Nextcloud can use `db` as the database hostname without needing to find the database container's IP address manually.
 
-**Important:** The value of `MYSQL_HOST` must match the actual database service name in the YAML file. If the service is named `mysql`, for example, the hostname should be changed to `mysql`.
+**Important:** The value of `MYSQL_HOST` must match the actual database service name in the YAML file. If the database service is named `mysql`, for example, the hostname should be changed to `mysql`.
 
 ### 🔵 3. Difference Between `docker run` and `docker compose up -d`
 
@@ -58,7 +64,7 @@ Both commands can start containers, but they differ in how containers are config
 
 | Feature | 🔵 `docker run` | 🔴 `docker compose up -d` |
 |---|---|---|
-| Configuration | Command-line options | YAML configuration file |
+| Configuration | Uses command-line options | Uses a YAML configuration file |
 | Containers | Usually starts one container per command | Can start multiple related services |
 | Networking | May require additional network configuration | Creates and manages the default Compose network |
 | Management | Containers are configured individually | Related services are managed together |
@@ -105,7 +111,7 @@ I realized that Docker Compose is useful because it reduces repetitive commands 
 
 ## 🔴 🎯 Conclusion
 
-This activity improved my understanding of multi-container deployment and technical documentation. I learned that a properly configured Compose file can simplify application deployment, but the YAML indentation, service names, and environment variables must be correct for the services to work properly.
+This activity improved my understanding of multi-container deployment and technical documentation. I learned that a properly configured Compose file can simplify application deployment, but YAML indentation, service names, and environment variables must be correct for the services to work properly.
 
 These concepts will be useful in future cloud computing activities and real-world IT infrastructure projects.
 
