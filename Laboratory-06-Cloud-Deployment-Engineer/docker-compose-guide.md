@@ -4,19 +4,12 @@
 
 ### 🔵 CLOUD DEPLOYMENT ENGINEER 🔴
 
-**CCM101 – Cloud Computing Laboratory**
-
-[![Docker](https://img.shields.io/badge/DOCKER-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com/)
-[![Compose](https://img.shields.io/badge/DOCKER_COMPOSE-DC2626?style=for-the-badge&logo=docker&logoColor=white)](https://docs.docker.com/compose/)
-[![Mission](https://img.shields.io/badge/MISSION-06-123B78?style=for-the-badge)](#-overview)
 
 </div>
 
 ---
 
 <div align="center">
-
-| 🔵 BLUE NAVIGATION | 🔴 RED NAVIGATION | 🔵 BLUE NAVIGATION |
 |:---:|:---:|:---:|
 | [🏠 OVERVIEW](#-overview) | [💻 COMMANDS](#-docker-compose-commands) | [📘 DOCUMENTATION](#-technical-explanation) |
 
