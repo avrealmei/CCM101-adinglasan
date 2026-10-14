@@ -1,117 +1,98 @@
-# 🐳 Docker Compose Guide
+ <div align="center">
 
-<div align="center">
+# ☁️ CLOUDNOVA TECHNOLOGIES
 
-# 🔵 DOCKER COMPOSE DOCUMENTATION
+### 🔵 CLOUD DEPLOYMENT ENGINEER 🔴
 
-**CCM101 – Cloud Computing**
+**CCM101 – Cloud Computing Laboratory**
 
 [![Docker](https://img.shields.io/badge/Docker-Containerization-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com/)
-[![Docker Compose](https://img.shields.io/badge/Docker%20Compose-Multi--Container-0B5CAD?style=for-the-badge&logo=docker&logoColor=white)](https://docs.docker.com/compose/)
-[![Status](https://img.shields.io/badge/Status-Completed-DC2626?style=for-the-badge)](#)
+[![Docker Compose](https://img.shields.io/badge/Docker_Compose-Multi--Container-DC2626?style=for-the-badge&logo=docker&logoColor=white)](https://docs.docker.com/compose/)
+[![Laboratory](https://img.shields.io/badge/Laboratory-06-123B78?style=for-the-badge)](#-mission-overview)
+
+---
+
+[🏠 HOME](./README.md)　|　[🎯 OBJECTIVES](./README.md#-objectives)　|　[💻 COMMANDS](./README.md#-commands-executed)　|　[📘 DOCUMENTATION](./docker-compose-guide.md)
+
+---
 
 </div>
 
----
+## 📌 Mission Overview
 
-## 📌 Overview
+The purpose of this laboratory activity is to understand how Docker Compose simplifies the deployment and management of applications that use multiple containers.
 
-This document explains how Docker Compose is used to deploy an application with multiple containers. In this laboratory activity, Docker Compose is used to define and manage the Nextcloud application and its MySQL database through a YAML configuration file.
+In this mission, I studied how a Nextcloud application and a MySQL database can be configured as separate services in a Docker Compose YAML file. I also documented the configuration, explained how the application connects to the database, and reviewed the commands used to manage the deployment.
 
-Instead of configuring each container separately, Docker Compose allows the services, environment variables, and other settings to be organized in one file. This makes the deployment easier to manage, understand, and reproduce.
+This activity helped me understand how containerization makes application deployment more organized, repeatable, and manageable.
 
-## 🧩 Understanding the Docker Compose YAML File
+## 🎯 Objectives
 
-### 1. What Does the `services:` Block Do?
-
-The `services:` block defines the containers that make up the application. Each service describes how a container should run, including its image, environment variables, ports, and other configuration settings.
-
-For this deployment, the services include:
-
-- **Nextcloud:** The application container that provides the web interface and file-sharing functionality.
-- **MySQL:** The database container that stores the application's data.
-
-By defining both services in the same Compose file, Docker Compose can create and manage the containers together.
-
-### 2. How Does Nextcloud Find the Database Container?
-
-Nextcloud finds the database through the `MYSQL_HOST` environment variable.
-
-For example:
-
-```yaml
-environment:
-  MYSQL_HOST: db
-```
-
-In this example, `db` must match the name of the MySQL service in the Docker Compose YAML file.
-
-Docker Compose creates a network for the application by default. Containers connected to that network can communicate using their service names. Therefore, Nextcloud can use `db` as the database hostname instead of requiring the database container's IP address.
-
-This makes communication between containers simpler and more reliable because Docker Compose handles service discovery within the network.
-
-**Important:** The value of `MYSQL_HOST` must match the actual MySQL service name defined in the YAML file. If the service is named `mysql` instead of `db`, the hostname should be updated accordingly.
-
-### 3. Difference Between `docker run` and `docker-compose up -d`
-
-Both commands can be used to start containers, but they serve different purposes.
-
-| Feature | `docker run` | `docker compose up -d` |
-|---|---|---|
-| Configuration | Uses command-line options | Uses a Compose YAML file |
-| Containers | Usually starts one container per command | Can start multiple related services |
-| Networking | May require manual network configuration | Creates and manages the default application network |
-| Management | Containers are configured individually | Services are managed together |
-| Background execution | Requires the `-d` option to run in the background | The `-d` option runs services in the background |
-| Best use | Running individual containers | Deploying multi-container applications |
-
-In Mission 4, `docker run` was used to start a container directly through the terminal. In this mission, `docker compose up -d` is used to start the services defined in the Compose file.
-
-The `up` command creates or starts the required services, while `-d` means detached mode. Detached mode allows the containers to continue running in the background while the terminal remains available for other commands.
+- Understand the purpose of the `services:` block in a Docker Compose YAML file.
+- Explain how Nextcloud finds the database through the `MYSQL_HOST` environment variable.
+- Differentiate `docker run` from `docker compose up -d`.
+- Learn how to validate a Docker Compose configuration.
+- Understand how to start, inspect, and stop containerized services.
+- Practice writing technical documentation using Markdown.
 
 ## 💻 Commands Executed
 
-The following are the main commands used when working with Docker Compose. Execute them from the directory containing the Compose YAML file.
+The following commands are commonly used when working with Docker Compose.
 
-```bash
-# Check the installed Docker version
-docker --version
+| Command | Description |
+|---|---|
+| `docker --version` | Checks the installed Docker version. |
+| `docker compose version` | Checks the Docker Compose version. |
+| `docker compose config` | Validates and displays the resolved configuration. |
+| `docker compose up -d` | Creates or starts the configured services in the background. |
+| `docker compose ps` | Displays the status of the Compose containers. |
+| `docker compose logs` | Displays service logs for troubleshooting. |
+| `docker compose down` | Stops and removes the Compose containers and network. |
 
-# Check Docker Compose availability
-docker compose version
+**Note:** This section lists the commands relevant to the deployment workflow. I will mark these as executed only after running them in the laboratory environment.
 
-# Validate the Compose configuration
-docker compose config
+## 🧠 Skills Learned
 
-# Start the application services in the background
-docker compose up -d
+### 🐳 Docker Compose
 
-# Check the running containers
-docker compose ps
+I learned how Docker Compose uses a YAML file to define and manage multiple related application services. This makes it easier to configure and deploy an application without manually starting every container separately.
 
-# View service logs
-docker compose logs
+### 🌐 Container Networking
 
-# Stop the application services
-docker compose down
-```
+I learned that Docker Compose provides a network where services can communicate using their service names. For example, Nextcloud can connect to MySQL through the hostname specified in `MYSQL_HOST`, as long as it matches the database service name.
 
-**Note:** These are standard Docker Compose commands for this workflow. Only report a command as executed if you actually ran it during the laboratory activity.
+### 🗄️ Application and Database Integration
 
-## 🎯 Conclusion
+I gained a better understanding of how an application communicates with a database to store and retrieve information. Both containers must have the correct configuration and network connectivity to work together.
 
-Through this activity, I learned how Docker Compose simplifies the deployment of applications that depend on multiple containers. I also understood how service names and environment variables allow the Nextcloud application to communicate with its database.
+### ⌨️ Command-Line Operations
 
-Compared with running containers individually, Docker Compose provides a more organized and manageable way to configure, start, and stop related services. These concepts are useful when deploying applications that require separate application and database components.
+I learned how to validate configurations, start services in detached mode, inspect container status, view logs, and stop a deployment using Docker Compose commands.
+
+### 📝 Technical Documentation
+
+I practiced documenting technical concepts and commands using Markdown. Clear documentation helps other developers understand, troubleshoot, and reproduce an application deployment.
+
+## 📘 Technical Documentation
+
+Read the complete guide for the Docker Compose configuration, including explanations of the `services:` block, the `MYSQL_HOST` environment variable, and the difference between `docker run` and `docker compose up -d`.
+
+**➡️ [Open the Docker Compose Guide](./docker-compose-guide.md)**
+
+## 📝 Reflection
+
+As a fourth-year BSIT student, this activity helped me understand how Docker Compose can simplify the deployment of applications that require multiple services. I learned that the application and database can run in separate containers while communicating through a shared Docker network.
+
+I also realized that proper configuration and technical documentation are important when managing cloud infrastructure. These skills will be useful in future cloud computing activities and real-world IT projects.
 
 ---
 
 <div align="center">
 
-**Prepared by:** Avril Mei A. Dinglasan  
-**Course:** BS Information Technology – 4th Year  
-**Subject:** CCM101 – Cloud Computing
+🔵 **LEARN**　•　**CONFIGURE**　•　🔴 **DEPLOY**
 
-🔵 **LEARN • CONFIGURE • DEPLOY** 🔴
+**CCM101 – Cloud Computing Laboratory**
+
+*Prepared by: Avril Mei A. Dinglasan*
 
 </div>
