@@ -2,8 +2,6 @@
 
 # ☁️ CLOUDNOVA TECHNOLOGIES
 
-### 🔵 CLOUD DEPLOYMENT ENGINEER 🔴
-
 **CCM101 – Cloud Computing Laboratory**
 ---
 
