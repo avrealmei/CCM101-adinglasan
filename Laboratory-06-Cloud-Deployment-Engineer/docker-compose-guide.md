@@ -10,7 +10,6 @@
 ---
 
 <div align="center">
-|:---:|:---:|:---:|
 | [🏠 OVERVIEW](#-overview) | [💻 COMMANDS](#-docker-compose-commands) | [📘 DOCUMENTATION](#-technical-explanation) |
 
 </div>
