@@ -7,7 +7,7 @@
 **CCM101 – Cloud Computing Laboratory**
 
 
-[🏠 HOME](./README.md)　|　[🎯 OBJECTIVES](./README.md#-objectives)　|　[💻 COMMANDS](./README.md#-commands-executed)　|　[📘 DOCUMENTATION](./docker-compose-guide.md)
+[🏠 HOME](./README.md)　|　[🎯 OVERVIEW](./README.md#-objectives)　|　[💻 COMMANDS](./README.md#-commands-executed)　|　[📘 DOCUMENTATION](./docker-compose-guide.md)
 
 ---
 
