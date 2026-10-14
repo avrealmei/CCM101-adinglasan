@@ -8,7 +8,7 @@
 
 [![Docker](https://img.shields.io/badge/DOCKER-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com/)
 [![Docker Compose](https://img.shields.io/badge/DOCKER_COMPOSE-DC2626?style=for-the-badge&logo=docker&logoColor=white)](https://docs.docker.com/compose/)
-[![Mission](https://img.shields.io/badge/MISSION-06-123B78?style=for-the-badge)](#-overview)
+[![Mission](https://img.shields.io/badge/MISSION-06-123B78?style=for-the-badge)](#overview)
 
 </div>
 
@@ -16,19 +16,19 @@
 
 <div align="center">
 
-[🏠 OVERVIEW](#-overview)　🔵 |　[💻 COMMANDS](#-docker-compose-commands)　🔴 |　[📘 DOCUMENTATION](#-technical-explanation)
+[🔵 OVERVIEW](#overview)　|　[🔴 COMMANDS](#docker-compose-commands)　|　[🔵 DOCUMENTATION](#technical-explanation)
 
 </div>
 
 ---
 
-## 🔵 📌 Overview
+## Overview
 
 In this checkpoint, I documented the Docker Compose configuration used to deploy Nextcloud and its database. The purpose of this documentation is to explain how the services are configured, how they communicate with each other, and how Docker Compose makes application deployment easier.
 
 Docker Compose allows developers to define multiple application services in one YAML file. Instead of manually configuring every container, the services can be managed together using a single command.
 
-## 🔴 🧩 Technical Explanation
+## Technical Explanation
 
 ### 🔵 1. What Does the `services:` Block Do?
 
@@ -74,9 +74,9 @@ In Mission 4, I used `docker run` to start a container directly through the term
 
 The `up` command creates or starts the configured services, while `-d` means detached mode. This allows the containers to run in the background while I continue using the terminal for other tasks.
 
-## 🔴 💻 Docker Compose Commands
+## Docker Compose Commands
 
-Run these commands from the directory containing your Docker Compose YAML file.
+The following commands can be used when working with the deployment. Run them from the directory containing your Docker Compose YAML file.
 
 ```bash
 # Check the Docker version
@@ -101,15 +101,15 @@ docker compose logs
 docker compose down
 ```
 
-> 🔵 **Reminder:** These are standard commands for this workflow. Only report them as executed if you actually ran them in your laboratory environment.
+> 🔴 **Reminder:** These are standard commands for this workflow. Only report them as executed if you actually ran them in your laboratory environment.
 
-## 🔵 🧠 What I Learned
+## What I Learned
 
 Through this checkpoint, I learned how Docker Compose organizes multiple application services in a single YAML file. I also understood how the `MYSQL_HOST` environment variable helps Nextcloud locate the database through Docker's service discovery.
 
 I realized that Docker Compose is useful because it reduces repetitive commands and makes deployments easier to manage. As a fourth-year BSIT student, this activity helped me better understand how containers, networks, and databases work together when deploying a cloud application.
 
-## 🔴 🎯 Conclusion
+## Conclusion
 
 This activity improved my understanding of multi-container deployment and technical documentation. I learned that a properly configured Compose file can simplify application deployment, but YAML indentation, service names, and environment variables must be correct for the services to work properly.
 
@@ -119,7 +119,7 @@ These concepts will be useful in future cloud computing activities and real-worl
 
 <div align="center">
 
-[🔵 🏠 BACK TO LABORATORY README](./README.md)
+[🔵 BACK TO LABORATORY README](./README.md)
 
 ---
 
