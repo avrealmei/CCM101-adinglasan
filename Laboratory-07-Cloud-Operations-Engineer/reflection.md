@@ -1,4 +1,4 @@
-#💡 Reflection
+# 💡 Reflection
 
 As a Cloud Operations and Site Reliability Engineer, completing Laboratory Activity 7 provided deep practical insight into how infrastructure observability bridges the gap between application deployment and production stability. Even when containerized web applications appear to function smoothly, performing a host system baseline check is vital because containers share the underlying physical or virtual server's kernel, CPU, RAM, and storage. If the host itself is starved of memory or experiences disk exhaustion, even the most optimized containers will eventually degrade or fail due to resource contention.
 
