@@ -762,21 +762,6 @@ Maintain a structured GitHub portfolio
 
 # 🗄️ Laboratory Activity 5
 ## 🔵 Mission 5: The Cloud Data Engineer 🔴
-### 🚀 Mission Overview
-
-Promotion to the Cloud Data Engineering Team.
-
-**Mission:** Compare Block, File, and Object Storage. Deploy a MinIO S3-compatible object storage server, create a bucket, and upload data.
-
-### 🎯 Mission Objectives
-
-- Differentiate Block, File, and Object Storage
-- Deploy MinIO using Docker
-- Access a cloud service through port forwarding
-- Create a bucket and upload an object
-- Document cloud storage operations using Markdown
-- Continue portfolio growth
-
 ### 📋 Mission Tasks
 #### Checkpoint 1 – Create Folder and Structure
 
@@ -842,21 +827,6 @@ Write a 250–350 word reflection answering all 5 required questions.
 
 # 📦 Laboratory Activity 6
 ## 🔵 Mission 6: The Cloud Deployment Engineer 🔴
-### 🚀 Mission Overview
-
-Promotion to the Cloud Deployment Team.
-
-**Mission:** Transition from manual commands to Infrastructure as Code. Deploy a two-tier Nextcloud and MariaDB stack using Docker Compose.
-
-### 🎯 Mission Objectives
-
-- Explain multi-tier application architecture
-- Understand the structure of `docker-compose.yml`
-- Create configuration files using nano
-- Deploy a multi-container application using Docker Compose
-- Document Infrastructure as Code principles using Markdown
-- Continue portfolio growth
-
 ### 📋 Mission Tasks
 #### Checkpoint 1 – Create Folder and Structure
 
@@ -932,20 +902,6 @@ Write a 250–350 word reflection answering all 5 required questions.
 
 # 📊 Laboratory Activity 7
 ## 🔵 Mission 7: The Cloud Operations Engineer 🔴
-### 🚀 Mission Overview
-
-Promotion to the Cloud Operations Team (Site Reliability Engineering).
-
-**Mission:** Establish a host performance baseline, deploy an Nginx container, generate traffic, and use logs and metrics to verify system health.
-
-### 🎯 Mission Objectives
-
-- Monitor host CPU, memory, and disk using Linux tools
-- Track container performance using Docker metrics
-- Generate web traffic and extract access logs
-- Translate performance data into a Markdown report
-- Continue portfolio growth
-
 ### 📋 Mission Tasks
 #### Checkpoint 1 – Create Folder and Structure
 
