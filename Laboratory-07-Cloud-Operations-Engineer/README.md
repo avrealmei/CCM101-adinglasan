@@ -2,11 +2,6 @@
 
 # ☁️ Laboratory 7: The Cloud Operations Engineer
 
-**CCM101 – Cloud Computing**  
-*College of Information Technology | University of Eastern Pangasinan (UEP)*
-
----
-
 <!-- Navigation Bar -->
 <p align="center">
   <a href="#-mission-overview">
