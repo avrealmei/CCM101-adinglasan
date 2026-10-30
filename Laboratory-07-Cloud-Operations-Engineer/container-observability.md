@@ -6,4 +6,4 @@
 
 ```
 ### 💡 Why Application Logs are Vital for Troubleshooting
-Application logs provide an exact, timestamped chronological record of every interaction and request hitting a container or server. They are vital during troubleshooting because they eliminate guesswork, allowing engineers to pinpoint exact error codes, client IP addresses, and failing endpoints instantly.
+     Application logs provide an exact, timestamped chronological record of every interaction and request hitting a container or server. They are vital during troubleshooting because they eliminate guesswork, allowing engineers to pinpoint exact error codes, client IP addresses, and failing endpoints instantly.
