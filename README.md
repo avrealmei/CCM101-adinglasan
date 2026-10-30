@@ -85,7 +85,7 @@ CCM101-adinglasan
 │       ├── killercoda-terminal.png
 │       └── github-repository.png
 │
-└── Laboratory-04-Cloud-Native-Engineer
+├── Laboratory-04-Cloud-Native-Engineer
     ├── README.md
     ├── virtualization-vs-containers.md
     ├── docker-deployment.md
@@ -94,6 +94,27 @@ CCM101-adinglasan
         ├── docker-version.png
         ├── nginx-running.png
         └── container-lifecycle.png
+├── Laboratory-05-Cloud-Data-Engineer
+    ├── README.md 
+    ├── storage-types-research.md 
+    ├── minio-deployment.md 
+    ├── reflection.md 
+    └── screenshots 
+        ├── minio-deployed.png 
+        └── minio-bucket-upload.png
+├──Laboatory-06-Cloud-Deployment-Engineer/ 
+   ├── README.md 
+   ├── multi-tier-architecture.md 
+   ├── docker-compose-guide.md 
+   ├── reflection.md 
+   └── screenshots
+       ├── compose-deployment.png
+├──Laboratory-07-Cloud-Operations-Engineer 
+        ├── README.md 
+        ├── system-baseline-report.md 
+        ├── container-observability.md 
+        ├── reflection.md 
+        └── screenshots/ 
 ```
 
 # ☁️ Laboratory Activity 1
