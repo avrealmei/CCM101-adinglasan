@@ -620,16 +620,19 @@ Maintain a structured GitHub portfolio
 ## 🔵 Mission 5: The Cloud Data Engineer 🔴
 ### 🚀 Mission Overview
 Promotion to the Cloud Data Engineering Team.
-Mission: Compare Block, File, and Object Storage. Deploy a MinIO S3-compatible object storage server, create a bucket, and upload data.
-🎯 Mission Objectives
-Differentiate Block, File, and Object Storage
-Deploy MinIO using Docker
-Access a cloud service through port forwarding
-Create a bucket and upload an object
-Document cloud storage operations using Markdown
-Continue portfolio growth
-📋 Mission Tasks
-Checkpoint 1 – Create Folder and Structure
+
+**Mission:** Compare Block, File, and Object Storage. Deploy a MinIO S3-compatible object storage server, create a bucket, and upload data.
+
+### 🎯 Mission Objectives
+- Differentiate Block, File, and Object Storage
+- Deploy MinIO using Docker
+- Access a cloud service through port forwarding
+- Create a bucket and upload an object
+- Document cloud storage operations using Markdown
+- Continue portfolio growth
+
+### 📋 Mission Tasks
+#### Checkpoint 1 – Create Folder and Structure
 Create:
 ```text
 Laboratory-05-Cloud-Data-Engineer/
@@ -639,13 +642,15 @@ Laboratory-05-Cloud-Data-Engineer/
 ├── reflection.md
 └── screenshots/
 ```
-Checkpoint 2 – Research Types of Cloud Storage
+#### Checkpoint 2 – Research Types of Cloud Storage
 In `storage-types-research.md`, create a comparison table of Block, File, and Object Storage covering:
-Description
-Primary Use Case
-Cloud Provider Example
+- Description
+- Primary Use Case
+- Cloud Provider Example
+
 Add a 2–3 sentence explanation of why Object Storage suits user-uploaded images.
-Checkpoint 3 – Deploy MinIO
+
+#### Checkpoint 3 – Deploy MinIO
 ```bash
 docker run -d -p 9000:9000 -p 9001:9001 --name minio-server \
 -e "MINIO_ROOT_USER=cloudadmin" \
@@ -653,40 +658,49 @@ docker run -d -p 9000:9000 -p 9001:9001 --name minio-server \
 minio/minio server /data --console-address ":9001"
 ```
 Screenshot: `screenshots/minio-deployed.png`
-Checkpoint 4 – Create a Bucket
+
+#### Checkpoint 4 – Create a Bucket
 Access the MinIO Web Console on port 9001, create a bucket named `client-photos`, and upload a sample file.
+
 Screenshot: `screenshots/minio-bucket-upload.png`
-Checkpoint 5 – Technical Documentation
+
+#### Checkpoint 5 – Technical Documentation
 Document the Docker command, console port, bucket name, and the purpose of the `-e` flags in `minio-deployment.md`.
+
 Update the README with:
-Mission Overview
-Objectives
-Tools Used
-Skills Learned
-Checkpoint 6 – Reflection
+- Mission Overview
+- Objectives
+- Tools Used
+- Skills Learned
+
+#### Checkpoint 6 – Reflection
 Write a 250–350 word reflection answering all 5 required questions.
-🏆 Success Criteria
-Explain Block, File, and Object Storage differences
-Deploy MinIO using environment variables
-Access a service through a specific port
-Create a bucket and upload data
-Document configurations clearly
-Maintain a structured GitHub portfolio
+
+### 🏆 Success Criteria
+- Explain Block, File, and Object Storage differences
+- Deploy MinIO using environment variables
+- Access a service through a specific port
+- Create a bucket and upload data
+- Document configurations clearly
+- Maintain a structured GitHub portfolio
 ---
-📦 Laboratory Activity 6
-🔵 Mission 6: The Cloud Deployment Engineer 🔴
-🚀 Mission Overview
+# 📦 Laboratory Activity 6
+## 🔵 Mission 6: The Cloud Deployment Engineer 🔴
+### 🚀 Mission Overview
 Promotion to the Cloud Deployment Team.
-Mission: Transition from manual commands to Infrastructure as Code. Deploy a two-tier Nextcloud and MariaDB stack using Docker Compose.
-🎯 Mission Objectives
-Explain multi-tier application architecture
-Understand the structure of `docker-compose.yml`
-Create configuration files using nano
-Deploy a multi-container application using Docker Compose
-Document Infrastructure as Code principles using Markdown
-Continue portfolio growth
-📋 Mission Tasks
-Checkpoint 1 – Create Folder and Structure
+
+**Mission:** Transition from manual commands to Infrastructure as Code. Deploy a two-tier Nextcloud and MariaDB stack using Docker Compose.
+
+### 🎯 Mission Objectives
+- Explain multi-tier application architecture
+- Understand the structure of `docker-compose.yml`
+- Create configuration files using nano
+- Deploy a multi-container application using Docker Compose
+- Document Infrastructure as Code principles using Markdown
+- Continue portfolio growth
+
+### 📋 Mission Tasks
+#### Checkpoint 1 – Create Folder and Structure
 Create:
 ```text
 Laboratory-06-Cloud-Deployment-Engineer/
@@ -696,63 +710,73 @@ Laboratory-06-Cloud-Deployment-Engineer/
 ├── reflection.md
 └── screenshots/
 ```
-Checkpoint 2 – Research Multi-Tier Architecture
+#### Checkpoint 2 – Research Multi-Tier Architecture
 In `multi-tier-architecture.md`, define a Two-Tier Architecture:
-The Web/Application Tier
-The Database Tier
-Why separate them?
-Checkpoint 3 – Write the Infrastructure Code
+- The Web/Application Tier
+- The Database Tier
+- Why separate them?
+
+#### Checkpoint 3 – Write the Infrastructure Code
 ```bash
 mkdir nextcloud-deployment
 cd nextcloud-deployment
 nano docker-compose.yml
 ```
 Define the `database` (MariaDB) and `app` (Nextcloud) services.
-Checkpoint 4 – Deploy the Stack
+
+#### Checkpoint 4 – Deploy the Stack
 ```bash
 docker-compose up -d
 docker-compose ps
 ```
 Screenshot: `screenshots/compose-deployment.png`
-Checkpoint 5 – Access the Private Cloud
+
+#### Checkpoint 5 – Access the Private Cloud
 Open port 8080 and verify the Nextcloud installation page, then shut down the stack:
 ```bash
 docker-compose down
 ```
 Screenshots: `screenshots/nextcloud-web.png`, `screenshots/compose-teardown.png`
-Checkpoint 6 – Technical Documentation
+
+#### Checkpoint 6 – Technical Documentation
 In `docker-compose-guide.md`, explain:
-The `services:` block
-How the app container locates the database (`MYSQL_HOST`)
-The difference between `docker run` and `docker-compose up -d`
+- The `services:` block
+- How the app container locates the database (`MYSQL_HOST`)
+- The difference between `docker run` and `docker-compose up -d`
+
 Update the README with:
-Mission Overview
-Objectives
-Commands Executed
-Skills Learned
-Checkpoint 7 – Reflection
+- Mission Overview
+- Objectives
+- Commands Executed
+- Skills Learned
+
+#### Checkpoint 7 – Reflection
 Write a 250–350 word reflection answering all 5 required questions.
-🏆 Success Criteria
-Explain the roles of tiers in a multi-container architecture
-Create a properly formatted YAML file
-Deploy and tear down a stack using Docker Compose
-Route browser traffic to a containerized application
-Document Infrastructure as Code principles clearly
-Maintain a structured GitHub portfolio
+
+### 🏆 Success Criteria
+- Explain the roles of tiers in a multi-container architecture
+- Create a properly formatted YAML file
+- Deploy and tear down a stack using Docker Compose
+- Route browser traffic to a containerized application
+- Document Infrastructure as Code principles clearly
+- Maintain a structured GitHub portfolio
 ---
-📊 Laboratory Activity 7
-🔵 Mission 7: The Cloud Operations Engineer 🔴
-🚀 Mission Overview
+# 📊 Laboratory Activity 7
+## 🔵 Mission 7: The Cloud Operations Engineer 🔴
+### 🚀 Mission Overview
 Promotion to the Cloud Operations Team (Site Reliability Engineering).
-Mission: Establish a host performance baseline, deploy an Nginx container, generate traffic, and use logs and metrics to verify system health.
-🎯 Mission Objectives
-Monitor host CPU, memory, and disk using Linux tools
-Track container performance using Docker metrics
-Generate web traffic and extract access logs
-Translate performance data into a Markdown report
-Continue portfolio growth
-📋 Mission Tasks
-Checkpoint 1 – Create Folder and Structure
+
+**Mission:** Establish a host performance baseline, deploy an Nginx container, generate traffic, and use logs and metrics to verify system health.
+
+### 🎯 Mission Objectives
+- Monitor host CPU, memory, and disk using Linux tools
+- Track container performance using Docker metrics
+- Generate web traffic and extract access logs
+- Translate performance data into a Markdown report
+- Continue portfolio growth
+
+### 📋 Mission Tasks
+#### Checkpoint 1 – Create Folder and Structure
 Create:
 ```text
 Laboratory-07-Cloud-Operations-Engineer/
@@ -762,62 +786,71 @@ Laboratory-07-Cloud-Operations-Engineer/
 ├── reflection.md
 └── screenshots/
 ```
-Checkpoint 2 – Establish a Host System Baseline
+#### Checkpoint 2 – Establish a Host System Baseline
 Check memory, disk, and CPU load. Record total RAM and root (/) storage capacity in `system-baseline-report.md`, with a 1-sentence explanation of why disk checks matter before a traffic surge.
 ```bash
 top
 ```
 Screenshots: `screenshots/memory-check.png`, `screenshots/disk-check.png`
-Checkpoint 3 – Deploy and Generate Traffic
+
+#### Checkpoint 3 – Deploy and Generate Traffic
 Run an Nginx container named `client-website` on port 8080. Send three successful requests and one request that triggers a 404:
 ```bash
 curl http://localhost:8080/hidden-admin-page
 ```
 Screenshots: `screenshots/install-nginx.png`, `screenshots/simulation1.png`, `screenshots/simulation2.png`
-Checkpoint 4 – Application Logging
+
+#### Checkpoint 4 – Application Logging
 ```bash
 docker logs client-website
 ```
 Record the 404 log line in `container-observability.md` with a 2-sentence explanation of why logs are vital for troubleshooting.
+
 Screenshot: `screenshots/docker-logs.png`
-Checkpoint 5 – Real-Time Container Metrics
+
+#### Checkpoint 5 – Real-Time Container Metrics
 ```bash
 docker stats
 ```
 Record the container's Memory Usage and CPU percentage in `container-observability.md`.
+
 Screenshot: `screenshots/container-metrics.png`
-Checkpoint 6 – Technical Documentation
+
+#### Checkpoint 6 – Technical Documentation
 Update the README with:
-Mission Overview
-Objectives
-Monitoring Commands Executed
-Skills Learned
-Checkpoint 7 – Reflection
+- Mission Overview
+- Objectives
+- Monitoring Commands Executed
+- Skills Learned
+
+#### Checkpoint 7 – Reflection
 Write a 250–350 word reflection answering all 5 required questions.
-🏆 Success Criteria
-Establish a hardware performance baseline using Linux tools
-Simulate web traffic and trigger HTTP errors
-Analyze container logs to identify error codes
-Verify container resource efficiency using real-time metrics
-Document observability data accurately
-Maintain a structured GitHub portfolio
+
+### 🏆 Success Criteria
+- Establish a hardware performance baseline using Linux tools
+- Simulate web traffic and trigger HTTP errors
+- Analyze container logs to identify error codes
+- Verify container resource efficiency using real-time metrics
+- Document observability data accurately
+- Maintain a structured GitHub portfolio
 ---
-🌟 Portfolio Statement
+# 🌟 Portfolio Statement
 > "Every laboratory activity is another step toward becoming a skilled IT professional with cloud computing expertise. This portfolio reflects my commitment to continuous learning, hands-on practice, and professional growth throughout the CCM101 – Cloud Computing course."
 ---
-📈 Learning Progress
-Skill Area	Progress
-Linux Fundamentals	🟢 Developing
-Cloud Infrastructure	🟢 Developing
-Git & GitHub	🟢 Developing
-Technical Documentation	🟢 Developing
-Cloud Provider Knowledge	🟢 Developing
-Networking Fundamentals	🟡 Learning
-Cloud Architecture	🟡 Learning
-Cloud Security	🟡 Learning
-Containerization	🟢 Developing
-Kubernetes	⚪ Upcoming
-Cloud Automation	⚪ Upcoming
+# 📈 Learning Progress
+| Skill Area               | Progress      |
+| ------------------------ | ------------- |
+| Linux Fundamentals       | 🟢 Developing |
+| Cloud Infrastructure     | 🟢 Developing |
+| Git & GitHub             | 🟢 Developing |
+| Technical Documentation  | 🟢 Developing |
+| Cloud Provider Knowledge | 🟢 Developing |
+| Networking Fundamentals  | 🟡 Learning   |
+| Cloud Architecture       | 🟡 Learning   |
+| Cloud Security           | 🟡 Learning   |
+| Containerization         | 🟢 Developing |
+| Kubernetes               | ⚪ Upcoming   |
+| Cloud Automation         | ⚪ Upcoming   |
 ---
 <div align="center">
 🔵 Linux • Cloud Computing • GitHub • Markdown 🔴
