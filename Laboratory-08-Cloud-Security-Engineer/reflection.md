@@ -1,12 +1,5 @@
 # 🧠 Mission Reflection: Cloud Security Engineering
 
-<div align="center">
-
-| [🏠 Portfolio Home](../README.md) | [💭 Reflection](#-mission-reflection) |
-| :---: | :---: |
-
-</div>
-
 ---
 
 <p align="justify">
