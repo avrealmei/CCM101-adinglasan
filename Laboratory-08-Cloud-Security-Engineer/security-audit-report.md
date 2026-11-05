@@ -2,12 +2,6 @@
 
 <div align="center">
 
-| [🏠 Portfolio Home](../README.md) | [📌 Audit Report](#-security-audit-report) |
-| :---: | :---: |
-
-</div>
-
----
 
 ## 📌 Security Theory Definitions
 
