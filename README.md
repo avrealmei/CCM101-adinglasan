@@ -170,6 +170,7 @@ CCM101-adinglasan
 ├── Laboratory-05-Cloud-Data-Engineer
 ├── Laboratory-06-Cloud-Deployment-Engineer
 └── Laboratory-07-Cloud-Operations-Engineer
+└── Laboratory-08-Cloud-Security-Engineer 
 ```
 This repository will contain all laboratory activities completed throughout the semester.
 
