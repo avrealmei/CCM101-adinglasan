@@ -2,7 +2,7 @@
 
 <div align="center">
 
-| [🏠 Portfolio Home](../README.md) |
+[🏠 Portfolio Home](../README.md)
 
 </div>
 
