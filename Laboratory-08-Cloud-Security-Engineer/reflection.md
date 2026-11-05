@@ -1,7 +1,5 @@
 # 🧠 Mission Reflection: Cloud Security Engineering
 
----
-
 <p align="justify">
   Completing Laboratory Activity 8 really highlighted the importance of defense-in-depth. Even if an external network perimeter or cloud security group is breached, a host-based firewall like UFW acts as a vital last line of defense at the operating system level, filtering out malicious packets before they reach internal services. Managing open network ports is crucial for minimizing a server's attack surface because every open port provides another potential entry point for automated exploit scripts and unauthorized probes. By enforcing a strict Default Deny baseline and opening only necessary ports like SSH and port 8080, we maintain tight control over incoming traffic.
 </p>
