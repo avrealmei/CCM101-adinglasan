@@ -160,14 +160,6 @@ CCM101-adinglasan
 ├── Laboratory-02-Build-the-Cloud-Infrastructure-Blueprint
 ├── Laboratory-03-Multi-Cloud-Explorer
 ├── Laboratory-04-Cloud-Native-Engineer
-│   ├── README.md
-│   ├── virtualization-vs-containers.md
-│   ├── docker-deployment.md
-│   ├── reflection.md
-│   └── screenshots
-│       ├── docker-version.png
-│       ├── nginx-running.png
-│       └── container-lifecycle.png
 ├── Laboratory-05-Cloud-Data-Engineer
 ├── Laboratory-06-Cloud-Deployment-Engineer
 └── Laboratory-07-Cloud-Operations-Engineer
@@ -200,6 +192,9 @@ This structure makes the portfolio easier to navigate, maintain, and review.
 | **Laboratory 05** | Cloud Data Engineer                      | Compare cloud storage types, deploy MinIO object storage, create a bucket, and document tasks   | ✅ Completed |
 | **Laboratory 06** | Cloud Deployment Engineer                | Define multi-tier architecture, write Docker Compose file, deploy Nextcloud and MariaDB stack   | ✅ Completed |
 | **Laboratory 07** | Cloud Operations Engineer                | Establish host baseline, generate traffic, analyze container logs and metrics                   | ✅ Completed |
+| **Laboratory 08** | Cloud Security Engineer                  | Audit network ports, configure UFW firewall, implement Default Deny policies, and secure a web application | ✅ Completed |
+
+---
 
 ---
 
@@ -969,6 +964,157 @@ Write a 250–350 word reflection answering all 5 required questions.
 - Maintain a structured GitHub portfolio
 
 ---
+
+# 🛡️ Laboratory Activity 8
+## 🔵 Mission 8: The Cloud Security Engineer 🔴
+
+### 🚀 Mission Overview
+
+Welcome to **CloudNova Technologies**!
+
+Your proactive approach to system monitoring has earned you a spot on the elite **Cloud Security Team**. Your mission is to secure a vulnerable Ubuntu server by implementing the principle of **Defense in Depth**.
+
+Using the **KillerCoda Playground**, you will deploy an Nginx web application, audit active network ports, and configure the Uncomplicated Firewall (UFW) to block unauthorized incoming traffic while allowing legitimate connections through SSH and port 8080.
+
+> **Remember:** Security is not a product you buy; it is a continuous process you maintain.
+
+---
+
+### 🎯 Mission Objectives
+
+At the end of this laboratory activity, you should be able to:
+
+- Understand the concept of the Attack Surface and the Principle of Least Privilege (PoLP).
+- Perform a basic security audit of active network ports on a Linux server.
+- Configure the Uncomplicated Firewall (UFW) with a Default Deny policy.
+- Implement granular port management to selectively allow SSH and HTTP application traffic.
+- Document firewall rules and security best practices using Markdown.
+- Continue expanding your professional GitHub Cloud Computing Portfolio.
+
+---
+
+### 🧰 Required Resources
+
+- KillerCoda Playground (Ubuntu or Docker environment)
+- GitHub Account
+- Modern Web Browser
+- Stable Internet Connection
+
+---
+
+### 📋 Mission Tasks
+
+#### Checkpoint 1 – Expand Your Cloud Portfolio
+
+Create the following folder and file structure inside your existing GitHub repository:
+
+```text
+Laboratory-08-Cloud-Security-Engineer/
+├── README.md
+├── security-audit-report.md
+├── firewall-configuration.md
+├── reflection.md
+└── screenshots/
+```
+
+#### Checkpoint 2 – Research Security Best Practices
+
+Research and document the following Chapter 8 concepts in `security-audit-report.md`:
+
+- The Principle of Least Privilege (PoLP)
+- Attack Surface
+- Default Deny Policy
+
+Explain each concept using your own words in 2–3 sentences.
+
+#### Checkpoint 3 – Deploy the Vulnerable Application
+
+Deploy an Nginx web application container using Docker and verify its accessibility.
+
+```bash
+docker run -d --name secure-web-app -p 8080:80 nginx
+curl -I http://localhost:8080
+```
+
+Screenshot: `screenshots/vulnerable-app-running.png`
+
+#### Checkpoint 4 – Build the Firewall
+
+Configure UFW to protect the Ubuntu server while maintaining administrative access.
+
+```bash
+# Allow SSH access
+sudo ufw allow ssh
+
+# Configure default firewall policies
+sudo ufw default deny incoming
+sudo ufw default allow outgoing
+
+# Enable the firewall
+sudo ufw enable
+
+# Verify firewall status
+sudo ufw status verbose
+```
+
+Screenshot: `screenshots/firewall-activated.png`
+
+#### Checkpoint 5 – Granular Port Management
+
+Create a specific firewall rule to allow incoming TCP traffic on port 8080 and verify the active rules.
+
+```bash
+# Allow TCP traffic on port 8080
+sudo ufw allow 8080/tcp
+
+# Display numbered firewall rules
+sudo ufw status numbered
+
+# Verify the web application
+curl -I http://localhost:8080
+```
+
+Screenshot: `screenshots/firewall-port-allowed.png`
+
+#### Checkpoint 6 – Technical Documentation
+
+Document the firewall configuration in `firewall-configuration.md`.
+
+Include:
+
+- The command used to allow SSH.
+- The commands used to configure the Default Deny policy.
+- The command used to allow TCP traffic on port 8080.
+- A one-sentence explanation of what could happen if UFW is enabled before allowing SSH access.
+
+Update the laboratory README with the following sections:
+
+- Mission Overview
+- Objectives
+- Commands Executed
+- Skills Learned
+
+#### Checkpoint 7 – Mission Reflection
+
+Create `reflection.md` and write a 250–350-word reflection answering the following questions:
+
+1. How does a host-based firewall protect a server even if the physical network perimeter is breached?
+2. Why is managing open network ports critical to reducing a server's attack surface?
+3. In a real enterprise environment, why is it dangerous to leave a database port (like 3306 for MySQL) open to the public internet?
+4. How did completing this mission change your perspective on how easily a server can be compromised?
+5. How does your GitHub portfolio currently look with eight completed missions?
+
+---
+
+### 🏆 Mission Success Criteria
+
+You have successfully completed Mission 8 if you can:
+
+- Explain core cloud security principles, including the Principle of Least Privilege and Default Deny.
+- Successfully enable and configure the UFW firewall on a Linux server.
+- Apply precise port management to allow specific application traffic while blocking unauthorized incoming connections.
+- Document security configurations logically using Markdown.
+- Upload screenshot evidence and maintain a well-structured GitHub repository.
 
 # 🌟 Portfolio Statement
 
