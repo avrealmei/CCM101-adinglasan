@@ -117,6 +117,13 @@ CCM101-adinglasan
         ├── container-observability.md 
         ├── reflection.md 
         └── screenshots
+|
+Laboratory-08-Cloud-Security-Engineer 
+├── README.md 
+├── security-audit-report.md 
+├── firewall-configuration.md 
+├── reflection.md 
+└── screenshots
 ```
 # ☁️ Laboratory Activity 1
 ### 💡 About This Portfolio
