@@ -1,7 +1,5 @@
 # 🔍 Security Audit Report: Chapter 8 Concepts
 
-<div align="center">
-
 
 ## 📌 Security Theory Definitions
 
