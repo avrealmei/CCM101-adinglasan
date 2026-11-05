@@ -1,7 +1,3 @@
-### 📄 File 3: `README.md`
-> **Location on GitHub:** `CCM101-adinglasan/Laboratory-08-Cloud-Security-Engineer/README.md`
-
-```markdown
 # 🛡️ Laboratory Activity 8: The Cloud Security Engineer
 
 <div align="center">
@@ -67,7 +63,7 @@ sudo ufw status numbered
 
 ---
 
-🧠 Skills Learned
+## 🧠 Skills Learned
 Host-Based Firewall Configuration: Proficiency in managing ufw rules, default policies, and inspecting active network ports.
 
 Network Risk Mitigation: Understanding how to minimize a server's attack surface by blocking unnecessary open ports and preventing automated brute-force attacks.
