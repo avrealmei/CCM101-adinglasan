@@ -1,8 +1,11 @@
 <p align="center">
-  <a href="#mission-overview"><img src="https://img.shields.io/badge/MISSION%20OVERVIEW-1D4ED8?style=for-the-badge" alt="Mission Overview"></a>
-  <a href="#objectives"><img src="https://img.shields.io/badge/OBJECTIVES-B91C1C?style=for-the-badge" alt="Objectives"></a>
-  <a href="#commands-executed"><img src="https://img.shields.io/badge/COMMANDS%20EXECUTED-1D4ED8?style=for-the-badge" alt="Commands Executed"></a>
-  <a href="#skills-learned"><img src="https://img.shields.io/badge/SKILLS%20LEARNED-B91C1C?style=for-the-badge" alt="Skills Learned"></a>
+  <a href="#mission-overview"><b>📖 Mission Overview</b></a>
+  &nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href="#objectives"><b>🎯 Objectives</b></a>
+  &nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href="#commands-executed"><b>⌨️ Commands Executed</b></a>
+  &nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href="#skills-learned"><b>💡 Skills Learned</b></a>
 </p>
 
 # 🚀 Laboratory 9: The Cloud Automation Engineer
