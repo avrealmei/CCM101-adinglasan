@@ -1,9 +1,22 @@
 <p align="center">
-  <a href="#overview"><img src="https://img.shields.io/badge/📖%20OVERVIEW-1D4ED8?style=for-the-badge&logoColor=white" alt="Overview"></a>
-  <a href="#backup-script"><img src="https://img.shields.io/badge/💻%20BACKUP%20SCRIPT-B91C1C?style=for-the-badge&logoColor=white" alt="Backup Script"></a>
-  <a href="#execution-commands"><img src="https://img.shields.io/badge/⌨️%20COMMANDS-1D4ED8?style=for-the-badge&logoColor=white" alt="Execution Commands"></a>
-  <a href="#file-permissions"><img src="https://img.shields.io/badge/🔑%20PERMISSIONS-B91C1C?style=for-the-badge&logoColor=white" alt="File Permissions"></a>
-  <a href="#cron-scheduling"><img src="https://img.shields.io/badge/⏰%20CRON%20SCHEDULING-1D4ED8?style=for-the-badge&logoColor=white" alt="Cron Scheduling"></a>
+  <a href="#overview">
+    <img src="https://img.shields.io/badge/📖_OVERVIEW-1D4ED8?style=for-the-badge" alt="Overview">
+  </a>
+  <a href="#backup-script">
+    <img src="https://img.shields.io/badge/💻_BACKUP_SCRIPT-B91C1C?style=for-the-badge" alt="Backup Script">
+  </a>
+  <a href="#execution-commands">
+    <img src="https://img.shields.io/badge/⌨️_COMMANDS-1D4ED8?style=for-the-badge" alt="Execution Commands">
+  </a>
+  <a href="#file-permissions">
+    <img src="https://img.shields.io/badge/🔑_PERMISSIONS-B91C1C?style=for-the-badge" alt="File Permissions">
+  </a>
+  <a href="#cron-scheduling">
+    <img src="https://img.shields.io/badge/⏰_CRON_SCHEDULING-1D4ED8?style=for-the-badge" alt="Cron Scheduling">
+  </a>
+  <a href="#key-takeaways">
+    <img src="https://img.shields.io/badge/🎯_KEY_TAKEAWAYS-B91C1C?style=for-the-badge" alt="Key Takeaways">
+  </a>
 </p>
 
 # 🛡️ Backup Script & Automation Technical Guide
@@ -174,23 +187,6 @@ crontab -l
 This command displays the configured scheduled tasks and allows you to verify that the backup schedule has been saved.
 
 ---
-
-## 📂 Expected Repository Structure
-
-```text
-Laboratory-09/
-│
-├── README.md
-├── backup-script--code.md
-│
-├── backup.sh
-│
-├── app-data/
-│   └── data.txt
-│
-└── backups/
-    └── backup_YYYYMMDD_HHMMSS.tar.gz
-```
 
 ---
 
