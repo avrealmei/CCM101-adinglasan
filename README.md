@@ -124,6 +124,15 @@ Laboratory-08-Cloud-Security-Engineer
 ├── firewall-configuration.md 
 ├── reflection.md 
 └── screenshots
+|
+Laboratory-09-Cloud-Automation-Engineer
+├── README.md
+├── automation-research.md
+├── backup-script-guide.md
+├── reflection.md
+└── screenshots
+    ├── script-execution.png
+    └── cron-schedule.png
 ```
 # ☁️ Laboratory Activity 1
 ### 💡 About This Portfolio
@@ -171,6 +180,7 @@ CCM101-adinglasan
 ├── Laboratory-06-Cloud-Deployment-Engineer
 └── Laboratory-07-Cloud-Operations-Engineer
 └── Laboratory-08-Cloud-Security-Engineer 
+└── Laboratory-09-Cloud-Automation-Engineer
 ```
 This repository will contain all laboratory activities completed throughout the semester.
 
@@ -201,6 +211,7 @@ This structure makes the portfolio easier to navigate, maintain, and review.
 | **Laboratory 06** | Cloud Deployment Engineer                | Define multi-tier architecture, write Docker Compose file, deploy Nextcloud and MariaDB stack   | ✅ Completed |
 | **Laboratory 07** | Cloud Operations Engineer                | Establish host baseline, generate traffic, analyze container logs and metrics                   | ✅ Completed |
 | **Laboratory 08** | Cloud Security Engineer                  | Audit network ports, configure UFW firewall, implement Default Deny policies, and secure a web application | ✅ Completed |
+| **Laboratory 09** | Cloud Automation Engineer                | Write a Bash backup script, grant executable permissions with chmod, and schedule it with a Cron job | ✅ Completed |
 
 ---
 
@@ -218,6 +229,7 @@ This structure makes the portfolio easier to navigate, maintain, and review.
 | ☁️ **Laboratory 06** | [Cloud Deployment Engineer](./Laboratory-06-Cloud-Deployment-Engineer/)                               |
 | ☁️ **Laboratory 07** | [Cloud Operations Engineer](./Laboratory-07-Cloud-Operations-Engineer/)                               |
 | ☁️ **Laboratory 08** | [Cloud Security Engineer](./Laboratory-08-Cloud-Security-Engineer/)                                   |
+| ☁️ **Laboratory 09** | [Cloud Automation Engineer](./Laboratory-09-Cloud-Automation-Engineer/)                               |
 
 ---
 
@@ -233,6 +245,7 @@ Throughout this course, I aim to:
 💻 Apply classroom knowledge through hands-on laboratory activities.  
 🌐 Understand how cloud infrastructure components work together.  
 🔐 Develop awareness of cloud security and identity management.  
+⚙️ Automate repetitive cloud administration tasks using Bash scripting and Cron scheduling.  
 🚀 Build a professional Cloud Computing portfolio that showcases my technical growth and practical experience throughout the semester.
 
 ---
@@ -1125,6 +1138,99 @@ You have successfully completed Mission 8 if you can:
 - Document security configurations logically using Markdown.
 - Upload screenshot evidence and maintain a well-structured GitHub repository.
 
+---
+
+# ⚙️ Laboratory Activity 9
+## 🔵 Mission 9: The Cloud Automation Engineer 🔴
+### 🚀 Mission Overview
+
+Promoted to the **Cloud Automation and DevOps Team** at CloudNova Technologies, you replace repetitive manual administration with automation. You write a Bash script that backs up a client's application data and schedule it with Cron to run every night at 2:00 AM.
+
+> **Remember:** If you have to do a task more than twice in the cloud, you should automate it.
+
+### 🎯 Mission Objectives
+
+- Understand the fundamental syntax of a Bash shell script, including variables and basic commands.
+- Use a command-line text editor (`nano`) to write and save executable scripts.
+- Modify Linux file permissions using the `chmod` command.
+- Understand task scheduling and the syntax of a Linux crontab.
+- Document automation code and Cron job configurations using Markdown.
+- Complete the final chapter of the GitHub Cloud Computing Portfolio.
+
+### 📋 Mission Tasks
+#### Checkpoint 1 – Create Folder and Structure
+
+Create:
+```text
+Laboratory-09-Cloud-Automation-Engineer/
+├── README.md
+├── automation-research.md
+├── backup-script-guide.md
+├── reflection.md
+└── screenshots/
+```
+#### Checkpoint 2 – Research: The Language of Automation
+
+In `automation-research.md`, define the following in your own words (2–3 sentences each):
+
+- Bash Script and the shebang (`#!/bin/bash`)
+- Variables (such as `$BACKUP_DIR`)
+- Cron Job
+
+#### Checkpoint 3 – Write the Automation Script
+```bash
+mkdir app-data
+echo "This is critical client data." > app-data/data.txt
+nano backup.sh
+```
+Write a script that compresses `app-data` into a timestamped `.tar.gz` archive inside `backups/`.
+
+#### Checkpoint 4 – Permissions and Execution
+```bash
+./backup.sh
+chmod +x backup.sh
+./backup.sh
+ls -l backups/
+```
+Screenshot: `screenshots/script-execution.png`
+
+#### Checkpoint 5 – Scheduling the Cron Job
+```bash
+crontab -l
+env EDITOR=nano crontab -e
+```
+Add this line, then run `crontab -l` to verify:
+```text
+0 2 * * * /root/backup.sh
+```
+Screenshot: `screenshots/cron-schedule.png`
+
+#### Checkpoint 6 – Technical Documentation
+
+In `backup-script-guide.md`, include the full `backup.sh` code, what `chmod +x` does, and a breakdown of the five Cron time fields.
+
+Update the README with:
+
+- Mission Overview
+- Objectives
+- Commands Executed
+- Skills Learned
+
+#### Checkpoint 7 – Reflection
+
+Write a 250–350 word reflection answering all 5 required questions.
+
+### 🏆 Success Criteria
+
+- Write, format, and save a functional Bash script using a terminal text editor
+- Modify file permissions to allow script execution using `chmod`
+- Execute a script that creates directories and compresses files dynamically
+- Configure the Linux crontab to schedule automated tasks
+- Document code functions and scheduling syntax accurately
+- Finalize a well-structured GitHub Cloud Computing Portfolio for the entire semester
+
+---
+
 # 🌟 Portfolio Statement
 
 > "Every laboratory activity is another step toward becoming a skilled IT professional with cloud computing expertise. This portfolio reflects my commitment to continuous learning, hands-on practice, and professional growth throughout the CCM101 – Cloud Computing course."
@@ -1144,8 +1250,8 @@ You have successfully completed Mission 8 if you can:
 | Cloud Architecture       | 🟡 Learning   |
 | Cloud Security           | 🟡 Learning   |
 | Containerization         | 🟢 Developing |
-| Kubernetes               | ⚪ Upcoming   |
-| Cloud Automation         | ⚪ Upcoming   |
+| Kubernetes               | 🟡 Learning   |
+| Cloud Automation         | 🟡 Learning   |
 
 ---
 
