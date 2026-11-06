@@ -1,24 +1,3 @@
-<p align="center">
-  <a href="#overview">
-    <img src="https://img.shields.io/badge/📖_OVERVIEW-1D4ED8?style=for-the-badge" alt="Overview">
-  </a>
-  <a href="#backup-script">
-    <img src="https://img.shields.io/badge/💻_BACKUP_SCRIPT-B91C1C?style=for-the-badge" alt="Backup Script">
-  </a>
-  <a href="#execution-commands">
-    <img src="https://img.shields.io/badge/⌨️_COMMANDS-1D4ED8?style=for-the-badge" alt="Execution Commands">
-  </a>
-  <a href="#file-permissions">
-    <img src="https://img.shields.io/badge/🔑_PERMISSIONS-B91C1C?style=for-the-badge" alt="File Permissions">
-  </a>
-  <a href="#cron-scheduling">
-    <img src="https://img.shields.io/badge/⏰_CRON_SCHEDULING-1D4ED8?style=for-the-badge" alt="Cron Scheduling">
-  </a>
-  <a href="#key-takeaways">
-    <img src="https://img.shields.io/badge/🎯_KEY_TAKEAWAYS-B91C1C?style=for-the-badge" alt="Key Takeaways">
-  </a>
-</p>
-
 # 🛡️ Backup Script & Automation Technical Guide
 
 ### Full Code of `backup.sh`
