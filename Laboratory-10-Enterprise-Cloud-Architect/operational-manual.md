@@ -1,5 +1,5 @@
 ###  `operational-manual`
-> **File location:** `CCM101-rvidal/Laboratory-10-Enterprise-Cloud-Architec/operational-manual.md`
+> **File location:** `CCM101-adinglasan/Laboratory-10-Enterprise-Cloud-Architect/operational-manual.md`
 
 ```markdown
 # Standard Operating Procedures & System Operations Manual
