@@ -133,6 +133,14 @@ Laboratory-09-Cloud-Automation-Engineer
 └── screenshots
     ├── script-execution.png
     └── cron-schedule.png
+|
+Laboratory-10-Enterprise-Cloud-Architect/ 
+├── README.md 
+├── architecture-diagram.png 
+├── docker-compose.yml 
+├── automation-script.sh 
+├── operational-manual.md 
+└── final-reflection.md 
 ```
 # ☁️ Laboratory Activity 1
 ### 💡 About This Portfolio
