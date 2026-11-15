@@ -3,10 +3,6 @@
 # ☁️ Cloud Computing Portfolio
 ### CCM101 – Cloud Computing
 
-**College of Information Technology**  
-**University of Eastern Pangasinan (UEP)**
-
-<br>
 
 <a href="#student-profile">
 <img alt="Student Profile" src="https://img.shields.io/badge/👤_Student_Profile-1565C0?style=for-the-badge">
@@ -23,10 +19,6 @@
 <a href="#goals">
 <img alt="Goals" src="https://img.shields.io/badge/🎯_Goals-1565C0?style=for-the-badge">
 </a>
-
-<br><br>
-
-**🔵 Learn • Build • Document • Deploy 🔴**
 
 </div>
 
