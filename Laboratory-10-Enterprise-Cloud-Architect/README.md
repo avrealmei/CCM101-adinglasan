@@ -27,7 +27,7 @@ Modern enterprise deployments demand strict isolation between public-facing web 
 ## 📁 Repository Structure
 
 ```text
-CCM101-rvidal/
+CCM101-adinglasan/
 ├── Laboratory-10-Enterprise-Cloud-Architect/
 │   ├── docker-compose.yml       # Multi-container orchestration & network definitions
 │   ├── .env                     # Environment secrets & database credentials (gitignored)
