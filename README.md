@@ -1,7 +1,7 @@
 <div align="center">
 
 # ☁️ Cloud Computing Portfolio
-### CCM101 – Cloud Computing
+### CCM101
 
 **College of Information Technology**  
 **University of Eastern Pangasinan (UEP)**
