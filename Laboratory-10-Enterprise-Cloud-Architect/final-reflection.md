@@ -1,4 +1,4 @@
-## 🌥️ Final Reflection
+# 🌥️ Final Reflection
 
 Completing all ten cloud computing laboratory activities this semester has been a valuable learning experience for me as a fourth-year IT student. At the beginning, I was introduced to the basics of cloud computing, including evaluating multi-cloud platforms, understanding infrastructure, and exploring different cloud service providers. Some activities were challenging, especially when dealing with unfamiliar concepts and commands, but each one helped me build a better understanding of how cloud infrastructure works.
 
