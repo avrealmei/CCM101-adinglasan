@@ -126,7 +126,7 @@ Laboratory-09-Cloud-Automation-Engineer
     ├── script-execution.png
     └── cron-schedule.png
 |
-Laboratory-10-Enterprise-Cloud-Architect/ 
+Laboratory-10-Enterprise-Cloud-Architect
 ├── README.md 
 ├── architecture-diagram.png 
 ├── docker-compose.yml 
