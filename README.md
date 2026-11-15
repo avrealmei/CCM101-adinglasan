@@ -37,8 +37,15 @@
 | **Institution**    | University of Eastern Pangasinan (UEP)                                 |
 | **Portfolio Role** | Junior Cloud Infrastructure Engineer Trainee *(Laboratory Simulation)* |
 
-### 📂 Expected Repository Structure
-```text
+👤 Student Profile
+Information	Details
+Name	Avril Mei A. Dinglasan
+Program	Bachelor of Science in Information Technology (BSIT)
+Course	CCM101 – Cloud Computing
+Institution	University of Eastern Pangasinan (UEP)
+Portfolio Role	Junior Cloud Infrastructure Engineer Trainee (Laboratory Simulation)
+📂 Expected Repository Structure
+text
 CCM101-adinglasan
 │
 ├── README.md
@@ -133,44 +140,39 @@ Laboratory-10-Enterprise-Cloud-Architect/
 ├── docker-compose.yml 
 ├── automation-script.sh 
 ├── operational-manual.md 
-└── final-reflection.md 
-```
-# ☁️ Laboratory Activity 1
-### 💡 About This Portfolio
+└── final-reflection.md
+☁️ Laboratory Activity 1
+💡 About This Portfolio
 
-This portfolio documents my learning journey in **Cloud Computing**, including hands-on Linux activities, cloud infrastructure investigation, technical documentation, cloud provider research, and GitHub-based project management.  
-The repository is designed to demonstrate both my **technical skills** and my ability to organize and communicate technical information professionally.
-
----
+This portfolio documents my learning journey in Cloud Computing, including hands-on Linux activities, cloud infrastructure investigation, technical documentation, cloud provider research, and GitHub-based project management.
+The repository is designed to demonstrate both my technical skills and my ability to organize and communicate technical information professionally.
 
 <a id="repository-overview"></a>
 
-# 📖 Repository Overview
+📖 Repository Overview
 
-Welcome to my **Cloud Computing Portfolio**.  
-This GitHub repository serves as my official portfolio for **CCM101 – Cloud Computing**. It contains all laboratory activities, technical documentation, Linux exercises, reports, reflections, screenshots, and other course requirements completed throughout the semester.  
-Each laboratory activity is documented using Markdown and organized into its own directory to demonstrate professional documentation practices, Linux command-line proficiency, and Git & GitHub version control.  
-As the semester progresses, this repository will continue to grow with additional laboratory activities covering:  
-🐧 Linux Administration  
-☁️ Cloud Infrastructure  
-💻 Virtualization  
-🌐 Networking  
-📦 Containerization  
-🐳 Docker  
-☸️ Kubernetes  
-📊 Monitoring  
-⚙️ Automation  
-🔐 Cloud Security  
+Welcome to my Cloud Computing Portfolio.
+This GitHub repository serves as my official portfolio for CCM101 – Cloud Computing. It contains all laboratory activities, technical documentation, Linux exercises, reports, reflections, screenshots, and other course requirements completed throughout the semester.
+Each laboratory activity is documented using Markdown and organized into its own directory to demonstrate professional documentation practices, Linux command-line proficiency, and Git & GitHub version control.
+As the semester progresses, this repository will continue to grow with additional laboratory activities covering:
+🐧 Linux Administration
+☁️ Cloud Infrastructure
+💻 Virtualization
+🌐 Networking
+📦 Containerization
+🐳 Docker
+☸️ Kubernetes
+📊 Monitoring
+⚙️ Automation
+🔐 Cloud Security
 🚀 Cloud Deployment
 
-> **Portfolio Purpose:** To record my progress, practical experience, technical discoveries, and continuous development throughout the CCM101 Cloud Computing course.
-
----
+Portfolio Purpose: To record my progress, practical experience, technical discoveries, and continuous development throughout the CCM101 Cloud Computing course.
 
 <a id="repository-structure"></a>
 
-# 📁 Repository Structure
-```text
+📁 Repository Structure
+text
 CCM101-adinglasan
 ├── README.md
 ├── Laboratory-01-Welcome-to-the-Cloud
@@ -182,259 +184,228 @@ CCM101-adinglasan
 └── Laboratory-07-Cloud-Operations-Engineer
 └── Laboratory-08-Cloud-Security-Engineer 
 └── Laboratory-09-Cloud-Automation-Engineer
-```
+
 This repository will contain all laboratory activities completed throughout the semester.
 
-### 📌 Organization Principle
+📌 Organization Principle
 
-Each laboratory has its own directory containing:  
-📄 Laboratory documentation  
-📝 Technical reports  
-☁️ Cloud infrastructure research  
-💭 Reflections  
-🖼️ Screenshot evidence  
-🔧 Technical outputs  
+Each laboratory has its own directory containing:
+📄 Laboratory documentation
+📝 Technical reports
+☁️ Cloud infrastructure research
+💭 Reflections
+🖼️ Screenshot evidence
+🔧 Technical outputs
 This structure makes the portfolio easier to navigate, maintain, and review.
-
----
 
 <a id="laboratory-activities"></a>
 
-# ☁️ Laboratory Activities
-
-| Laboratory        | Activity                                 | Description                                                                                     | Status      |
-| :---------------: | ---------------------------------------- | ----------------------------------------------------------------------------------------------- | :---------: |
-| **Laboratory 01** | Welcome to the Cloud                     | Linux Fundamentals, GitHub Portfolio, and Markdown Documentation                                | ✅ Completed |
-| **Laboratory 02** | Build the Cloud Infrastructure Blueprint | Investigate Cloud Infrastructure, Compare Providers, Design Architecture, and Document Findings | ✅ Completed |
-| **Laboratory 03** | Multi-Cloud Explorer                     | Evaluate multiple cloud providers, analyze strengths, and document findings                     | ✅ Completed |
-| **Laboratory 04** | Cloud-Native Engineer                    | Research VMs vs Containers, execute Docker commands, deploy Nginx container, and document tasks | ✅ Completed |
-| **Laboratory 05** | Cloud Data Engineer                      | Compare cloud storage types, deploy MinIO object storage, create a bucket, and document tasks   | ✅ Completed |
-| **Laboratory 06** | Cloud Deployment Engineer                | Define multi-tier architecture, write Docker Compose file, deploy Nextcloud and MariaDB stack   | ✅ Completed |
-| **Laboratory 07** | Cloud Operations Engineer                | Establish host baseline, generate traffic, analyze container logs and metrics                   | ✅ Completed |
-| **Laboratory 08** | Cloud Security Engineer                  | Audit network ports, configure UFW firewall, implement Default Deny policies, and secure a web application | ✅ Completed |
-| **Laboratory 09** | Cloud Automation Engineer                | Write a Bash backup script, grant executable permissions with chmod, and schedule it with a Cron job | ✅ Completed |
-
----
-
----
-
-# 🧭 Laboratory Navigation
-
-| Laboratory           | Documentation                                                                                         |
-| :------------------: | :---------------------------------------------------------------------------------------------------- |
-| ☁️ **Laboratory 01** | [Welcome to the Cloud](./Laboratory-01-Welcome-to-the-Cloud/)                                         |
-| ☁️ **Laboratory 02** | [Build the Cloud Infrastructure Blueprint](./Laboratory-02-Build-the-Cloud-Infrastructure-Blueprint/) |
-| ☁️ **Laboratory 03** | [Multi-Cloud Explorer](./Laboratory-03-Multi-Cloud-Explorer/)                                         |
-| ☁️ **Laboratory 04** | [Cloud-Native Engineer](./Laboratory-04-Cloud-Native-Engineer/)                                       |
-| ☁️ **Laboratory 05** | [Cloud Data Engineer](./Laboratory-05-Cloud-Data-Engineer/)                                           |
-| ☁️ **Laboratory 06** | [Cloud Deployment Engineer](./Laboratory-06-Cloud-Deployment-Engineer/)                               |
-| ☁️ **Laboratory 07** | [Cloud Operations Engineer](./Laboratory-07-Cloud-Operations-Engineer/)                               |
-| ☁️ **Laboratory 08** | [Cloud Security Engineer](./Laboratory-08-Cloud-Security-Engineer/)                                   |
-| ☁️ **Laboratory 09** | [Cloud Automation Engineer](./Laboratory-09-Cloud-Automation-Engineer/)                               |
-
----
+☁️ Laboratory Activities
+Laboratory	Activity	Description	Status
+Laboratory 01	Welcome to the Cloud	Linux Fundamentals, GitHub Portfolio, and Markdown Documentation	✅ Completed
+Laboratory 02	Build the Cloud Infrastructure Blueprint	Investigate Cloud Infrastructure, Compare Providers, Design Architecture, and Document Findings	✅ Completed
+Laboratory 03	Multi-Cloud Explorer	Evaluate multiple cloud providers, analyze strengths, and document findings	✅ Completed
+Laboratory 04	Cloud-Native Engineer	Research VMs vs Containers, execute Docker commands, deploy Nginx container, and document tasks	✅ Completed
+Laboratory 05	Cloud Data Engineer	Compare cloud storage types, deploy MinIO object storage, create a bucket, and document tasks	✅ Completed
+Laboratory 06	Cloud Deployment Engineer	Define multi-tier architecture, write Docker Compose file, deploy Nextcloud and MariaDB stack	✅ Completed
+Laboratory 07	Cloud Operations Engineer	Establish host baseline, generate traffic, analyze container logs and metrics	✅ Completed
+Laboratory 08	Cloud Security Engineer	Audit network ports, configure UFW firewall, implement Default Deny policies, and secure a web application	✅ Completed
+Laboratory 09	Cloud Automation Engineer	Write a Bash backup script, grant executable permissions with chmod, and schedule it with a Cron job	✅ Completed
+Laboratory 10	Enterprise Cloud Architect	Design, deploy, secure, automate, and document a custom multi-tier infrastructure and defend it live	⏳ Pending
+🧭 Laboratory Navigation
+Laboratory	Documentation
+☁️ Laboratory 01	Welcome to the Cloud
+☁️ Laboratory 02	Build the Cloud Infrastructure Blueprint
+☁️ Laboratory 03	Multi-Cloud Explorer
+☁️ Laboratory 04	Cloud-Native Engineer
+☁️ Laboratory 05	Cloud Data Engineer
+☁️ Laboratory 06	Cloud Deployment Engineer
+☁️ Laboratory 07	Cloud Operations Engineer
+☁️ Laboratory 08	Cloud Security Engineer
+☁️ Laboratory 09	Cloud Automation Engineer
+☁️ Laboratory 10	Enterprise Cloud Architect
 
 <a id="goals"></a>
 
-# 🎯 Goals
+🎯 Goals
 
-Throughout this course, I aim to:  
-☁️ Develop a strong foundation in Cloud Computing concepts.  
-🐧 Strengthen my Linux command-line and system administration skills.  
-📝 Create professional technical documentation using Markdown.  
-🐙 Practice Git and GitHub version control workflows.  
-💻 Apply classroom knowledge through hands-on laboratory activities.  
-🌐 Understand how cloud infrastructure components work together.  
-🔐 Develop awareness of cloud security and identity management.  
-⚙️ Automate repetitive cloud administration tasks using Bash scripting and Cron scheduling.  
+Throughout this course, I aim to:
+☁️ Develop a strong foundation in Cloud Computing concepts.
+🐧 Strengthen my Linux command-line and system administration skills.
+📝 Create professional technical documentation using Markdown.
+🐙 Practice Git and GitHub version control workflows.
+💻 Apply classroom knowledge through hands-on laboratory activities.
+🌐 Understand how cloud infrastructure components work together.
+🔐 Develop awareness of cloud security and identity management.
+⚙️ Automate repetitive cloud administration tasks using Bash scripting and Cron scheduling.
 🚀 Build a professional Cloud Computing portfolio that showcases my technical growth and practical experience throughout the semester.
 
----
-
-# 🧠 Skills & Technologies
+🧠 Skills & Technologies
 
 The following technologies and skills are being developed throughout this course:
 
-| Category             | Skills / Technologies                               |
-| -------------------- | --------------------------------------------------- |
-| **Operating System** | Linux / Ubuntu                                      |
-| **Cloud Computing**  | Cloud Infrastructure, Compute, Storage, Networking  |
-| **Version Control**  | Git, GitHub                                         |
-| **Documentation**    | Markdown                                            |
-| **Virtualization**   | Virtual Machines and Cloud Environments             |
-| **Containerization** | Docker, Nginx container deployment                  |
-| **Networking**       | IP Addressing, Network Configuration                |
-| **Storage**          | Disk Management, File Systems                       |
-| **Cloud Providers**  | AWS, Microsoft Azure, Google Cloud Platform         |
-| **Tools**            | KillerCoda, GitHub, Web Browser                     |
-| **Technical Skills** | Linux Commands, System Investigation, Documentation |
+Category	Skills / Technologies
+Operating System	Linux / Ubuntu
+Cloud Computing	Cloud Infrastructure, Compute, Storage, Networking
+Version Control	Git, GitHub
+Documentation	Markdown
+Virtualization	Virtual Machines and Cloud Environments
+Containerization	Docker, Nginx container deployment
+Networking	IP Addressing, Network Configuration
+Storage	Disk Management, File Systems
+Cloud Providers	AWS, Microsoft Azure, Google Cloud Platform
+Tools	KillerCoda, GitHub, Web Browser
+Technical Skills	Linux Commands, System Investigation, Documentation
+🛠️ Tools Used
 
----
+Throughout the laboratory activities, the following tools and platforms are used:
+🐧 Ubuntu Linux
+☁️ KillerCoda Playground
+🐙 GitHub
+🔧 Git
+📝 Markdown
+🐳 Docker
+🌐 Modern Web Browser
+📊 Draw.io / Excalidraw / Figma / PowerPoint
+☁️ AWS Documentation
+🔷 Microsoft Azure Documentation
+🌈 Google Cloud Documentation
 
-# 🛠️ Tools Used
+📚 Academic Integrity Policy
 
-Throughout the laboratory activities, the following tools and platforms are used:  
-🐧 **Ubuntu Linux**  
-☁️ **KillerCoda Playground**  
-🐙 **GitHub**  
-🔧 **Git**  
-📝 **Markdown**  
-🐳 **Docker**  
-🌐 **Modern Web Browser**  
-📊 **Draw.io / Excalidraw / Figma / PowerPoint**  
-☁️ **AWS Documentation**  
-🔷 **Microsoft Azure Documentation**  
-🌈 **Google Cloud Documentation**
-
----
-
-# 📚 Academic Integrity Policy
-
-To uphold honesty, fairness, and academic excellence, all students are expected to follow these guidelines:  
-Cite your sources properly. Any information, ideas, images, data, or words that are not your own and are not considered common knowledge must be properly cited.  
-Submit original work. Your assignments should reflect your own understanding, analysis, and effort. Copying from books, websites, classmates, or any other source without proper acknowledgment is considered plagiarism.  
-Use AI responsibly. AI tools (e.g., ChatGPT) may be used to brainstorm ideas, improve grammar, clarify concepts, or support learning. However, they should assist your thinking—not replace it.  
-Maintain meaningful authorship. You are responsible for all submitted work. Assignments generated primarily by AI without your own analysis, revision, and proper disclosure constitute academic dishonesty.  
-Be transparent. If AI or other external tools significantly contributed to your work, disclose their use when required by the instructor.  
+To uphold honesty, fairness, and academic excellence, all students are expected to follow these guidelines:
+Cite your sources properly. Any information, ideas, images, data, or words that are not your own and are not considered common knowledge must be properly cited.
+Submit original work. Your assignments should reflect your own understanding, analysis, and effort. Copying from books, websites, classmates, or any other source without proper acknowledgment is considered plagiarism.
+Use AI responsibly. AI tools (e.g., ChatGPT) may be used to brainstorm ideas, improve grammar, clarify concepts, or support learning. However, they should assist your thinking—not replace it.
+Maintain meaningful authorship. You are responsible for all submitted work. Assignments generated primarily by AI without your own analysis, revision, and proper disclosure constitute academic dishonesty.
+Be transparent. If AI or other external tools significantly contributed to your work, disclose their use when required by the instructor.
 Ensure academic accountability. Submission records, including timestamps and revision history where applicable, may be reviewed to verify compliance with this policy.
 
-### 💡 Guiding Principle
+💡 Guiding Principle
 
-> **Be the pilot of AI, not the passenger.**
+Be the pilot of AI, not the passenger.
 
 Use technology to enhance your learning, but let your own knowledge, judgment, and critical thinking guide your work.
 
----
+☁️ Laboratory Activity 1
+🔵 Mission 1: Welcome to the Cloud 🔴
+🚀 Mission Overview
 
-# ☁️ Laboratory Activity 1
-## 🔵 Mission 1: Welcome to the Cloud 🔴
-### 🚀 Mission Overview
+Welcome to CloudNova Technologies! As a new Junior Cloud Infrastructure Engineer Trainee, your first mission is onboarding: set up your professional GitHub Cloud Computing Portfolio, get comfortable with the Linux command line, and document everything in Markdown.
 
-Welcome to **CloudNova Technologies**! As a new Junior Cloud Infrastructure Engineer Trainee, your first mission is onboarding: set up your professional **GitHub Cloud Computing Portfolio**, get comfortable with the Linux command line, and document everything in Markdown.
+🎯 Mission Objectives
 
-### 🎯 Mission Objectives
-
-Learn the fundamentals of the Linux command line  
-Create and organize a GitHub portfolio repository  
-Document your work using Markdown  
-Record basic information about your Linux environment  
+Learn the fundamentals of the Linux command line
+Create and organize a GitHub portfolio repository
+Document your work using Markdown
+Record basic information about your Linux environment
 Reflect on your first steps into cloud computing
 
-### 📋 Mission Tasks
-#### Checkpoint 1 – Create Your Portfolio Repository
+📋 Mission Tasks
+Checkpoint 1 – Create Your Portfolio Repository
 
 Create your GitHub repository and the Laboratory 01 folder with the following structure:
-```text
+
+text
 Laboratory-01-Welcome-to-the-Cloud/
 ├── README.md
 ├── about-me.md
 ├── system-information.md
 ├── reflection.md
 └── screenshots/
-```
-#### Checkpoint 2 – About Me
+Checkpoint 2 – About Me
 
-Introduce yourself professionally in `about-me.md`.
+Introduce yourself professionally in about-me.md.
 
-#### Checkpoint 3 – System Information
+Checkpoint 3 – System Information
 
-Explore the Linux environment and record your findings in `system-information.md`, with screenshots saved in `screenshots/`.
+Explore the Linux environment and record your findings in system-information.md, with screenshots saved in screenshots/.
 
-#### Checkpoint 4 – Documentation
+Checkpoint 4 – Documentation
 
-Update the laboratory `README.md` so it follows proper Markdown formatting and includes relevant screenshots.
+Update the laboratory README.md so it follows proper Markdown formatting and includes relevant screenshots.
 
-#### Checkpoint 5 – Reflection
+Checkpoint 5 – Reflection
 
-Write your mission reflection in `reflection.md`.
+Write your mission reflection in reflection.md.
 
-### 🏆 Success Criteria
+🏆 Success Criteria
 
-✅ Create and organize a GitHub portfolio repository  
-✅ Use basic Linux commands to explore a system  
-✅ Produce clear technical documentation in Markdown  
+✅ Create and organize a GitHub portfolio repository
+✅ Use basic Linux commands to explore a system
+✅ Produce clear technical documentation in Markdown
 ✅ Commit and push your work to GitHub
 
----
+☁️ Laboratory Activity 2
+🔵 Mission 2: Build the Cloud Infrastructure Blueprint 🔴
+🚀 Mission Overview
 
-# ☁️ Laboratory Activity 2
-## 🔵 Mission 2: Build the Cloud Infrastructure Blueprint 🔴
-### 🚀 Mission Overview
+Congratulations!
+Your onboarding has been successfully completed, and your Cloud Computing Portfolio has been approved by your supervisor.
+CloudNova Technologies has now assigned you to your first official project.
+Before deploying cloud services, every cloud engineer must understand the infrastructure that powers modern cloud computing. Your mission is to investigate the components of cloud infrastructure, identify how compute, storage, networking, and identity services work together, and document your findings as if you were preparing technical documentation for a client.
+Using the KillerCoda Playground, Linux tools, official cloud documentation, and your GitHub Cloud Computing Portfolio, you will complete a series of engineering tasks that simulate the planning phase of a cloud deployment.
 
-Congratulations!  
-Your onboarding has been successfully completed, and your **Cloud Computing Portfolio** has been approved by your supervisor.  
-**CloudNova Technologies** has now assigned you to your first official project.  
-Before deploying cloud services, every cloud engineer must understand the infrastructure that powers modern cloud computing. Your mission is to investigate the components of cloud infrastructure, identify how compute, storage, networking, and identity services work together, and document your findings as if you were preparing technical documentation for a client.  
-Using the **KillerCoda Playground, Linux tools, official cloud documentation, and your GitHub Cloud Computing Portfolio**, you will complete a series of engineering tasks that simulate the planning phase of a cloud deployment.
+Remember: Great cloud engineers build systems—but exceptional cloud engineers document and justify every design decision.
 
-> **Remember:** Great cloud engineers build systems—but exceptional cloud engineers document and justify every design decision.
+🎯 Mission Objectives
 
----
-
-### 🎯 Mission Objectives
-
-At the end of this laboratory activity, you should be able to:  
-Explain the major components of cloud infrastructure.  
-Investigate the hardware and software resources available in a Linux environment.  
-Differentiate compute, storage, networking, and identity resources.  
-Interpret the relationship between cloud infrastructure components.  
-Create professional technical documentation using Markdown.  
-Continue building a structured GitHub Cloud Computing Portfolio.  
-Compare equivalent infrastructure services from major cloud providers.  
+At the end of this laboratory activity, you should be able to:
+Explain the major components of cloud infrastructure.
+Investigate the hardware and software resources available in a Linux environment.
+Differentiate compute, storage, networking, and identity resources.
+Interpret the relationship between cloud infrastructure components.
+Create professional technical documentation using Markdown.
+Continue building a structured GitHub Cloud Computing Portfolio.
+Compare equivalent infrastructure services from major cloud providers.
 Design a basic cloud infrastructure architecture.
 
----
+🧰 Required Resources
 
-### 🧰 Required Resources
-
-KillerCoda Playground  
-GitHub Account  
-Modern Web Browser  
-Stable Internet Connection  
-Linux Terminal  
-Markdown Editor  
+KillerCoda Playground
+GitHub Account
+Modern Web Browser
+Stable Internet Connection
+Linux Terminal
+Markdown Editor
 Diagramming Tool
 
----
+📜 Mission Rules
 
-### 📜 Mission Rules
-
-Complete each checkpoint in sequence.  
-2. Perform all technical tasks inside the KillerCoda Playground unless instructed otherwise.  
-3. Record your findings using Markdown.  
-4. Take screenshots as evidence for each completed checkpoint.  
-5. Commit and push your work to GitHub after completing each checkpoint.  
-6. Maintain professionalism in your documentation.  
-7. Academic honesty is expected.  
+Complete each checkpoint in sequence.
+2. Perform all technical tasks inside the KillerCoda Playground unless instructed otherwise.
+3. Record your findings using Markdown.
+4. Take screenshots as evidence for each completed checkpoint.
+5. Commit and push your work to GitHub after completing each checkpoint.
+6. Maintain professionalism in your documentation.
+7. Academic honesty is expected.
 8. Collaboration is encouraged, but submitted work must be your own.
 
----
+📋 Mission Brief
 
-### 📋 Mission Brief
-
-A small company is planning to migrate its services to the cloud.  
-Your supervisor has asked you to prepare a **Cloud Infrastructure Assessment Report** before any servers are deployed.  
-You have been granted temporary access to a Linux server running in the cloud through **KillerCoda**.  
-Your responsibility is to:  
-Inspect the environment.  
-Identify infrastructure components.  
-Research cloud services.  
-Compare major cloud providers.  
-Design a basic cloud architecture.  
-Prepare technical documentation.  
+A small company is planning to migrate its services to the cloud.
+Your supervisor has asked you to prepare a Cloud Infrastructure Assessment Report before any servers are deployed.
+You have been granted temporary access to a Linux server running in the cloud through KillerCoda.
+Your responsibility is to:
+Inspect the environment.
+Identify infrastructure components.
+Research cloud services.
+Compare major cloud providers.
+Design a basic cloud architecture.
+Prepare technical documentation.
 The final output should help senior engineers understand the infrastructure requirements before deployment.
 
----
-
-### 🔎 Mission Tasks
-#### Checkpoint 1 – Expand Your Cloud Portfolio
+🔎 Mission Tasks
+Checkpoint 1 – Expand Your Cloud Portfolio
 
 Inside your existing GitHub repository, create a new folder named:
-```text
+
+text
 Laboratory-02-Build-the-Cloud-Infrastructure-Blueprint
-```
+
 Within this folder, create the following structure:
-```text
+
+text
 Laboratory-02-Build-the-Cloud-Infrastructure-Blueprint
 │
 ├── README.md
@@ -443,31 +414,31 @@ Laboratory-02-Build-the-Cloud-Infrastructure-Blueprint
 ├── cloud-provider-comparison.md
 ├── reflection.md
 └── screenshots
-```
+
 Commit and push your changes to GitHub.
 
----
+Checkpoint 2 – Investigate the Cloud Server
 
-#### Checkpoint 2 – Investigate the Cloud Server
-
-Using the KillerCoda terminal, investigate the Linux environment.  
-Determine and document:  
-Operating System  
-Kernel Version  
-CPU Model  
-Number of CPU Cores  
-Total RAM  
-Disk Capacity  
-Mounted File Systems  
-Hostname  
-IP Address  
+Using the KillerCoda terminal, investigate the Linux environment.
+Determine and document:
+Operating System
+Kernel Version
+CPU Model
+Number of CPU Cores
+Total RAM
+Disk Capacity
+Mounted File Systems
+Hostname
+IP Address
 Record your findings in:
-```text
+
+text
 infrastructure-report.md
-```
-Capture screenshots of your investigation.  
-**🔧 Suggested Linux Commands**
-```bash
+
+Capture screenshots of your investigation.
+🔧 Suggested Linux Commands
+
+bash
 cat /etc/os-release
 uname -r
 lscpu
@@ -478,82 +449,78 @@ mount
 hostname
 hostname -I
 ip addr
-```
----
+Checkpoint 3 – Identify Cloud Infrastructure Components
 
-#### Checkpoint 3 – Identify Cloud Infrastructure Components
-
-Using your observations and the concepts discussed in Chapter 2, identify examples of the following infrastructure components found in your Linux environment:  
-Compute Resources  
-Storage Resources  
-Networking Resources  
-Operating System  
-For each component:  
-Describe its purpose.  
-Explain why it is important in cloud computing.  
-Relate it to the Linux environment provided by KillerCoda.  
+Using your observations and the concepts discussed in Chapter 2, identify examples of the following infrastructure components found in your Linux environment:
+Compute Resources
+Storage Resources
+Networking Resources
+Operating System
+For each component:
+Describe its purpose.
+Explain why it is important in cloud computing.
+Relate it to the Linux environment provided by KillerCoda.
 Document your answers in:
-```text
+
+text
 cloud-components.md
-```
----
+Checkpoint 4 – Research the Major Cloud Providers
 
-#### Checkpoint 4 – Research the Major Cloud Providers
-
-A cloud engineer must understand how different cloud providers offer similar infrastructure services under different names.  
-Your task is to research the official documentation of the three leading public cloud providers and compare their core infrastructure services.  
-Visit the official documentation of:  
-**Amazon Web Services (AWS)**  
-**Microsoft Azure**  
-**Google Cloud Platform (GCP)**  
+A cloud engineer must understand how different cloud providers offer similar infrastructure services under different names.
+Your task is to research the official documentation of the three leading public cloud providers and compare their core infrastructure services.
+Visit the official documentation of:
+Amazon Web Services (AWS)
+Microsoft Azure
+Google Cloud Platform (GCP)
 Inside your laboratory folder, create:
-```text
+
+text
 cloud-provider-comparison.md
-```
-**☁️ Infrastructure Service Comparison**
 
-| Infrastructure Component               | Amazon Web Services (AWS) | Microsoft Azure                 | Google Cloud Platform (GCP) |
-| -------------------------------------- | ------------------------- | ------------------------------- | --------------------------- |
-| **Compute**                            | EC2                       | Azure Virtual Machines          | Compute Engine              |
-| **Storage**                            | Amazon S3                 | Azure Blob Storage              | Cloud Storage               |
-| **Networking**                         | Amazon VPC                | Azure Virtual Network           | Virtual Private Cloud       |
-| **Identity & Access Management (IAM)** | AWS IAM                   | Microsoft Entra ID / Azure RBAC | Cloud IAM                   |
+☁️ Infrastructure Service Comparison
 
-**Guide Questions**  
-Which cloud provider offers the broadest range of services? Explain your answer.  
-2. Which cloud platform would you recommend for an organization that primarily uses Microsoft products? Why?  
-3. Which platform is widely recognized for Artificial Intelligence (AI), Machine Learning (ML), and Kubernetes services?  
-4. What similarities did you observe among the three cloud providers?  
-Answer each question in **2–3 sentences**.
+Infrastructure Component	Amazon Web Services (AWS)	Microsoft Azure	Google Cloud Platform (GCP)
+Compute	EC2	Azure Virtual Machines	Compute Engine
+Storage	Amazon S3	Azure Blob Storage	Cloud Storage
+Networking	Amazon VPC	Azure Virtual Network	Virtual Private Cloud
+Identity & Access Management (IAM)	AWS IAM	Microsoft Entra ID / Azure RBAC	Cloud IAM
 
----
+Guide Questions
+Which cloud provider offers the broadest range of services? Explain your answer.
+2. Which cloud platform would you recommend for an organization that primarily uses Microsoft products? Why?
+3. Which platform is widely recognized for Artificial Intelligence (AI), Machine Learning (ML), and Kubernetes services?
+4. What similarities did you observe among the three cloud providers?
+Answer each question in 2–3 sentences.
 
-#### Checkpoint 5 – Design a Simple Cloud Infrastructure
+Checkpoint 5 – Design a Simple Cloud Infrastructure
 
-Create a simple cloud infrastructure diagram for a fictional company.  
-Your diagram should include:  
-👤 One User  
-🌐 One Internet Connection  
-💻 One Compute Resource  
-💾 One Storage Resource  
-🌐 One Network  
-You may use:  
-Draw.io  
-Excalidraw  
-Figma  
-Microsoft PowerPoint  
-Any diagramming tool of your choice  
-Export the diagram as PNG.  
+Create a simple cloud infrastructure diagram for a fictional company.
+Your diagram should include:
+👤 One User
+🌐 One Internet Connection
+💻 One Compute Resource
+💾 One Storage Resource
+🌐 One Network
+You may use:
+Draw.io
+Excalidraw
+Figma
+Microsoft PowerPoint
+Any diagramming tool of your choice
+Export the diagram as PNG.
 Save it inside:
-```text
+
+text
 screenshots
-```
+
 Name the file:
-```text
+
+text
 cloud-architecture.png
-```
-**🏗️ Basic Architecture Flow**
-```text
+
+🏗️ Basic Architecture Flow
+
+text
                  👤 User
                     │
                     ▼
@@ -566,506 +533,467 @@ cloud-architecture.png
           ▼                   ▼
      💻 Compute           💾 Storage
      Resource             Resource
-```
----
+Checkpoint 6 – Technical Documentation
 
-#### Checkpoint 6 – Technical Documentation
-
-Update the laboratory README file.  
-Include the following sections:  
-Mission Overview  
-Objectives  
-Cloud Infrastructure Components  
-Tools Used  
-Linux Commands Executed  
-Skills Learned  
-Challenges Encountered  
+Update the laboratory README file.
+Include the following sections:
+Mission Overview
+Objectives
+Cloud Infrastructure Components
+Tools Used
+Linux Commands Executed
+Skills Learned
+Challenges Encountered
 Ensure the document follows proper Markdown formatting and includes relevant screenshots where appropriate.
 
----
-
-#### Checkpoint 7 – Mission Reflection
+Checkpoint 7 – Mission Reflection
 
 Create:
-```text
+
+text
 reflection.md
-```
-Answer the following questions:  
-Which cloud infrastructure component do you think is the most important? Why?  
-2. How does Linux support cloud computing?  
-3. Why is technical documentation important before deploying infrastructure?  
-4. What new skills did you learn during this laboratory activity?  
-5. How has your GitHub portfolio improved after completing this mission?  
-Your reflection should contain approximately **250–350 words**.
 
----
+Answer the following questions:
+Which cloud infrastructure component do you think is the most important? Why?
+2. How does Linux support cloud computing?
+3. Why is technical documentation important before deploying infrastructure?
+4. What new skills did you learn during this laboratory activity?
+5. How has your GitHub portfolio improved after completing this mission?
+Your reflection should contain approximately 250–350 words.
 
-### 📤 Submission Guidelines
+📤 Submission Guidelines
 
-Submit the following:  
-GitHub Repository URL  
-No ZIP files or email submissions will be accepted unless instructed otherwise.  
+Submit the following:
+GitHub Repository URL
+No ZIP files or email submissions will be accepted unless instructed otherwise.
 All deliverables must be available in your GitHub repository.
 
-### 🏆 Mission Success Criteria
+🏆 Mission Success Criteria
 
-You have successfully completed Mission 2 if you can:  
-✅ Investigate a Linux server running in a cloud environment.  
-✅ Identify and explain the major components of cloud infrastructure.  
-✅ Compare equivalent cloud services offered by AWS, Microsoft Azure, and Google Cloud Platform.  
-✅ Create a simple cloud infrastructure diagram.  
-✅ Produce organized technical documentation using Markdown.  
+You have successfully completed Mission 2 if you can:
+✅ Investigate a Linux server running in a cloud environment.
+✅ Identify and explain the major components of cloud infrastructure.
+✅ Compare equivalent cloud services offered by AWS, Microsoft Azure, and Google Cloud Platform.
+✅ Create a simple cloud infrastructure diagram.
+✅ Produce organized technical documentation using Markdown.
 ✅ Maintain a professional GitHub Cloud Computing Portfolio through meaningful commits and structured documentation.
 
----
+☁️ Laboratory Activity 3
+🔵 Mission 3: Multi-Cloud Explorer 🔴
+🚀 Mission Overview
 
-# ☁️ Laboratory Activity 3
-## 🔵 Mission 3: Multi-Cloud Explorer 🔴
-### 🚀 Mission Overview
+Promotion to Cloud Evaluation Team.
+Mission: Explore AWS, Azure, and GCP. Compare services. Recommend the best provider for business scenarios.
 
-Promotion to Cloud Evaluation Team.  
-**Mission:** Explore AWS, Azure, and GCP. Compare services. Recommend the best provider for business scenarios.
+🎯 Mission Objectives
 
-### 🎯 Mission Objectives
-
-Explore AWS, Azure, and GCP  
-Identify core services  
-Compare providers  
-Recommend solutions  
-Document in Markdown  
+Explore AWS, Azure, and GCP
+Identify core services
+Compare providers
+Recommend solutions
+Document in Markdown
 Continue portfolio growth
 
-### 📋 Mission Tasks
-#### Checkpoint 1 – Create Folder and Structure
-#### Checkpoint 2 – Research AWS, Azure, GCP
+📋 Mission Tasks
+Checkpoint 1 – Create Folder and Structure
+Checkpoint 2 – Research AWS, Azure, GCP
 
-For each provider, document:  
-Overview  
-Infrastructure  
-Console  
-4 services  
-3 advantages  
-Use cases  
+For each provider, document:
+Overview
+Infrastructure
+Console
+4 services
+3 advantages
+Use cases
 Screenshot
 
-#### Checkpoint 3 – Comparison
+Checkpoint 3 – Comparison
 
-Comparison table  
+Comparison table
 4 guide questions
 
-#### Checkpoint 4 – Client Recommendations
+Checkpoint 4 – Client Recommendations
 
-Scenarios A–D  
-3–5 sentences each  
+Scenarios A–D
+3–5 sentences each
 3 services each
 
-#### Checkpoint 5 – Match Equivalent Services
+Checkpoint 5 – Match Equivalent Services
 
-Match the equivalent service across providers for:  
-Virtual Machine  
-Storage  
-IAM  
-SQL  
+Match the equivalent service across providers for:
+Virtual Machine
+Storage
+IAM
+SQL
 Kubernetes
 
-#### Checkpoint 6 – Decision Matrix
+Checkpoint 6 – Decision Matrix
 
-Business requirement  
-Recommended platform  
+Business requirement
+Recommended platform
 Justification
 
-#### Checkpoint 7 – Linux Investigation
+Checkpoint 7 – Linux Investigation
 
-Investigate the following, then map your findings to AWS, Azure, and GCP:  
-OS  
-CPU  
-RAM  
+Investigate the following, then map your findings to AWS, Azure, and GCP:
+OS
+CPU
+RAM
 Disk
 
-#### Checkpoint 8 – Reflection
+Checkpoint 8 – Reflection
 
-250–350 words  
+250–350 words
 Answer all 5 questions
 
-### 🏆 Success Criteria
+🏆 Success Criteria
 
-Research AWS, Azure, and GCP  
-Compare services and strengths  
-Recommend platforms for scenarios  
-Match equivalent services  
-Relate the Linux environment to cloud VMs  
+Research AWS, Azure, and GCP
+Compare services and strengths
+Recommend platforms for scenarios
+Match equivalent services
+Relate the Linux environment to cloud VMs
 Maintain a professional GitHub portfolio
 
----
-
-# 🐳 Laboratory Activity 4
-## 🔵 Mission 4: The Cloud-Native Engineer 🔴
-### 🚀 Mission Overview
+🐳 Laboratory Activity 4
+🔵 Mission 4: The Cloud-Native Engineer 🔴
+🚀 Mission Overview
 
 Explore cloud-native technologies by comparing Virtual Machines and containers and deploying an Nginx web server using Docker.
 
-### 🎯 Mission Objectives
+🎯 Mission Objectives
 
-Differentiate Virtual Machines and containers  
-Verify Docker installation  
-Use basic Docker CLI commands  
-Pull and run an Nginx container  
-Expose Nginx through port 8080  
-Manage the container lifecycle  
-Document the activity using Markdown  
+Differentiate Virtual Machines and containers
+Verify Docker installation
+Use basic Docker CLI commands
+Pull and run an Nginx container
+Expose Nginx through port 8080
+Manage the container lifecycle
+Document the activity using Markdown
 Continue portfolio growth
 
-### 📋 Mission Tasks
-#### Checkpoint 1 – Create Folder and Structure
+📋 Mission Tasks
+Checkpoint 1 – Create Folder and Structure
 
 Create:
-```text
+
+text
 README.md
 virtualization-vs-containers.md
 docker-deployment.md
 reflection.md
 screenshots/
-```
-#### Checkpoint 2 – Compare VMs vs Containers
+Checkpoint 2 – Compare VMs vs Containers
 
 Create a comparison table and provide a short summary.
 
-#### Checkpoint 3 – Verify Docker Installation
-```bash
+Checkpoint 3 – Verify Docker Installation
+bash
 docker --version
 docker info
-```
-Screenshot: `screenshots/docker-version.png`
 
-#### Checkpoint 4 – Deploy Nginx
-```bash
+Screenshot: screenshots/docker-version.png
+
+Checkpoint 4 – Deploy Nginx
+bash
 docker pull nginx
 docker run -d -p 8080:80 --name nginx-server nginx
-curl http://localhost:8080 
-```
-Screenshot: `screenshots/nginx-running.png`
+curl http://localhost:8080
 
-#### Checkpoint 5 – Container Lifecycle
-```bash
+Screenshot: screenshots/nginx-running.png
+
+Checkpoint 5 – Container Lifecycle
+bash
 docker ps
 docker stop nginx-server
 docker ps -a
 docker rm nginx-server
-```
-Screenshot: `screenshots/container-lifecycle.png`
 
-#### Checkpoint 6 – Update README
+Screenshot: screenshots/container-lifecycle.png
 
-Include:  
-Mission Overview  
-Objectives  
-Docker Commands Executed  
-Skills Learned  
+Checkpoint 6 – Update README
+
+Include:
+Mission Overview
+Objectives
+Docker Commands Executed
+Skills Learned
 Challenges Encountered
 
-#### Checkpoint 7 – Reflection
+Checkpoint 7 – Reflection
 
 Write a 250–350 word reflection answering all 5 required questions.
 
-### 🏆 Success Criteria
+🏆 Success Criteria
 
-Explain VM vs Container differences  
-Verify Docker installation  
-Pull and run an Nginx container  
-Manage the container lifecycle  
-Document commands and evidence  
+Explain VM vs Container differences
+Verify Docker installation
+Pull and run an Nginx container
+Manage the container lifecycle
+Document commands and evidence
 Maintain a structured GitHub portfolio
 
----
-
-# 🗄️ Laboratory Activity 5
-## 🔵 Mission 5: The Cloud Data Engineer 🔴
-### 📋 Mission Tasks
-#### Checkpoint 1 – Create Folder and Structure
+🗄️ Laboratory Activity 5
+🔵 Mission 5: The Cloud Data Engineer 🔴
+📋 Mission Tasks
+Checkpoint 1 – Create Folder and Structure
 
 Create:
-```text
+
+text
 Laboratory-05-Cloud-Data-Engineer/
 ├── README.md
 ├── storage-types-research.md
 ├── minio-deployment.md
 ├── reflection.md
 └── screenshots/
-```
-#### Checkpoint 2 – Research Types of Cloud Storage
+Checkpoint 2 – Research Types of Cloud Storage
 
-In `storage-types-research.md`, create a comparison table of Block, File, and Object Storage covering:
+In storage-types-research.md, create a comparison table of Block, File, and Object Storage covering:
 
-- Description
-- Primary Use Case
-- Cloud Provider Example
+Description
+Primary Use Case
+Cloud Provider Example
 
 Add a 2–3 sentence explanation of why Object Storage suits user-uploaded images.
 
-#### Checkpoint 3 – Deploy MinIO
-```bash
+Checkpoint 3 – Deploy MinIO
+bash
 docker run -d -p 9000:9000 -p 9001:9001 --name minio-server \
 -e "MINIO_ROOT_USER=cloudadmin" \
 -e "MINIO_ROOT_PASSWORD=CloudNova2026!" \
 minio/minio server /data --console-address ":9001"
-```
-Screenshot: `screenshots/minio-deployed.png`
 
-#### Checkpoint 4 – Create a Bucket
+Screenshot: screenshots/minio-deployed.png
 
-Access the MinIO Web Console on port 9001, create a bucket named `client-photos`, and upload a sample file.
+Checkpoint 4 – Create a Bucket
 
-Screenshot: `screenshots/minio-bucket-upload.png`
+Access the MinIO Web Console on port 9001, create a bucket named client-photos, and upload a sample file.
 
-#### Checkpoint 5 – Technical Documentation
+Screenshot: screenshots/minio-bucket-upload.png
 
-Document the Docker command, console port, bucket name, and the purpose of the `-e` flags in `minio-deployment.md`.
+Checkpoint 5 – Technical Documentation
+
+Document the Docker command, console port, bucket name, and the purpose of the -e flags in minio-deployment.md.
 
 Update the README with:
 
-- Mission Overview
-- Objectives
-- Tools Used
-- Skills Learned
-
-#### Checkpoint 6 – Reflection
+Mission Overview
+Objectives
+Tools Used
+Skills Learned
+Checkpoint 6 – Reflection
 
 Write a 250–350 word reflection answering all 5 required questions.
 
-### 🏆 Success Criteria
-
-- Explain Block, File, and Object Storage differences
-- Deploy MinIO using environment variables
-- Access a service through a specific port
-- Create a bucket and upload data
-- Document configurations clearly
-- Maintain a structured GitHub portfolio
-
----
-
-# 📦 Laboratory Activity 6
-## 🔵 Mission 6: The Cloud Deployment Engineer 🔴
-### 📋 Mission Tasks
-#### Checkpoint 1 – Create Folder and Structure
+🏆 Success Criteria
+Explain Block, File, and Object Storage differences
+Deploy MinIO using environment variables
+Access a service through a specific port
+Create a bucket and upload data
+Document configurations clearly
+Maintain a structured GitHub portfolio
+📦 Laboratory Activity 6
+🔵 Mission 6: The Cloud Deployment Engineer 🔴
+📋 Mission Tasks
+Checkpoint 1 – Create Folder and Structure
 
 Create:
-```text
+
+text
 Laboratory-06-Cloud-Deployment-Engineer/
 ├── README.md
 ├── multi-tier-architecture.md
 ├── docker-compose-guide.md
 ├── reflection.md
 └── screenshots/
-```
-#### Checkpoint 2 – Research Multi-Tier Architecture
+Checkpoint 2 – Research Multi-Tier Architecture
 
-In `multi-tier-architecture.md`, define a Two-Tier Architecture:
+In multi-tier-architecture.md, define a Two-Tier Architecture:
 
-- The Web/Application Tier
-- The Database Tier
-- Why separate them?
-
-#### Checkpoint 3 – Write the Infrastructure Code
-```bash
+The Web/Application Tier
+The Database Tier
+Why separate them?
+Checkpoint 3 – Write the Infrastructure Code
+bash
 mkdir nextcloud-deployment
 cd nextcloud-deployment
 nano docker-compose.yml
-```
-Define the `database` (MariaDB) and `app` (Nextcloud) services.
 
-#### Checkpoint 4 – Deploy the Stack
-```bash
+Define the database (MariaDB) and app (Nextcloud) services.
+
+Checkpoint 4 – Deploy the Stack
+bash
 docker-compose up -d
 docker-compose ps
-```
-Screenshot: `screenshots/compose-deployment.png`
 
-#### Checkpoint 5 – Access the Private Cloud
+Screenshot: screenshots/compose-deployment.png
+
+Checkpoint 5 – Access the Private Cloud
 
 Open port 8080 and verify the Nextcloud installation page, then shut down the stack:
-```bash
+
+bash
 docker-compose down
-```
-Screenshots: `screenshots/nextcloud-web.png`, `screenshots/compose-teardown.png`
 
-#### Checkpoint 6 – Technical Documentation
+Screenshots: screenshots/nextcloud-web.png, screenshots/compose-teardown.png
 
-In `docker-compose-guide.md`, explain:
+Checkpoint 6 – Technical Documentation
 
-- The `services:` block
-- How the app container locates the database (`MYSQL_HOST`)
-- The difference between `docker run` and `docker-compose up -d`
+In docker-compose-guide.md, explain:
+
+The services: block
+How the app container locates the database (MYSQL_HOST)
+The difference between docker run and docker-compose up -d
 
 Update the README with:
 
-- Mission Overview
-- Objectives
-- Commands Executed
-- Skills Learned
-
-#### Checkpoint 7 – Reflection
+Mission Overview
+Objectives
+Commands Executed
+Skills Learned
+Checkpoint 7 – Reflection
 
 Write a 250–350 word reflection answering all 5 required questions.
 
-### 🏆 Success Criteria
-
-- Explain the roles of tiers in a multi-container architecture
-- Create a properly formatted YAML file
-- Deploy and tear down a stack using Docker Compose
-- Route browser traffic to a containerized application
-- Document Infrastructure as Code principles clearly
-- Maintain a structured GitHub portfolio
-
----
-
-# 📊 Laboratory Activity 7
-## 🔵 Mission 7: The Cloud Operations Engineer 🔴
-### 📋 Mission Tasks
-#### Checkpoint 1 – Create Folder and Structure
+🏆 Success Criteria
+Explain the roles of tiers in a multi-container architecture
+Create a properly formatted YAML file
+Deploy and tear down a stack using Docker Compose
+Route browser traffic to a containerized application
+Document Infrastructure as Code principles clearly
+Maintain a structured GitHub portfolio
+📊 Laboratory Activity 7
+🔵 Mission 7: The Cloud Operations Engineer 🔴
+📋 Mission Tasks
+Checkpoint 1 – Create Folder and Structure
 
 Create:
-```text
+
+text
 Laboratory-07-Cloud-Operations-Engineer/
 ├── README.md
 ├── system-baseline-report.md
 ├── container-observability.md
 ├── reflection.md
 └── screenshots/
-```
-#### Checkpoint 2 – Establish a Host System Baseline
+Checkpoint 2 – Establish a Host System Baseline
 
-Check memory, disk, and CPU load. Record total RAM and root (/) storage capacity in `system-baseline-report.md`, with a 1-sentence explanation of why disk checks matter before a traffic surge.
-```bash
+Check memory, disk, and CPU load. Record total RAM and root (/) storage capacity in system-baseline-report.md, with a 1-sentence explanation of why disk checks matter before a traffic surge.
+
+bash
 top
-```
-Screenshots: `screenshots/memory-check.png`, `screenshots/disk-check.png`
 
-#### Checkpoint 3 – Deploy and Generate Traffic
+Screenshots: screenshots/memory-check.png, screenshots/disk-check.png
 
-Run an Nginx container named `client-website` on port 8080. Send three successful requests and one request that triggers a 404:
-```bash
+Checkpoint 3 – Deploy and Generate Traffic
+
+Run an Nginx container named client-website on port 8080. Send three successful requests and one request that triggers a 404:
+
+bash
 curl http://localhost:8080/hidden-admin-page
-```
-Screenshots: `screenshots/install-nginx.png`, `screenshots/simulation1.png`, `screenshots/simulation2.png`
 
-#### Checkpoint 4 – Application Logging
-```bash
+Screenshots: screenshots/install-nginx.png, screenshots/simulation1.png, screenshots/simulation2.png
+
+Checkpoint 4 – Application Logging
+bash
 docker logs client-website
-```
-Record the 404 log line in `container-observability.md` with a 2-sentence explanation of why logs are vital for troubleshooting.
 
-Screenshot: `screenshots/docker-logs.png`
+Record the 404 log line in container-observability.md with a 2-sentence explanation of why logs are vital for troubleshooting.
 
-#### Checkpoint 5 – Real-Time Container Metrics
-```bash
+Screenshot: screenshots/docker-logs.png
+
+Checkpoint 5 – Real-Time Container Metrics
+bash
 docker stats
-```
-Record the container's Memory Usage and CPU percentage in `container-observability.md`.
 
-Screenshot: `screenshots/container-metrics.png`
+Record the container's Memory Usage and CPU percentage in container-observability.md.
 
-#### Checkpoint 6 – Technical Documentation
+Screenshot: screenshots/container-metrics.png
+
+Checkpoint 6 – Technical Documentation
 
 Update the README with:
 
-- Mission Overview
-- Objectives
-- Monitoring Commands Executed
-- Skills Learned
-
-#### Checkpoint 7 – Reflection
+Mission Overview
+Objectives
+Monitoring Commands Executed
+Skills Learned
+Checkpoint 7 – Reflection
 
 Write a 250–350 word reflection answering all 5 required questions.
 
-### 🏆 Success Criteria
+🏆 Success Criteria
+Establish a hardware performance baseline using Linux tools
+Simulate web traffic and trigger HTTP errors
+Analyze container logs to identify error codes
+Verify container resource efficiency using real-time metrics
+Document observability data accurately
+Maintain a structured GitHub portfolio
+🛡️ Laboratory Activity 8
+🔵 Mission 8: The Cloud Security Engineer 🔴
+🚀 Mission Overview
 
-- Establish a hardware performance baseline using Linux tools
-- Simulate web traffic and trigger HTTP errors
-- Analyze container logs to identify error codes
-- Verify container resource efficiency using real-time metrics
-- Document observability data accurately
-- Maintain a structured GitHub portfolio
+Welcome to CloudNova Technologies!
 
----
+Your proactive approach to system monitoring has earned you a spot on the elite Cloud Security Team. Your mission is to secure a vulnerable Ubuntu server by implementing the principle of Defense in Depth.
 
-# 🛡️ Laboratory Activity 8
-## 🔵 Mission 8: The Cloud Security Engineer 🔴
+Using the KillerCoda Playground, you will deploy an Nginx web application, audit active network ports, and configure the Uncomplicated Firewall (UFW) to block unauthorized incoming traffic while allowing legitimate connections through SSH and port 8080.
 
-### 🚀 Mission Overview
+Remember: Security is not a product you buy; it is a continuous process you maintain.
 
-Welcome to **CloudNova Technologies**!
-
-Your proactive approach to system monitoring has earned you a spot on the elite **Cloud Security Team**. Your mission is to secure a vulnerable Ubuntu server by implementing the principle of **Defense in Depth**.
-
-Using the **KillerCoda Playground**, you will deploy an Nginx web application, audit active network ports, and configure the Uncomplicated Firewall (UFW) to block unauthorized incoming traffic while allowing legitimate connections through SSH and port 8080.
-
-> **Remember:** Security is not a product you buy; it is a continuous process you maintain.
-
----
-
-### 🎯 Mission Objectives
+🎯 Mission Objectives
 
 At the end of this laboratory activity, you should be able to:
 
-- Understand the concept of the Attack Surface and the Principle of Least Privilege (PoLP).
-- Perform a basic security audit of active network ports on a Linux server.
-- Configure the Uncomplicated Firewall (UFW) with a Default Deny policy.
-- Implement granular port management to selectively allow SSH and HTTP application traffic.
-- Document firewall rules and security best practices using Markdown.
-- Continue expanding your professional GitHub Cloud Computing Portfolio.
-
----
-
-### 🧰 Required Resources
-
-- KillerCoda Playground (Ubuntu or Docker environment)
-- GitHub Account
-- Modern Web Browser
-- Stable Internet Connection
-
----
-
-### 📋 Mission Tasks
-
-#### Checkpoint 1 – Expand Your Cloud Portfolio
+Understand the concept of the Attack Surface and the Principle of Least Privilege (PoLP).
+Perform a basic security audit of active network ports on a Linux server.
+Configure the Uncomplicated Firewall (UFW) with a Default Deny policy.
+Implement granular port management to selectively allow SSH and HTTP application traffic.
+Document firewall rules and security best practices using Markdown.
+Continue expanding your professional GitHub Cloud Computing Portfolio.
+🧰 Required Resources
+KillerCoda Playground (Ubuntu or Docker environment)
+GitHub Account
+Modern Web Browser
+Stable Internet Connection
+📋 Mission Tasks
+Checkpoint 1 – Expand Your Cloud Portfolio
 
 Create the following folder and file structure inside your existing GitHub repository:
 
-```text
+text
 Laboratory-08-Cloud-Security-Engineer/
 ├── README.md
 ├── security-audit-report.md
 ├── firewall-configuration.md
 ├── reflection.md
 └── screenshots/
-```
+Checkpoint 2 – Research Security Best Practices
 
-#### Checkpoint 2 – Research Security Best Practices
+Research and document the following Chapter 8 concepts in security-audit-report.md:
 
-Research and document the following Chapter 8 concepts in `security-audit-report.md`:
-
-- The Principle of Least Privilege (PoLP)
-- Attack Surface
-- Default Deny Policy
+The Principle of Least Privilege (PoLP)
+Attack Surface
+Default Deny Policy
 
 Explain each concept using your own words in 2–3 sentences.
 
-#### Checkpoint 3 – Deploy the Vulnerable Application
+Checkpoint 3 – Deploy the Vulnerable Application
 
 Deploy an Nginx web application container using Docker and verify its accessibility.
 
-```bash
+bash
 docker run -d --name secure-web-app -p 8080:80 nginx
 curl -I http://localhost:8080
-```
 
-Screenshot: `screenshots/vulnerable-app-running.png`
+Screenshot: screenshots/vulnerable-app-running.png
 
-#### Checkpoint 4 – Build the Firewall
+Checkpoint 4 – Build the Firewall
 
 Configure UFW to protect the Ubuntu server while maintaining administrative access.
 
-```bash
+bash
 # Allow SSH access
 sudo ufw allow ssh
 
@@ -1078,15 +1006,14 @@ sudo ufw enable
 
 # Verify firewall status
 sudo ufw status verbose
-```
 
-Screenshot: `screenshots/firewall-activated.png`
+Screenshot: screenshots/firewall-activated.png
 
-#### Checkpoint 5 – Granular Port Management
+Checkpoint 5 – Granular Port Management
 
 Create a specific firewall rule to allow incoming TCP traffic on port 8080 and verify the active rules.
 
-```bash
+bash
 # Allow TCP traffic on port 8080
 sudo ufw allow 8080/tcp
 
@@ -1095,176 +1022,198 @@ sudo ufw status numbered
 
 # Verify the web application
 curl -I http://localhost:8080
-```
 
-Screenshot: `screenshots/firewall-port-allowed.png`
+Screenshot: screenshots/firewall-port-allowed.png
 
-#### Checkpoint 6 – Technical Documentation
+Checkpoint 6 – Technical Documentation
 
-Document the firewall configuration in `firewall-configuration.md`.
+Document the firewall configuration in firewall-configuration.md.
 
 Include:
 
-- The command used to allow SSH.
-- The commands used to configure the Default Deny policy.
-- The command used to allow TCP traffic on port 8080.
-- A one-sentence explanation of what could happen if UFW is enabled before allowing SSH access.
+The command used to allow SSH.
+The commands used to configure the Default Deny policy.
+The command used to allow TCP traffic on port 8080.
+A one-sentence explanation of what could happen if UFW is enabled before allowing SSH access.
 
 Update the laboratory README with the following sections:
 
-- Mission Overview
-- Objectives
-- Commands Executed
-- Skills Learned
+Mission Overview
+Objectives
+Commands Executed
+Skills Learned
+Checkpoint 7 – Mission Reflection
 
-#### Checkpoint 7 – Mission Reflection
+Create reflection.md and write a 250–350-word reflection answering the following questions:
 
-Create `reflection.md` and write a 250–350-word reflection answering the following questions:
-
-1. How does a host-based firewall protect a server even if the physical network perimeter is breached?
-2. Why is managing open network ports critical to reducing a server's attack surface?
-3. In a real enterprise environment, why is it dangerous to leave a database port (like 3306 for MySQL) open to the public internet?
-4. How did completing this mission change your perspective on how easily a server can be compromised?
-5. How does your GitHub portfolio currently look with eight completed missions?
-
----
-
-### 🏆 Mission Success Criteria
+How does a host-based firewall protect a server even if the physical network perimeter is breached?
+Why is managing open network ports critical to reducing a server's attack surface?
+In a real enterprise environment, why is it dangerous to leave a database port (like 3306 for MySQL) open to the public internet?
+How did completing this mission change your perspective on how easily a server can be compromised?
+How does your GitHub portfolio currently look with eight completed missions?
+🏆 Mission Success Criteria
 
 You have successfully completed Mission 8 if you can:
 
-- Explain core cloud security principles, including the Principle of Least Privilege and Default Deny.
-- Successfully enable and configure the UFW firewall on a Linux server.
-- Apply precise port management to allow specific application traffic while blocking unauthorized incoming connections.
-- Document security configurations logically using Markdown.
-- Upload screenshot evidence and maintain a well-structured GitHub repository.
+Explain core cloud security principles, including the Principle of Least Privilege and Default Deny.
+Successfully enable and configure the UFW firewall on a Linux server.
+Apply precise port management to allow specific application traffic while blocking unauthorized incoming connections.
+Document security configurations logically using Markdown.
+Upload screenshot evidence and maintain a well-structured GitHub repository.
+⚙️ Laboratory Activity 9
+🔵 Mission 9: The Cloud Automation Engineer 🔴
+🚀 Mission Overview
 
----
+Promoted to the Cloud Automation and DevOps Team at CloudNova Technologies, you replace repetitive manual administration with automation. You write a Bash script that backs up a client's application data and schedule it with Cron to run every night at 2:00 AM.
 
-# ⚙️ Laboratory Activity 9
-## 🔵 Mission 9: The Cloud Automation Engineer 🔴
-### 🚀 Mission Overview
+Remember: If you have to do a task more than twice in the cloud, you should automate it.
 
-Promoted to the **Cloud Automation and DevOps Team** at CloudNova Technologies, you replace repetitive manual administration with automation. You write a Bash script that backs up a client's application data and schedule it with Cron to run every night at 2:00 AM.
-
-> **Remember:** If you have to do a task more than twice in the cloud, you should automate it.
-
-### 🎯 Mission Objectives
-
-- Understand the fundamental syntax of a Bash shell script, including variables and basic commands.
-- Use a command-line text editor (`nano`) to write and save executable scripts.
-- Modify Linux file permissions using the `chmod` command.
-- Understand task scheduling and the syntax of a Linux crontab.
-- Document automation code and Cron job configurations using Markdown.
-- Complete the final chapter of the GitHub Cloud Computing Portfolio.
-
-### 📋 Mission Tasks
-#### Checkpoint 1 – Create Folder and Structure
+🎯 Mission Objectives
+Understand the fundamental syntax of a Bash shell script, including variables and basic commands.
+Use a command-line text editor (nano) to write and save executable scripts.
+Modify Linux file permissions using the chmod command.
+Understand task scheduling and the syntax of a Linux crontab.
+Document automation code and Cron job configurations using Markdown.
+Complete the final chapter of the GitHub Cloud Computing Portfolio.
+📋 Mission Tasks
+Checkpoint 1 – Create Folder and Structure
 
 Create:
-```text
+
+text
 Laboratory-09-Cloud-Automation-Engineer/
 ├── README.md
 ├── automation-research.md
 ├── backup-script-guide.md
 ├── reflection.md
 └── screenshots/
-```
-#### Checkpoint 2 – Research: The Language of Automation
+Checkpoint 2 – Research: The Language of Automation
 
-In `automation-research.md`, define the following in your own words (2–3 sentences each):
+In automation-research.md, define the following in your own words (2–3 sentences each):
 
-- Bash Script and the shebang (`#!/bin/bash`)
-- Variables (such as `$BACKUP_DIR`)
-- Cron Job
-
-#### Checkpoint 3 – Write the Automation Script
-```bash
+Bash Script and the shebang (#!/bin/bash)
+Variables (such as $BACKUP_DIR)
+Cron Job
+Checkpoint 3 – Write the Automation Script
+bash
 mkdir app-data
 echo "This is critical client data." > app-data/data.txt
 nano backup.sh
-```
-Write a script that compresses `app-data` into a timestamped `.tar.gz` archive inside `backups/`.
 
-#### Checkpoint 4 – Permissions and Execution
-```bash
+Write a script that compresses app-data into a timestamped .tar.gz archive inside backups/.
+
+Checkpoint 4 – Permissions and Execution
+bash
 ./backup.sh
 chmod +x backup.sh
 ./backup.sh
 ls -l backups/
-```
-Screenshot: `screenshots/script-execution.png`
 
-#### Checkpoint 5 – Scheduling the Cron Job
-```bash
+Screenshot: screenshots/script-execution.png
+
+Checkpoint 5 – Scheduling the Cron Job
+bash
 crontab -l
 env EDITOR=nano crontab -e
-```
-Add this line, then run `crontab -l` to verify:
-```text
+
+Add this line, then run crontab -l to verify:
+
+text
 0 2 * * * /root/backup.sh
-```
-Screenshot: `screenshots/cron-schedule.png`
 
-#### Checkpoint 6 – Technical Documentation
+Screenshot: screenshots/cron-schedule.png
 
-In `backup-script-guide.md`, include the full `backup.sh` code, what `chmod +x` does, and a breakdown of the five Cron time fields.
+Checkpoint 6 – Technical Documentation
+
+In backup-script-guide.md, include the full backup.sh code, what chmod +x does, and a breakdown of the five Cron time fields.
 
 Update the README with:
 
-- Mission Overview
-- Objectives
-- Commands Executed
-- Skills Learned
-
-#### Checkpoint 7 – Reflection
+Mission Overview
+Objectives
+Commands Executed
+Skills Learned
+Checkpoint 7 – Reflection
 
 Write a 250–350 word reflection answering all 5 required questions.
 
-### 🏆 Success Criteria
+🏆 Success Criteria
+Write, format, and save a functional Bash script using a terminal text editor
+Modify file permissions to allow script execution using chmod
+Execute a script that creates directories and compresses files dynamically
+Configure the Linux crontab to schedule automated tasks
+Document code functions and scheduling syntax accurately
+Finalize a well-structured GitHub Cloud Computing Portfolio for the entire semester
+🏛️ Laboratory Activity 10
+🔵 Mission 10: The Enterprise Cloud Architect 🔴
+📋 Mission Requirements
 
-- Write, format, and save a functional Bash script using a terminal text editor
-- Modify file permissions to allow script execution using `chmod`
-- Execute a script that creates directories and compresses files dynamically
-- Configure the Linux crontab to schedule automated tasks
-- Document code functions and scheduling syntax accurately
-- Finalize a well-structured GitHub Cloud Computing Portfolio for the entire semester
+Remember: An Architect does not follow a manual; they write it. There are no step-by-step instructions. Choose your own multi-tier application stack (e.g., WordPress + MySQL, Ghost + PostgreSQL, Nextcloud + MariaDB).
 
----
+Requirement 1 – Base Infrastructure & Architecture Design
+Create a network topology and architecture diagram showing the host machine, hypervisor, Linux VM, firewall, and Docker containers.
+Provision a Virtual Machine and install Ubuntu Server.
+Configure VM networking so the server is accessible from the host browser.
+Requirement 2 – Infrastructure Integration (Deployment)
+Install Docker and Docker Compose on Ubuntu Server.
+Write a complete docker-compose.yml with at least two linked containers.
+Use Persistent Volumes for the database so data survives a VM reboot.
+Requirement 3 – Security Configurations (Hardening)
+Enable the Uncomplicated Firewall (UFW).
+Enforce a Default Deny policy.
+Allow only the ports required by the application and SSH.
+Requirement 4 – Automation Scripts (Disaster Recovery/Ops)
+Write an executable Bash script (.sh) for a critical operational task (e.g., database backup, log rotation, health monitoring).
+Schedule the script with a Cron Job.
+Requirement 5 – Technical Documentation
+Write an Operational Manual explaining how to deploy, secure, and maintain the stack.
+Include all raw code (docker-compose.yml, Bash scripts) in the repository.
+Write a final reflection covering Mission 1 to Mission 10.
+Expected Folder Structure
+text
+Laboratory-10-Enterprise-Cloud-Architect/
+├── README.md
+├── architecture-diagram.png
+├── docker-compose.yml
+├── automation-script.sh
+├── operational-manual.md
+└── final-reflection.md
+Live Defense
 
-# 🌟 Portfolio Statement
+Deploy your instance live while explaining the process. Missing security, automation, or persistent storage results in a rejected architecture.
 
-> "Every laboratory activity is another step toward becoming a skilled IT professional with cloud computing expertise. This portfolio reflects my commitment to continuous learning, hands-on practice, and professional growth throughout the CCM101 – Cloud Computing course."
+🏆 Mission Success Criteria
+Architect and independently deploy a custom, persistent multi-tier application
+Secure a live cloud environment without guided assistance
+Write and schedule functioning Bash automation
+Produce an executive-level operational manual in Markdown
+Defend the infrastructure live
+🌟 Portfolio Statement
 
----
+"Every laboratory activity is another step toward becoming a skilled IT professional with cloud computing expertise. This portfolio reflects my commitment to continuous learning, hands-on practice, and professional growth throughout the CCM101 – Cloud Computing course."
 
-# 📈 Learning Progress
-
-| Skill Area               | Progress      |
-| ------------------------ | ------------- |
-| Linux Fundamentals       | 🟢 Developing |
-| Cloud Infrastructure     | 🟢 Developing |
-| Git & GitHub             | 🟢 Developing |
-| Technical Documentation  | 🟢 Developing |
-| Cloud Provider Knowledge | 🟢 Developing |
-| Networking Fundamentals  | 🟡 Learning   |
-| Cloud Architecture       | 🟡 Learning   |
-| Cloud Security           | 🟡 Learning   |
-| Containerization         | 🟢 Developing |
-| Kubernetes               | 🟡 Learning   |
-| Cloud Automation         | 🟡 Learning   |
-
----
-
+📈 Learning Progress
+Skill Area	Progress
+Linux Fundamentals	🟢 Developing
+Cloud Infrastructure	🟢 Developing
+Git & GitHub	🟢 Developing
+Technical Documentation	🟢 Developing
+Cloud Provider Knowledge	🟢 Developing
+Networking Fundamentals	🟡 Learning
+Cloud Architecture	🟡 Learning
+Cloud Security	🟡 Learning
+Containerization	🟢 Developing
+Kubernetes	🟡 Learning
+Cloud Automation	🟡 Learning
 <div align="center">
 
-🔵 Linux • Cloud Computing • GitHub • Markdown 🔴  
-**CCM101 – Cloud Computing Portfolio**  
+🔵 Linux • Cloud Computing • GitHub • Markdown 🔴
+CCM101 – Cloud Computing Portfolio
 ⭐ Learning • Building • Documenting • Growing
 
 <br>
 
-College of Information Technology  
+College of Information Technology
 University of Eastern Pangasinan
 
 <br>
