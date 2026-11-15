@@ -21,7 +21,6 @@
 
 <br><br>
 
-**🔵 Learn • Build • Document • Deploy 🔴**
 
 </div>
 
